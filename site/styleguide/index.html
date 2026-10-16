@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Carmel Styleguide</title>
+<link rel="stylesheet" href="/fonts/inter.css">
+<style>
+:root{
+  --primary:#3B82FF; --primary-dark:#2563EB; --secondary:#54595F; --text:#132034; --accent:#FFB701; --accent-hover:#E2A200;
+  --navy:#1B263B; --teal:#2B7EA0; --ink:#0d141a; --muted:#B8C0CC; --surface:#F4F8FB; --white:#fff; --slate:#4A5568; --label:#64718D;
+  --s-1:4px; --s-2:8px; --s-3:12px; --s-4:16px; --s-5:20px; --s-6:24px; --s-7:32px; --s-8:40px; --s-9:60px; --s-10:80px;
+  --r-sm:8px; --r-md:15px; --r-lg:25px; --r-pill:50px;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--surface);color:var(--text);font:400 15px/1.6 Inter,sans-serif}
+.wrap{max-width:1140px;margin:0 auto;padding:var(--s-8) var(--s-4)}
+header.sg{background:var(--navy);color:#fff}
+header.sg h1{margin:0;font-size:40px;font-weight:900;line-height:1.15}
+header.sg p{margin:var(--s-3) 0 0;color:var(--muted);max-width:720px}
+h2.sec{font-size:12px;font-weight:600;letter-spacing:1.8px;text-transform:uppercase;color:var(--primary-dark);margin:var(--s-10) 0 var(--s-2)}
+h3.sec{font-size:27px;font-weight:900;margin:0 0 var(--s-5)}
+.note{color:var(--slate);max-width:760px;margin:0 0 var(--s-6)}
+.card{background:#fff;border-radius:var(--r-lg);padding:var(--s-7);box-shadow:0 1px 3px rgba(19,32,52,.06)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:var(--s-6)}
+@media(max-width:767px){.grid2{grid-template-columns:1fr}.card{padding:var(--s-5)}}
+.tag{display:inline-block;font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;padding:3px 10px;border-radius:var(--r-pill);background:#E8EEF7;color:var(--slate);margin-bottom:var(--s-4)}
+.tag.new{background:#FFF4D6;color:#8a6200}
+table{width:100%;border-collapse:collapse;font-size:13px}
+td,th{padding:var(--s-2) var(--s-2);border-bottom:1px solid #E6ECF2;text-align:left;vertical-align:middle}
+th{font-weight:600;color:var(--label);text-transform:uppercase;font-size:11px;letter-spacing:1px}
+code{font:12px/1.4 ui-monospace,Menlo,monospace;background:#EEF2F7;padding:1px 6px;border-radius:4px}
+.strike{text-decoration:line-through;color:#a0a9b8}
+/* colors */
+.swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:var(--s-4)}
+.sw{border-radius:var(--r-md);overflow:hidden;background:#fff;border:1px solid #E6ECF2}
+.sw i{display:block;height:72px}
+.sw div{padding:var(--s-2) var(--s-3);font-size:12px}
+.sw b{display:block;font-size:13px}
+/* type */
+.type-row{display:grid;grid-template-columns:170px 1fr;gap:var(--s-5);align-items:baseline;padding:var(--s-5) 0;border-bottom:1px solid #E6ECF2}
+.type-row:last-child{border:0}
+.type-row .meta{font-size:12px;color:var(--slate)}
+.type-row .meta b{display:block;color:var(--text);font-size:13px}
+@media(max-width:767px){.type-row{grid-template-columns:1fr;gap:var(--s-2)}}
+.t-display{font-size:50px;font-weight:900;line-height:1.1}
+.t-h2{font-size:40px;font-weight:900;line-height:1.15}
+.t-h3{font-size:24px;font-weight:600;line-height:1.3}
+.t-h4{font-size:18px;font-weight:600;line-height:1.4}
+.t-body{font-size:15px;font-weight:400;line-height:1.6}
+.t-small{font-size:13px;font-weight:400;line-height:1.5}
+.t-eyebrow{font-size:12px;font-weight:600;letter-spacing:1.8px;text-transform:uppercase}
+.t-micro{font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase}
+@media(max-width:767px){.t-display{font-size:35px}.t-h2{font-size:30px}.t-h3{font-size:20px}}
+.accent{color:var(--accent)}
+/* spacing */
+.space-row{display:flex;align-items:center;gap:var(--s-4);padding:6px 0;font-size:13px}
+.space-row .bar{height:16px;background:var(--primary);border-radius:3px;flex:none}
+.space-row code{min-width:64px;text-align:center}
+.radii{display:flex;flex-wrap:wrap;gap:var(--s-5)}
+.radii div{width:110px;height:80px;background:var(--surface);border:2px solid var(--primary);display:flex;align-items:flex-end;padding:var(--s-2);font-size:12px}
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:15px;font:500 15px/1 Inter,sans-serif;text-decoration:none;border:0;cursor:pointer;transition:background .2s,transform .2s}
+.btn svg{width:16px;height:16px}
+.btn-primary{background:var(--accent);color:var(--navy);padding:20px 35px;border-radius:var(--r-md)}
+.btn-primary:hover{background:var(--accent-hover)}
+.btn-glass{background:#FFFFFF30;color:#fff;padding:20px 35px;border-radius:var(--r-md)}
+.btn-glass:hover{background:#FFFFFF47}
+.btn-blue{background:linear-gradient(45deg,var(--primary-dark),var(--primary));color:#fff;padding:12px 24px;border-radius:var(--r-sm)}
+.btn-blue.r-md{border-radius:var(--r-md);padding:16px 28px}
+.btn-blue.solid{background:var(--primary-dark)}
+.btn.old{color:#fff}
+.btn-blue:hover{filter:brightness(1.08)}
+.btn-fab{background:#1a1a2e;color:#fff;padding:14px 22px;border-radius:var(--r-pill);font:600 14px/1 Inter,sans-serif;letter-spacing:.04em;text-transform:uppercase;box-shadow:0 4px 20px rgba(0,0,0,.25)}
+.btn-fab:hover{background:#2d2d5e;transform:translateY(-2px)}
+.btn-fab.navy{background:var(--navy)}
+.stage{border-radius:var(--r-lg);padding:var(--s-7);display:flex;flex-wrap:wrap;gap:var(--s-4);align-items:center}
+.stage.dark{background:var(--navy)}
+.stage.light{background:var(--surface)}
+.cta-spec{font-size:12px;color:var(--slate);margin:var(--s-2) 0 var(--s-6)}
+.decision{border-left:4px solid var(--accent);background:#FFFBEF;padding:var(--s-4) var(--s-5);border-radius:0 var(--r-md) var(--r-md) 0;margin-top:var(--s-6);font-size:14px}
+.decision ul{margin:var(--s-2) 0 0;padding-left:var(--s-5)}
+</style>
+</head>
+<body>
+<header class="sg"><div class="wrap">
+  <div class="t-eyebrow" style="color:var(--accent)">Carmel Transport · Approved 2026-10-16</div>
+  <h1>Styleguide &amp; components</h1>
+  <p>Every value on this page comes from the live site's CSS. Each section shows what is in use today, and the trimmed-down set it would become. Nothing on the site changes until this is approved.</p>
+</div></header>
+
+<main class="wrap">
+
+<h2 class="sec">01 · Cleanup</h2>
+<h3 class="sec">Pending changes</h3>
+<div class="card">
+  <table>
+    <tr><th>Item</th><th>Where</th><th>Change</th></tr>
+    <tr><td><b>Cursor flare</b> (blurred blue radial gradient that follows the mouse)</td><td><code>.cursor-gradient</code> div, inline style and <code>mousemove</code> script, on all 12 pages</td><td>Remove the element, style and script</td></tr>
+    <tr><td>Type scale</td><td>14 different font sizes</td><td>Narrow to 8 (section 03)</td></tr>
+    <tr><td>Spacing</td><td>Hand-picked paddings and gaps</td><td>Use a 10-step scale (section 04)</td></tr>
+    <tr><td>Corner radius</td><td>9 different values</td><td>Narrow to 4 (section 04)</td></tr>
+    <tr><td>Buttons</td><td>4 button styles with different radii and padding</td><td>3 variants, 2 sizes (section 05)</td></tr>
+  </table>
+</div>
+
+<h2 class="sec">02 · Color</h2>
+<h3 class="sec">Palette <span class="tag">unchanged</span></h3>
+<p class="note">These are the global colors already set in Elementor. Two are duplicates (<code>#F4F8FB</code> appears twice). A few colors are hard-coded outside the palette: <code>#4A5568</code>, <code>#8A98B8</code>, <code>#2563EB</code>, <code>#E2A200</code> and <code>#1a1a2e</code>.</p>
+<div class="swatches">
+  <div class="sw"><i style="background:#3B82FF"></i><div><b>Primary</b>#3B82FF</div></div>
+  <div class="sw"><i style="background:#2563EB"></i><div><b>Primary dark</b>#2563EB · gradient</div></div>
+  <div class="sw"><i style="background:#FFB701"></i><div><b>Accent</b>#FFB701</div></div>
+  <div class="sw"><i style="background:#E2A200"></i><div><b>Accent hover</b>#E2A200</div></div>
+  <div class="sw"><i style="background:#1B263B"></i><div><b>Navy</b>#1B263B</div></div>
+  <div class="sw"><i style="background:#132034"></i><div><b>Text</b>#132034</div></div>
+  <div class="sw"><i style="background:#0d141a"></i><div><b>Ink</b>#0d141a</div></div>
+  <div class="sw"><i style="background:#2B7EA0"></i><div><b>Teal</b>#2B7EA0</div></div>
+  <div class="sw"><i style="background:#54595F"></i><div><b>Secondary</b>#54595F</div></div>
+  <div class="sw"><i style="background:#4A5568"></i><div><b>Slate</b>#4A5568 · card titles</div></div>
+  <div class="sw"><i style="background:#64718D"></i><div><b>Label</b>#64718D · was #8A98B8</div></div>
+  <div class="sw"><i style="background:#B8C0CC"></i><div><b>Muted</b>#B8C0CC</div></div>
+  <div class="sw"><i style="background:#F4F8FB"></i><div><b>Surface</b>#F4F8FB</div></div>
+</div>
+
+<h2 class="sec">03 · Typography</h2>
+<h3 class="sec">Type scale <span class="tag new">proposed</span></h3>
+<p class="note">Inter is used throughout. Sizes in use today: 9, 12, 13, 14, 15, 16, 18, 22, 24, 27, 30, 35, 40 and 50px. The proposal keeps the sizes that carry the design and folds the rest into the closest step. Sizes shown as desktop / mobile.</p>
+<div class="card">
+  <div class="type-row"><div class="meta"><b>Display</b>50 / 35 · 900 · lh 1.1<br>Home hero</div><div class="t-display">The Most Reliable <span class="accent">Drayage</span> Trucker</div></div>
+  <div class="type-row"><div class="meta"><b>H2 · Section</b>40 / 30 · 900 · lh 1.15<br><span class="strike">35, 30 · weight 700</span></div><div class="t-h2">Hauling over 9,000 containers</div></div>
+  <div class="type-row"><div class="meta"><b>H3 · Sub-heading</b>24 / 20 · 600 · lh 1.3<br><span class="strike">22, 27</span></div><div class="t-h3">Hauling over 9,000 Ocean Containers a Month</div></div>
+  <div class="type-row"><div class="meta"><b>H4 · Card title</b>18 · 600 · lh 1.4<br><span class="strike">16</span></div><div class="t-h4">Secure Container Storage</div></div>
+  <div class="type-row"><div class="meta"><b>Body</b>15 · 400 · lh 1.6<br><span class="strike">14, 16</span></div><div class="t-body">Hauling ocean containers across Canada since 1995, including Dry, Reefer, Import &amp; Export, Hazmat, Bonded – 20’, 40’, 45’ containers.</div></div>
+  <div class="type-row"><div class="meta"><b>Small</b>13 · 400 · lh 1.5</div><div class="t-small">Footer links, form helper text, captions.</div></div>
+  <div class="type-row"><div class="meta"><b>Eyebrow</b>12 · 600 · +1.8px · caps</div><div class="t-eyebrow" style="color:var(--primary-dark)">Our services</div></div>
+  <div class="type-row"><div class="meta"><b>Micro</b>11 · 600 · +1px · caps<br><span class="strike">9px</span> (too small to read comfortably)</div><div class="t-micro">Open 24 / 7 / 365 · Canada</div></div>
+</div>
+
+<h2 class="sec">04 · Spacing &amp; radius</h2>
+<h3 class="sec">Spacing scale <span class="tag new">proposed</span></h3>
+<p class="note">The site currently uses Elementor's 20px default between widgets, along with one-off gaps of 10, 14, 15, 40, 50 and 60px and button padding of 20/35. The proposed scale rounds each of these to the nearest step.</p>
+<div class="grid2">
+  <div class="card">
+    <div class="space-row"><code>s-1</code><span class="bar" style="width:4px"></span>4px · icon nudges</div>
+    <div class="space-row"><code>s-2</code><span class="bar" style="width:8px"></span>8px · tight label gaps</div>
+    <div class="space-row"><code>s-3</code><span class="bar" style="width:12px"></span>12px · <span class="strike">10, 14</span></div>
+    <div class="space-row"><code>s-4</code><span class="bar" style="width:16px"></span>16px · <span class="strike">15</span> · button icon gap, mobile gutter</div>
+    <div class="space-row"><code>s-5</code><span class="bar" style="width:20px"></span>20px · widget spacing (current default)</div>
+    <div class="space-row"><code>s-6</code><span class="bar" style="width:24px"></span>24px · card grid gap</div>
+    <div class="space-row"><code>s-7</code><span class="bar" style="width:32px"></span>32px · card padding, button side padding <span class="strike">35</span></div>
+    <div class="space-row"><code>s-8</code><span class="bar" style="width:40px"></span>40px · column gap</div>
+    <div class="space-row"><code>s-9</code><span class="bar" style="width:60px"></span>60px · <span class="strike">50</span> · section padding (mobile)</div>
+    <div class="space-row"><code>s-10</code><span class="bar" style="width:80px"></span>80px · section padding (desktop)</div>
+  </div>
+  <div class="card">
+    <div class="tag new">Radius · proposed</div>
+    <p class="note" style="margin-bottom:var(--s-5)">In use today: 6, 8, 10, 12, 15, 25, 28, 50px and 50%.</p>
+    <div class="radii">
+      <div style="border-radius:8px">sm · 8<br><span class="strike">6, 10, 12</span></div>
+      <div style="border-radius:15px">md · 15</div>
+      <div style="border-radius:25px">lg · 25<br><span class="strike">28</span></div>
+      <div style="border-radius:50px">pill · 50</div>
+    </div>
+    <p class="note" style="margin-top:var(--s-6)">Container width stays at 1140px desktop, 1024px tablet and 767px mobile.</p>
+  </div>
+</div>
+
+<h2 class="sec">05 · Calls to action</h2>
+<h3 class="sec">Buttons in use today <span class="tag">current</span></h3>
+<div class="stage dark">
+  <a class="btn btn-primary old" href="#">Request Quote <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 8h11M9 3l5 5-5 5"/></svg></a>
+  <a class="btn btn-glass" href="#"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="8" cy="8" r="6.5"/><path d="M6.5 5.5l4 2.5-4 2.5z" fill="currentColor"/></svg> Our Services</a>
+  <a class="btn btn-blue" href="#">Learn More</a>
+  <a class="btn btn-fab" href="#"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="7" cy="7" r="5"/><path d="M11 11l3.5 3.5"/></svg> Booking Search</a>
+</div>
+<p class="cta-spec">Yellow primary: radius 15, padding 20/35 · Glass: radius 15, padding 20/35 · Blue gradient: radius 8 · Booking button: pill, system font (doesn't load Inter), #1a1a2e, which isn't in the palette</p>
+
+<h3 class="sec">Button set <span class="tag new">proposed</span></h3>
+<div class="grid2">
+  <div class="card">
+    <div class="tag">Large · hero and section CTAs</div>
+    <div class="stage dark" style="padding:var(--s-6)">
+      <a class="btn btn-primary" href="#">Request Quote <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 8h11M9 3l5 5-5 5"/></svg></a>
+      <a class="btn btn-glass" href="#">Our Services</a>
+    </div>
+    <p class="cta-spec">Primary (yellow with navy text) and Secondary (glass, dark backgrounds only) · 15px / 500 · padding 20px × 32px · radius md (15)</p>
+  </div>
+  <div class="card">
+    <div class="tag">Medium · cards and light sections</div>
+    <div class="stage light" style="padding:var(--s-6)">
+      <a class="btn btn-blue r-md solid" href="#">Learn More</a>
+      <a class="btn btn-primary" href="#" style="padding:16px 28px;background:var(--navy);color:#fff">Get a Quote</a>
+    </div>
+    <p class="cta-spec">Tertiary (solid blue #2563EB, was a gradient) · padding 16px × 28px · radius md (15), up from 8, so every button uses the same corner. On light backgrounds the primary button is Navy (yellow fails against white).</p>
+  </div>
+  <div class="card">
+    <div class="tag">Floating · Booking Search</div>
+    <div class="stage light" style="padding:var(--s-6)">
+      <a class="btn btn-fab navy" href="#"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="7" cy="7" r="5"/><path d="M11 11l3.5 3.5"/></svg> Booking Search</a>
+    </div>
+    <p class="cta-spec">Pill · Inter 14 / 600 caps · background changes to Navy #1B263B (from #1a1a2e) to match the palette</p>
+  </div>
+  <div class="card">
+    <div class="tag">Phone links</div>
+    <p class="t-body" style="margin:0">Office: <a href="tel:+19056607272" style="color:inherit;text-decoration:inherit">(905) 660-7272</a></p>
+    <p class="cta-spec">Inherit the surrounding text style. No change to how they look.</p>
+  </div>
+</div>
+
+<h2 class="sec">06 · Accessibility</h2>
+<h3 class="sec">Contrast (WCAG 2.2 AA) <span class="tag new">applied</span></h3>
+<p class="note">Normal text needs a contrast ratio of 4.5:1, and large text (24px+, or 18.66px+ bold) needs 3:1. Fixes are scoped to the elements that failed, so the same colors are unchanged where they already passed (for example, on dark backgrounds).</p>
+<div class="card"><table>
+<tr><th>Pair</th><th>Before</th><th>After</th><th>Status</th></tr>
+<tr><td>Yellow button text (dark backgrounds)</td><td>White on #FFB701 · 1.75</td><td>Navy #1B263B on #FFB701 · 8.67 (hover 6.78)</td><td>✅ AA</td></tr>
+<tr><td>Yellow buttons on light backgrounds</td><td>#FFB701 against white · 1.75 (needs 3:1)</td><td>Navy #1B263B button, white text · 15.1 · hover Ink #0d141a</td><td>✅ AA</td></tr>
+<tr><td>Yellow text on light (email links)</td><td>#FBBF24 on white · 1.67</td><td>Link blue #2563EB · 5.17</td><td>✅ AA</td></tr>
+<tr><td>Yellow surfaces (testimonial cards, step badges)</td><td>White text on #FFB701 · 1.75</td><td>Navy text · 8.67</td><td>✅ AA</td></tr>
+<tr><td>Blue buttons</td><td>White on #3B82FF / gradient · 3.61</td><td>White on solid #2563EB · 5.17</td><td>✅ AA</td></tr>
+<tr><td>Blue eyebrows, office names, team titles</td><td>#3B82FF on white · 3.61</td><td>#2563EB on white · 5.17 (4.51 on #E7F0FF)</td><td>✅ AA</td></tr>
+<tr><td>Grey labels</td><td>#8A98B8 on white · 2.89</td><td>#64718D on white · 4.90 (4.59 on #F4F8FB)</td><td>✅ AA</td></tr>
+<tr><td>White on glass / navy, body text, slate, yellow on navy</td><td>7.5 – 15</td><td>unchanged</td><td>✅ AA</td></tr>
+</table>
+<p class="cta-spec" style="margin-bottom:0"><b>Rule:</b> yellow is only used on dark backgrounds or as a surface with navy text, never as text or a button on white. No new color tokens were added. The large yellow hero word sits on a photo, so it wasn't measured.</p>
+</div>
+
+<h2 class="sec">07 · Layout &amp; interaction rules</h2>
+<h3 class="sec">Applied across the site <span class="tag new">applied</span></h3>
+<p class="note">Defined once in <code>carmel-ux.css</code> and <code>carmel-ux.js</code> and loaded on every page.</p>
+<div class="card"><table>
+<tr><th>Rule</th><th>Implementation</th></tr>
+<tr><td>No horizontal scrollbar</td><td>The page is clipped horizontally; carousels still slide inside their containers</td></tr>
+<tr><td>Mobile margins</td><td>At least a 16px (s-4) gutter on every top-level section</td></tr>
+<tr><td>Entrance animation</td><td>One fade-up (24px, 0.6s, ease-out) everywhere, replacing fade-left/right/in. Elements are revealed by their position on screen, so content can't stay hidden. Turned off for visitors who prefer reduced motion</td></tr>
+<tr><td>Button states</td><td>Hover (Elementor colors), focus ring 2px #2563EB, pressed (1px down, darker), disabled (50%, not-allowed, with an error message on press)</td></tr>
+<tr><td>Mobile CTAs</td><td>A single button spans its container; the homepage hero pair stays 2 columns; long labels wrap inside the button</td></tr>
+<tr><td>Headings on mobile</td><td>Always left-aligned</td></tr>
+<tr><td>Long text in cards</td><td>Truncated after 4 lines, with a Read more / Read less toggle that expands the card</td></tr>
+<tr><td>Chips</td><td>"Our Services", "Core Service", "I'm interested in…" and "Our Locations…" labels: no pointer, hover or shadow</td></tr>
+<tr><td>Preheader hairline</td><td>Removed (both homepage dividers)</td></tr>
+</table>
+<p class="cta-spec" style="margin-bottom:0"><b>Open for your decision:</b> one primary CTA per section (several sections stack 2–4 yellow buttons), Lucide chevrons instead of the arrows, repeated images on the homepage and service pages, a pinned Request Quote button, and the "Open 24/7/365" pill, which wasn't picked up as a chip.</p>
+</div>
+
+<div class="decision">
+  <b>Approved and applied</b>
+  <ul>
+    <li>Remove the cursor flare from every page. ✅ applied</li>
+    <li>Use the 8-step type scale. 9px labels become 11px, and stray 35/27/22/16/14px sizes move to the nearest step.</li>
+    <li>Use the spacing scale and 4 corner radii.</li>
+    <li>Use 3 button variants with a 15px corner, including the blue buttons. Move the Booking button onto Inter and Navy.</li>
+  </ul>
+</div>
+
+</main>
+</body>
+</html>

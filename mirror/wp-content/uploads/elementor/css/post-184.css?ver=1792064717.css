@@ -1,0 +1,70 @@
+.elementor-184 .elementor-element.elementor-element-3a64fb34{--display:flex;--padding-top:200px;--padding-bottom:100px;--padding-left:0px;--padding-right:0px;}.elementor-widget-heading .elementor-heading-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );color:var( --e-global-color-primary );}.elementor-184 .elementor-element.elementor-element-a6b5b17 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:60px;font-weight:900;color:#FFFFFF;}.elementor-widget-text-editor{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );color:var( --e-global-color-text );}.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:var( --e-global-color-primary );}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap, .elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap{color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}.elementor-184 .elementor-element.elementor-element-df8fb54{width:var( --container-widget-width, 900px );max-width:900px;--container-widget-width:900px;--container-widget-flex-grow:0;font-family:"Inter", Sans-serif;font-size:18px;font-weight:400;color:#FFFFFF;}.elementor-184 .elementor-element.elementor-element-5af9321{--display:flex;--border-radius:28px 28px 28px 28px;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.28);--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-184 .elementor-element.elementor-element-5af9321:not(.elementor-motion-effects-element-type-background), .elementor-184 .elementor-element.elementor-element-5af9321 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFFFF;}.elementor-184 .elementor-element.elementor-element-d2ec57b{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--border-radius:28px 28px 28px 28px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-184 .elementor-element.elementor-element-6eb653f{--display:flex;--justify-content:center;--padding-top:40px;--padding-bottom:40px;--padding-left:40px;--padding-right:40px;}.elementor-184 .elementor-element.elementor-element-58be0f9{--display:flex;--justify-content:flex-end;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-widget-image .widget-image-caption{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-184 .elementor-element.elementor-element-cc5561a img{width:70%;}:root{--page-title-display:none;}@media(min-width:768px){.elementor-184 .elementor-element.elementor-element-6eb653f{--width:60%;}.elementor-184 .elementor-element.elementor-element-58be0f9{--width:40%;}}/* Start custom CSS for heading, class: .elementor-element-a6b5b17 */.elementor-184 .elementor-element.elementor-element-a6b5b17 span{
+    color: #FFB701;
+}/* End custom CSS */
+/* Start custom CSS for text-editor, class: .elementor-element-649f379b */.elementor-184 .elementor-element.elementor-element-649f379b input{
+    background: transparent;
+    border: none;
+}
+.elementor-184 .elementor-element.elementor-element-649f379b form{
+    display: flex;
+    background: #E7F0FF;
+    border: 1px solid #BCD4FF;
+    height: 50px;
+    border-radius: 25px;
+    padding: 3px;
+}
+.elementor-184 .elementor-element.elementor-element-649f379b button{
+    background: #FFB701;
+    color: #E7F0FF;
+    border: none;
+    border-radius: 25px;
+    font-weight: 700;
+}
+.da-booking-card{
+     --border-size: 2px;
+  --border-radius: 25px;
+  --border-angle: 0deg;
+    padding: 15px 20px 15px 35px;
+    width: 100%;
+    border-radius: var(--border-radius);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: #ffffff;
+}
+.da-booking-card::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: var(--border-size);
+  border-radius: inherit;
+  background: conic-gradient(
+    from var(--border-angle),
+    #FFB701,
+    #3B82FF,
+    #3B82FF,
+    #FFB701
+  );
+  animation: rotateBorder 4s linear infinite;
+  z-index: -1;
+
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+@keyframes rotateBorder {
+  to {
+    --border-angle: 360deg;
+  }
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-3a64fb34 */.elementor-184 .elementor-element.elementor-element-3a64fb34::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 700px;
+background: linear-gradient(194deg, #0D1E4C 59.23%, #1E46B2 104.45%), radial-gradient(80% 80% at 50% 100%, var(--color-azure-6210, rgba(59, 130, 255, 0.10)) 0%, var(--color-azure-620, rgba(59, 130, 255, 0.00)) 65%), linear-gradient(183deg, rgba(59, 130, 255, 0.10) 38.33%, rgba(59, 130, 255, 0.50) 85.41%);
+    border-radius: 0 0 400px 0;
+}/* End custom CSS */

@@ -1,0 +1,864 @@
+.elementor-194 .elementor-element.elementor-element-ca1d925{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:160px;--padding-bottom:20px;--padding-left:0px;--padding-right:0px;}.elementor-widget-image .widget-image-caption{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}body:not(.rtl) .elementor-194 .elementor-element.elementor-element-5d329fd{right:0px;}body.rtl .elementor-194 .elementor-element.elementor-element-5d329fd{left:0px;}.elementor-194 .elementor-element.elementor-element-5d329fd{top:0px;}.elementor-194 .elementor-element.elementor-element-f269b93{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--align-items:center;}.elementor-194 .elementor-element.elementor-element-6cd50d8{--display:flex;}.elementor-widget-heading .elementor-heading-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );color:var( --e-global-color-primary );}.elementor-194 .elementor-element.elementor-element-9348de2 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:12px;font-weight:600;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-28582c5 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:50px;font-weight:900;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-557c874 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:22px;font-weight:600;color:var( --e-global-color-b5aeb33 );}.elementor-widget-text-editor{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );color:var( --e-global-color-text );}.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:var( --e-global-color-primary );}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap, .elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap{color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}.elementor-194 .elementor-element.elementor-element-2af0169{margin:15px 0px calc(var(--kit-widget-spacing, 0px) + 10px) 0px;color:#FFFFFF;}.elementor-widget-form .elementor-field-group > label, .elementor-widget-form .elementor-field-subgroup label{color:var( --e-global-color-text );}.elementor-widget-form .elementor-field-group > label{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-form .elementor-field-type-html{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-form .elementor-field-group .elementor-field{color:var( --e-global-color-text );}.elementor-widget-form .elementor-field-group .elementor-field, .elementor-widget-form .elementor-field-subgroup label{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-form .elementor-button{font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-weight:var( --e-global-typography-accent-font-weight );}.elementor-widget-form .e-form__buttons__wrapper__button-next{background-color:var( --e-global-color-accent );}.elementor-widget-form .elementor-button[type="submit"]{background-color:var( --e-global-color-accent );}.elementor-widget-form .e-form__buttons__wrapper__button-previous{background-color:var( --e-global-color-accent );}.elementor-widget-form .elementor-message{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-form .e-form__indicators__indicator, .elementor-widget-form .e-form__indicators__indicator__label{font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-weight:var( --e-global-typography-accent-font-weight );}.elementor-widget-form{--e-form-steps-indicator-inactive-primary-color:var( --e-global-color-text );--e-form-steps-indicator-active-primary-color:var( --e-global-color-accent );--e-form-steps-indicator-completed-primary-color:var( --e-global-color-accent );--e-form-steps-indicator-progress-color:var( --e-global-color-accent );--e-form-steps-indicator-progress-background-color:var( --e-global-color-text );--e-form-steps-indicator-progress-meter-color:var( --e-global-color-text );}.elementor-widget-form .e-form__indicators__indicator__progress__meter{font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-weight:var( --e-global-typography-accent-font-weight );}.elementor-194 .elementor-element.elementor-element-6fbc162 .elementor-field-group{padding-right:calc( 10px/2 );padding-left:calc( 10px/2 );margin-bottom:10px;}.elementor-194 .elementor-element.elementor-element-6fbc162 .elementor-form-fields-wrapper{margin-left:calc( -10px/2 );margin-right:calc( -10px/2 );margin-bottom:-10px;}.elementor-194 .elementor-element.elementor-element-6fbc162 .elementor-field-group.recaptcha_v3-bottomleft, .elementor-194 .elementor-element.elementor-element-6fbc162 .elementor-field-group.recaptcha_v3-bottomright{margin-bottom:0;}body.rtl .elementor-194 .elementor-element.elementor-element-6fbc162 .elementor-labels-inline .elementor-field-group > label{padding-left:0px;}body:not(.rtl) .elementor-194 .elementor-element.elementor-element-6fbc162 .elementor-labels-inline .elementor-field-group > label{padding-right:0px;}body .elementor-194 .elementor-element.elementor-element-6fbc162 .elementor-labels-above .elementor-field-group > label{padding-bottom:0px;}.elementor-194 .elementor-element.elementor-element-6fbc162 .elementor-field-type-html{padding-bottom:0px;}.elementor-194 .elementor-element.elementor-element-6fbc162 .elementor-field-group .elementor-field:not(.elementor-select-wrapper){background-color:var( --e-global-color-text );}.elementor-194 .elementor-element.elementor-element-6fbc162 .elementor-field-group .elementor-select-wrapper select{background-color:var( --e-global-color-text );}.elementor-194 .elementor-element.elementor-element-6fbc162 .e-form__buttons__wrapper__button-next{color:#ffffff;}.elementor-194 .elementor-element.elementor-element-6fbc162 .elementor-button[type="submit"]{color:#ffffff;}.elementor-194 .elementor-element.elementor-element-6fbc162 .elementor-button[type="submit"] svg *{fill:#ffffff;}.elementor-194 .elementor-element.elementor-element-6fbc162 .e-form__buttons__wrapper__button-previous{color:#ffffff;}.elementor-194 .elementor-element.elementor-element-6fbc162 .e-form__buttons__wrapper__button-next:hover{color:#ffffff;}.elementor-194 .elementor-element.elementor-element-6fbc162 .elementor-button[type="submit"]:hover{color:#ffffff;}.elementor-194 .elementor-element.elementor-element-6fbc162 .elementor-button[type="submit"]:hover svg *{fill:#ffffff;}.elementor-194 .elementor-element.elementor-element-6fbc162 .e-form__buttons__wrapper__button-previous:hover{color:#ffffff;}.elementor-194 .elementor-element.elementor-element-6fbc162{--e-form-steps-indicators-spacing:20px;--e-form-steps-indicator-padding:30px;--e-form-steps-indicator-inactive-secondary-color:#ffffff;--e-form-steps-indicator-active-secondary-color:#ffffff;--e-form-steps-indicator-completed-secondary-color:#ffffff;--e-form-steps-divider-width:1px;--e-form-steps-divider-gap:10px;}.elementor-194 .elementor-element.elementor-element-02ae153{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--margin-top:15px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-widget-button .elementor-button{background-color:var( --e-global-color-accent );font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-weight:var( --e-global-typography-accent-font-weight );}.elementor-194 .elementor-element.elementor-element-d3841b9 .elementor-button:hover, .elementor-194 .elementor-element.elementor-element-d3841b9 .elementor-button:focus{background-color:#E2A200;}.elementor-194 .elementor-element.elementor-element-d3841b9 .elementor-button-content-wrapper{flex-direction:row-reverse;}.elementor-194 .elementor-element.elementor-element-d3841b9 .elementor-button .elementor-button-content-wrapper{gap:15px;}.elementor-194 .elementor-element.elementor-element-d3841b9 .elementor-button{border-radius:15px 15px 15px 15px;padding:20px 35px 20px 35px;}.elementor-194 .elementor-element.elementor-element-b450d43 .elementor-button{background-color:#FFFFFF30;border-radius:15px 15px 15px 15px;padding:20px 35px 20px 35px;}.elementor-194 .elementor-element.elementor-element-b450d43 .elementor-button:hover, .elementor-194 .elementor-element.elementor-element-b450d43 .elementor-button:focus{background-color:#FFFFFF47;}.elementor-194 .elementor-element.elementor-element-b450d43 .elementor-button-content-wrapper{flex-direction:row;}.elementor-194 .elementor-element.elementor-element-b450d43 .elementor-button .elementor-button-content-wrapper{gap:15px;}.elementor-194 .elementor-element.elementor-element-a25c77d{--display:flex;--min-height:463px;}body:not(.rtl) .elementor-194 .elementor-element.elementor-element-8c2375b{left:0%;}body.rtl .elementor-194 .elementor-element.elementor-element-8c2375b{right:0%;}.elementor-194 .elementor-element.elementor-element-8c2375b{bottom:0px;}.elementor-194 .elementor-element.elementor-element-8c2375b img{width:1000px;max-width:1000px;}.elementor-194 .elementor-element.elementor-element-8cd295d{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:center;}.elementor-194 .elementor-element.elementor-element-c842974{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:50px;--padding-bottom:50px;--padding-left:0px;--padding-right:0px;}.elementor-194 .elementor-element.elementor-element-049178d{text-align:center;}.elementor-194 .elementor-element.elementor-element-049178d .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:13px;font-weight:400;text-transform:uppercase;color:#8A98B8;}.elementor-194 .elementor-element.elementor-element-327bebc{--display:flex;}.elementor-194 .elementor-element.elementor-element-7cf98bb{text-align:center;}.elementor-194 .elementor-element.elementor-element-7cf98bb .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:15px;font-weight:600;color:#4A5568;}.elementor-194 .elementor-element.elementor-element-9c3612c{--display:flex;}.elementor-194 .elementor-element.elementor-element-33a0eb5{text-align:center;}.elementor-194 .elementor-element.elementor-element-33a0eb5 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:15px;font-weight:600;color:#4A5568;}.elementor-194 .elementor-element.elementor-element-0ae0f62{--display:flex;}.elementor-194 .elementor-element.elementor-element-a27b1db{text-align:center;}.elementor-194 .elementor-element.elementor-element-a27b1db .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:15px;font-weight:600;color:#4A5568;}.elementor-194 .elementor-element.elementor-element-969e26a{--display:flex;}.elementor-194 .elementor-element.elementor-element-a552a3f{text-align:center;}.elementor-194 .elementor-element.elementor-element-a552a3f .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:15px;font-weight:600;color:#4A5568;}.elementor-194 .elementor-element.elementor-element-c3056ff{--display:flex;}.elementor-194 .elementor-element.elementor-element-2b6dd4b{text-align:center;}.elementor-194 .elementor-element.elementor-element-2b6dd4b .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:15px;font-weight:600;color:#4A5568;}.elementor-194 .elementor-element.elementor-element-3cd9df2{--display:flex;}.elementor-194 .elementor-element.elementor-element-fe28f98{text-align:center;}.elementor-194 .elementor-element.elementor-element-fe28f98 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:15px;font-weight:600;color:#4A5568;}.elementor-194 .elementor-element.elementor-element-57f68db{--display:flex;}.elementor-194 .elementor-element.elementor-element-98ac7dc{text-align:center;}.elementor-194 .elementor-element.elementor-element-98ac7dc .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:15px;font-weight:600;color:#4A5568;}.elementor-194 .elementor-element.elementor-element-8345231{--display:flex;}.elementor-194 .elementor-element.elementor-element-32ca9ef{text-align:center;}.elementor-194 .elementor-element.elementor-element-32ca9ef .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:15px;font-weight:600;color:#4A5568;}.elementor-194 .elementor-element.elementor-element-221f9ef{--e-n-carousel-swiper-slides-to-display:5;--e-n-carousel-swiper-slides-gap:10px;--e-n-carousel-slide-height:auto;--e-n-carousel-slide-container-height:100%;}.elementor-194 .elementor-element.elementor-element-bedb199{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--align-items:center;--gap:50px 60px;--row-gap:50px;--column-gap:60px;--padding-top:70px;--padding-bottom:100px;--padding-left:20px;--padding-right:31px;--z-index:2;}.elementor-194 .elementor-element.elementor-element-b2c9238{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-194 .elementor-element.elementor-element-28dc824 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:12px;font-weight:600;letter-spacing:1.8px;color:#000000;}.elementor-194 .elementor-element.elementor-element-06c3c39{margin:20px 0px calc(var(--kit-widget-spacing, 0px) + 20px) 0px;}.elementor-194 .elementor-element.elementor-element-06c3c39 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:40px;font-weight:900;color:var( --e-global-color-text );}.elementor-194 .elementor-element.elementor-element-79114fe{--display:grid;--e-con-grid-template-columns:repeat(2, 1fr);--e-con-grid-template-rows:repeat(2, 1fr);--grid-auto-flow:row;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-194 .elementor-element.elementor-element-b88d82c{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--align-items:center;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--border-radius:8px 8px 8px 8px;--padding-top:5px;--padding-bottom:5px;--padding-left:0px;--padding-right:0px;}.elementor-194 .elementor-element.elementor-element-b88d82c:not(.elementor-motion-effects-element-type-background), .elementor-194 .elementor-element.elementor-element-b88d82c > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#0D1E4C;}.elementor-194 .elementor-element.elementor-element-44abb81{--display:flex;}.elementor-194 .elementor-element.elementor-element-54f538f{--display:flex;}.elementor-194 .elementor-element.elementor-element-cd910d1 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:15px;font-weight:400;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-87918e1{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--align-items:center;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--border-radius:8px 8px 8px 8px;--padding-top:5px;--padding-bottom:5px;--padding-left:0px;--padding-right:0px;}.elementor-194 .elementor-element.elementor-element-87918e1:not(.elementor-motion-effects-element-type-background), .elementor-194 .elementor-element.elementor-element-87918e1 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#0D1E4C;}.elementor-194 .elementor-element.elementor-element-f211b97{--display:flex;}.elementor-194 .elementor-element.elementor-element-34f315d{--display:flex;}.elementor-194 .elementor-element.elementor-element-46c2dbe .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:15px;font-weight:400;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-c62ae55{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--align-items:center;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--border-radius:8px 8px 8px 8px;--padding-top:5px;--padding-bottom:5px;--padding-left:0px;--padding-right:0px;}.elementor-194 .elementor-element.elementor-element-c62ae55:not(.elementor-motion-effects-element-type-background), .elementor-194 .elementor-element.elementor-element-c62ae55 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#0D1E4C;}.elementor-194 .elementor-element.elementor-element-1df4b53{--display:flex;}.elementor-194 .elementor-element.elementor-element-2eb60f7{--display:flex;}.elementor-194 .elementor-element.elementor-element-1a97f8e .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:15px;font-weight:400;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-5773199{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--align-items:center;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--border-radius:8px 8px 8px 8px;--padding-top:5px;--padding-bottom:5px;--padding-left:0px;--padding-right:0px;}.elementor-194 .elementor-element.elementor-element-5773199:not(.elementor-motion-effects-element-type-background), .elementor-194 .elementor-element.elementor-element-5773199 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#0D1E4C;}.elementor-194 .elementor-element.elementor-element-7bcb2a7{--display:flex;}.elementor-194 .elementor-element.elementor-element-addf3a1{--display:flex;}.elementor-194 .elementor-element.elementor-element-4dd990b .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:15px;font-weight:400;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-b665898{--display:grid;--min-height:50px;--e-con-grid-template-columns:repeat(2, 1fr);--e-con-grid-template-rows:repeat(2, 1fr);--grid-auto-flow:row;--justify-items:start;}.elementor-194 .elementor-element.elementor-element-48c939c{--display:flex;--justify-content:center;border-style:none;--border-style:none;--border-radius:28px 28px 28px 28px;--padding-top:50px;--padding-bottom:50px;--padding-left:40px;--padding-right:40px;}.elementor-194 .elementor-element.elementor-element-48c939c:not(.elementor-motion-effects-element-type-background), .elementor-194 .elementor-element.elementor-element-48c939c > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#0D1E4C;}.elementor-widget-counter .elementor-counter-number-wrapper{color:var( --e-global-color-primary );font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-counter .elementor-counter-title{color:var( --e-global-color-secondary );font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-194 .elementor-element.elementor-element-97677fc .elementor-counter-title{justify-content:start;color:#FDFDFD;font-family:"Inter", Sans-serif;font-size:15px;font-weight:400;}.elementor-194 .elementor-element.elementor-element-97677fc .elementor-counter-number-wrapper{text-align:{{VALUE}};--counter-prefix-grow:0;--counter-suffix-grow:1;--counter-number-grow:0;color:#FFFFFF;font-family:"Inter", Sans-serif;font-size:40px;font-weight:900;}.elementor-194 .elementor-element.elementor-element-b59ae47{--display:flex;--justify-content:center;border-style:none;--border-style:none;--border-radius:28px 28px 28px 28px;--padding-top:50px;--padding-bottom:50px;--padding-left:40px;--padding-right:40px;}.elementor-194 .elementor-element.elementor-element-b59ae47:not(.elementor-motion-effects-element-type-background), .elementor-194 .elementor-element.elementor-element-b59ae47 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#0D1E4C;}.elementor-194 .elementor-element.elementor-element-09ac35f .elementor-counter-title{justify-content:start;color:#FDFDFD;font-family:"Inter", Sans-serif;font-size:15px;font-weight:400;}.elementor-194 .elementor-element.elementor-element-09ac35f .elementor-counter-number-wrapper{text-align:{{VALUE}};--counter-prefix-grow:0;--counter-suffix-grow:1;--counter-number-grow:0;color:#FFFFFF;font-family:"Inter", Sans-serif;font-size:40px;font-weight:900;}.elementor-194 .elementor-element.elementor-element-52b59d0{--display:flex;--justify-content:center;border-style:none;--border-style:none;--border-radius:28px 28px 28px 28px;--padding-top:50px;--padding-bottom:50px;--padding-left:40px;--padding-right:40px;}.elementor-194 .elementor-element.elementor-element-52b59d0:not(.elementor-motion-effects-element-type-background), .elementor-194 .elementor-element.elementor-element-52b59d0 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#0D1E4C;}.elementor-194 .elementor-element.elementor-element-85709b5 .elementor-counter-title{justify-content:start;color:#FDFDFD;font-family:"Inter", Sans-serif;font-size:15px;font-weight:400;}.elementor-194 .elementor-element.elementor-element-85709b5 .elementor-counter-number-wrapper{text-align:{{VALUE}};--counter-prefix-grow:0;--counter-suffix-grow:1;--counter-number-grow:0;color:#FFFFFF;font-family:"Inter", Sans-serif;font-size:40px;font-weight:900;}.elementor-194 .elementor-element.elementor-element-65e6bc0{--display:flex;--justify-content:center;border-style:none;--border-style:none;--border-radius:28px 28px 28px 28px;--padding-top:50px;--padding-bottom:50px;--padding-left:40px;--padding-right:40px;}.elementor-194 .elementor-element.elementor-element-65e6bc0:not(.elementor-motion-effects-element-type-background), .elementor-194 .elementor-element.elementor-element-65e6bc0 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#0D1E4C;}.elementor-194 .elementor-element.elementor-element-4b99459 .elementor-counter-title{justify-content:start;color:#FDFDFD;font-family:"Inter", Sans-serif;font-size:15px;font-weight:400;line-height:20px;}.elementor-194 .elementor-element.elementor-element-4b99459 .elementor-counter-number-wrapper{text-align:{{VALUE}};--counter-prefix-grow:0;--counter-suffix-grow:1;--counter-number-grow:0;color:#FFFFFF;font-family:"Inter", Sans-serif;font-size:40px;font-weight:900;}.elementor-194 .elementor-element.elementor-element-857c0ae{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}body:not(.rtl) .elementor-194 .elementor-element.elementor-element-b6b7471{right:0px;}body.rtl .elementor-194 .elementor-element.elementor-element-b6b7471{left:0px;}.elementor-194 .elementor-element.elementor-element-b6b7471{bottom:63px;}.elementor-194 .elementor-element.elementor-element-32f4894{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--align-items:center;--gap:40px 40px;--row-gap:40px;--column-gap:40px;--padding-top:100px;--padding-bottom:100px;--padding-left:20px;--padding-right:20px;}.elementor-194 .elementor-element.elementor-element-32f4894:not(.elementor-motion-effects-element-type-background), .elementor-194 .elementor-element.elementor-element-32f4894 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#0D1E4C;}.elementor-194 .elementor-element.elementor-element-6b20fd7{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-194 .elementor-element.elementor-element-df31517 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:12px;font-weight:600;letter-spacing:1.8px;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-a892c66{margin:0px 0px calc(var(--kit-widget-spacing, 0px) + 0px) 0px;text-align:start;}.elementor-194 .elementor-element.elementor-element-a892c66 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:40px;font-weight:900;line-height:46px;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-3bf5c8f{font-family:"Inter", Sans-serif;font-weight:400;color:#8A98B8;}.elementor-194 .elementor-element.elementor-element-a344ac5 .elementor-button{background-color:transparent;background-image:linear-gradient(45deg, #2563EB 0%, #3B82FF 100%);border-radius:8px 8px 8px 8px;}.elementor-194 .elementor-element.elementor-element-a344ac5{margin:30px 0px calc(var(--kit-widget-spacing, 0px) + 0px) 0px;}.elementor-194 .elementor-element.elementor-element-5dac3b9{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:25px;--padding-right:25px;}.elementor-194 .elementor-element.elementor-element-d9675bb{--display:flex;}.elementor-194 .elementor-element.elementor-element-d01066f{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--align-items:center;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--border-radius:8px 8px 8px 8px;--padding-top:5px;--padding-bottom:5px;--padding-left:10px;--padding-right:10px;}.elementor-194 .elementor-element.elementor-element-d01066f:not(.elementor-motion-effects-element-type-background), .elementor-194 .elementor-element.elementor-element-d01066f > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#11265A;}.elementor-194 .elementor-element.elementor-element-f078af5{--display:flex;}.elementor-194 .elementor-element.elementor-element-4486753 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:40px;font-weight:700;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-8e11fd5{--display:flex;}.elementor-194 .elementor-element.elementor-element-7f2a9a7 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:15px;font-weight:400;color:#FFFFFF;}.elementor-widget-icon.elementor-view-stacked .elementor-icon{background-color:var( --e-global-color-primary );}.elementor-widget-icon.elementor-view-framed .elementor-icon, .elementor-widget-icon.elementor-view-default .elementor-icon{color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}.elementor-widget-icon.elementor-view-framed .elementor-icon, .elementor-widget-icon.elementor-view-default .elementor-icon svg{fill:var( --e-global-color-primary );}.elementor-194 .elementor-element.elementor-element-eeb062d .elementor-icon-wrapper{text-align:start;}.elementor-194 .elementor-element.elementor-element-eeb062d .elementor-icon{font-size:27px;}.elementor-194 .elementor-element.elementor-element-eeb062d .elementor-icon svg{height:27px;}.elementor-194 .elementor-element.elementor-element-bd8b2ab .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:18px;font-weight:600;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-4d0e710{font-family:"Inter", Sans-serif;font-size:15px;font-weight:400;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-3d121e4{--display:flex;}.elementor-194 .elementor-element.elementor-element-b29c215 .elementor-icon-wrapper{text-align:start;}.elementor-194 .elementor-element.elementor-element-b29c215 .elementor-icon{font-size:27px;}.elementor-194 .elementor-element.elementor-element-b29c215 .elementor-icon svg{height:27px;}.elementor-194 .elementor-element.elementor-element-4e6e212 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:18px;font-weight:600;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-ede7f6a{font-family:"Inter", Sans-serif;font-size:15px;font-weight:400;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-616bfcb{--display:flex;}.elementor-194 .elementor-element.elementor-element-95c9c87 .elementor-icon-wrapper{text-align:start;}.elementor-194 .elementor-element.elementor-element-95c9c87 .elementor-icon{font-size:27px;}.elementor-194 .elementor-element.elementor-element-95c9c87 .elementor-icon svg{height:27px;}.elementor-194 .elementor-element.elementor-element-8f6b778 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:18px;font-weight:600;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-09321fd{font-family:"Inter", Sans-serif;font-size:15px;font-weight:400;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-6b4bc04{--display:flex;}.elementor-194 .elementor-element.elementor-element-4e57e08 .elementor-icon-wrapper{text-align:start;}.elementor-194 .elementor-element.elementor-element-4e57e08 .elementor-icon{font-size:27px;}.elementor-194 .elementor-element.elementor-element-4e57e08 .elementor-icon svg{height:27px;}.elementor-194 .elementor-element.elementor-element-0aefabc .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:18px;font-weight:600;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-c39407f{font-family:"Inter", Sans-serif;font-size:15px;font-weight:400;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-754b062{--display:flex;}.elementor-194 .elementor-element.elementor-element-91497f7 .elementor-icon-wrapper{text-align:start;}.elementor-194 .elementor-element.elementor-element-91497f7 .elementor-icon{font-size:27px;}.elementor-194 .elementor-element.elementor-element-91497f7 .elementor-icon svg{height:27px;}.elementor-194 .elementor-element.elementor-element-dd43ac2 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:18px;font-weight:600;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-8aaa7d6{font-family:"Inter", Sans-serif;font-size:15px;font-weight:400;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-9f8d5cd{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:50px;--padding-bottom:200px;--padding-left:0px;--padding-right:0px;}.elementor-194 .elementor-element.elementor-element-9f8d5cd:not(.elementor-motion-effects-element-type-background), .elementor-194 .elementor-element.elementor-element-9f8d5cd > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#0D1E4C;}body:not(.rtl) .elementor-194 .elementor-element.elementor-element-3356a69{right:-19%;}body.rtl .elementor-194 .elementor-element.elementor-element-3356a69{left:-19%;}.elementor-194 .elementor-element.elementor-element-3356a69{bottom:0px;z-index:3;}.elementor-194 .elementor-element.elementor-element-d343d5e{--display:flex;--align-items:center;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );}.elementor-194 .elementor-element.elementor-element-7ee4048{text-align:center;}.elementor-194 .elementor-element.elementor-element-7ee4048 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:12px;font-weight:600;letter-spacing:1.8px;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-997ab5b{margin:0px 0px calc(var(--kit-widget-spacing, 0px) + 0px) 0px;text-align:center;}.elementor-194 .elementor-element.elementor-element-997ab5b .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:40px;font-weight:900;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-ed427b4{--display:flex;}.elementor-194 .elementor-element.elementor-element-e8ac3cb{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;border-style:solid;--border-style:solid;border-width:1px 1px 1px 1px;--border-top-width:1px;--border-right-width:1px;--border-bottom-width:1px;--border-left-width:1px;border-color:#FFFFFF26;--border-color:#FFFFFF26;--border-radius:25px 25px 25px 25px;--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-194 .elementor-element.elementor-element-e8ac3cb:not(.elementor-motion-effects-element-type-background), .elementor-194 .elementor-element.elementor-element-e8ac3cb > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-accent );}.elementor-194 .elementor-element.elementor-element-c00f31f{text-align:start;}.elementor-194 .elementor-element.elementor-element-be98b17{padding:0% 40% 0% 0%;font-family:"Inter", Sans-serif;font-weight:600;font-style:italic;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-97a51e5 .elementor-heading-title{color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-2260692{--display:flex;}.elementor-194 .elementor-element.elementor-element-95dfaa6{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;border-style:solid;--border-style:solid;border-width:1px 1px 1px 1px;--border-top-width:1px;--border-right-width:1px;--border-bottom-width:1px;--border-left-width:1px;border-color:#FFFFFF26;--border-color:#FFFFFF26;--border-radius:25px 25px 25px 25px;--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-194 .elementor-element.elementor-element-95dfaa6:not(.elementor-motion-effects-element-type-background), .elementor-194 .elementor-element.elementor-element-95dfaa6 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-accent );}.elementor-194 .elementor-element.elementor-element-75aeea0{text-align:start;}.elementor-194 .elementor-element.elementor-element-1856607{padding:0% 40% 0% 0%;font-family:"Inter", Sans-serif;font-weight:600;font-style:italic;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-a3da25f .elementor-heading-title{color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-e13a45e{--display:flex;}.elementor-194 .elementor-element.elementor-element-a184b0c{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;border-style:solid;--border-style:solid;border-width:1px 1px 1px 1px;--border-top-width:1px;--border-right-width:1px;--border-bottom-width:1px;--border-left-width:1px;border-color:#FFFFFF26;--border-color:#FFFFFF26;--border-radius:25px 25px 25px 25px;--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-194 .elementor-element.elementor-element-a184b0c:not(.elementor-motion-effects-element-type-background), .elementor-194 .elementor-element.elementor-element-a184b0c > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-accent );}.elementor-194 .elementor-element.elementor-element-ee9c9c5{text-align:start;}.elementor-194 .elementor-element.elementor-element-cc8490f{padding:0% 40% 0% 0%;font-family:"Inter", Sans-serif;font-weight:600;font-style:italic;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-a187b1a .elementor-heading-title{color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-466f710{--display:flex;}.elementor-194 .elementor-element.elementor-element-4ac8fc7{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;border-style:solid;--border-style:solid;border-width:1px 1px 1px 1px;--border-top-width:1px;--border-right-width:1px;--border-bottom-width:1px;--border-left-width:1px;border-color:#FFFFFF26;--border-color:#FFFFFF26;--border-radius:25px 25px 25px 25px;--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-194 .elementor-element.elementor-element-4ac8fc7:not(.elementor-motion-effects-element-type-background), .elementor-194 .elementor-element.elementor-element-4ac8fc7 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-accent );}.elementor-194 .elementor-element.elementor-element-db0b1d5{text-align:start;}.elementor-194 .elementor-element.elementor-element-957545f{padding:0% 40% 0% 0%;font-family:"Inter", Sans-serif;font-weight:600;font-style:italic;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-4dbc991 .elementor-heading-title{color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-6f81bde{--display:flex;}.elementor-194 .elementor-element.elementor-element-b948f10{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;border-style:solid;--border-style:solid;border-width:1px 1px 1px 1px;--border-top-width:1px;--border-right-width:1px;--border-bottom-width:1px;--border-left-width:1px;border-color:#FFFFFF26;--border-color:#FFFFFF26;--border-radius:25px 25px 25px 25px;--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-194 .elementor-element.elementor-element-b948f10:not(.elementor-motion-effects-element-type-background), .elementor-194 .elementor-element.elementor-element-b948f10 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-accent );}.elementor-194 .elementor-element.elementor-element-cef3450{text-align:start;}.elementor-194 .elementor-element.elementor-element-2835fa1{padding:0% 40% 0% 0%;font-family:"Inter", Sans-serif;font-weight:600;font-style:italic;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-31a69ea .elementor-heading-title{color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-08dfb75{--e-n-carousel-swiper-slides-to-display:1;--e-n-carousel-swiper-slides-gap:10px;--e-n-carousel-slide-height:auto;--e-n-carousel-slide-container-height:100%;--e-n-carousel-arrow-prev-left-align:0%;--e-n-carousel-arrow-prev-translate-x:0px;--e-n-carousel-arrow-prev-left-position:0px;--e-n-carousel-arrow-prev-top-align:50%;--e-n-carousel-arrow-prev-translate-y:-50%;--e-n-carousel-arrow-prev-top-position:0px;--e-n-carousel-arrow-next-right-align:0%;--e-n-carousel-arrow-next-translate-x:0%;--e-n-carousel-arrow-next-right-position:0px;--e-n-carousel-arrow-next-top-align:50%;--e-n-carousel-arrow-next-translate-y:-50%;--e-n-carousel-arrow-next-top-position:0px;}.elementor-194 .elementor-element.elementor-element-b4b4b20{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:70px;--padding-bottom:30px;--padding-left:20px;--padding-right:20px;}.elementor-194 .elementor-element.elementor-element-8d6e7fb{width:var( --container-widget-width, 160px );max-width:160px;background-color:#E7F0FF;padding:0px 20px 5px 20px;--container-widget-width:160px;--container-widget-flex-grow:0;border-style:solid;border-width:1px 1px 1px 1px;border-color:var( --e-global-color-primary );border-radius:25px 25px 25px 25px;text-align:center;}.elementor-194 .elementor-element.elementor-element-8d6e7fb.elementor-element{--align-self:center;}.elementor-194 .elementor-element.elementor-element-8d6e7fb .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:var( --e-global-color-primary );}.elementor-194 .elementor-element.elementor-element-7acaf12{margin:0px 0px calc(var(--kit-widget-spacing, 0px) + 0px) 0px;text-align:center;}.elementor-194 .elementor-element.elementor-element-7acaf12 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:40px;font-weight:900;color:var( --e-global-color-text );}.elementor-194 .elementor-element.elementor-element-161cbd4{text-align:center;}.elementor-194 .elementor-element.elementor-element-3366b64{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-194 .elementor-element.elementor-element-3d3373a.elementor-element{--align-self:center;}body:not(.rtl) .elementor-194 .elementor-element.elementor-element-3d3373a{left:0px;}body.rtl .elementor-194 .elementor-element.elementor-element-3d3373a{right:0px;}.elementor-194 .elementor-element.elementor-element-3d3373a{top:22%;}.elementor-194 .elementor-element.elementor-element-f541a22{--display:flex;}.elementor-194 .elementor-element.elementor-element-237548b{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-194 .elementor-element.elementor-element-6c6f64d img{width:100%;max-width:100%;}.elementor-194 .elementor-element.elementor-element-d01dbf5{--display:flex;--position:absolute;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--align-items:center;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;top:16%;}body:not(.rtl) .elementor-194 .elementor-element.elementor-element-d01dbf5{left:10%;}body.rtl .elementor-194 .elementor-element.elementor-element-d01dbf5{right:10%;}.elementor-194 .elementor-element.elementor-element-bcbccf1{--display:flex;}.elementor-194 .elementor-element.elementor-element-1510b8a{text-align:start;}.elementor-194 .elementor-element.elementor-element-517e1c4{width:var( --container-widget-width, 105px );max-width:105px;background-color:#FFFFFF33;padding:0px 5px 5px 5px;--container-widget-width:105px;--container-widget-flex-grow:0;border-style:solid;border-width:1px 1px 1px 1px;border-color:var( --e-global-color-primary );border-radius:25px 25px 25px 25px;text-align:center;}.elementor-194 .elementor-element.elementor-element-517e1c4.elementor-element{--align-self:flex-start;}.elementor-194 .elementor-element.elementor-element-517e1c4 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:9px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-1d172e8{--display:flex;}.elementor-194 .elementor-element.elementor-element-1420914 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:24px;font-weight:600;color:#EFEFEF;}.elementor-194 .elementor-element.elementor-element-e1594bc{font-family:"Inter", Sans-serif;font-size:16px;font-weight:400;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-e385bd0{--display:flex;}.elementor-widget-icon-list .elementor-icon-list-item:not(:last-child):after{border-color:var( --e-global-color-text );}.elementor-widget-icon-list .elementor-icon-list-icon i{color:var( --e-global-color-primary );}.elementor-widget-icon-list .elementor-icon-list-icon svg{fill:var( --e-global-color-primary );}.elementor-widget-icon-list .elementor-icon-list-item > .elementor-icon-list-text, .elementor-widget-icon-list .elementor-icon-list-item > a{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-icon-list .elementor-icon-list-text{color:var( --e-global-color-secondary );}.elementor-194 .elementor-element.elementor-element-d692d50 .elementor-icon-list-icon i{color:#FFFFFF;transition:color 0.3s;}.elementor-194 .elementor-element.elementor-element-d692d50 .elementor-icon-list-icon svg{fill:#FFFFFF;transition:fill 0.3s;}.elementor-194 .elementor-element.elementor-element-d692d50{--e-icon-list-icon-size:14px;--icon-vertical-offset:0px;}.elementor-194 .elementor-element.elementor-element-d692d50 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-194 .elementor-element.elementor-element-d692d50 .elementor-icon-list-item > a{font-family:"Inter", Sans-serif;font-size:12px;font-weight:400;}.elementor-194 .elementor-element.elementor-element-d692d50 .elementor-icon-list-text{color:#FFFFFF;transition:color 0.3s;}.elementor-194 .elementor-element.elementor-element-1158545 .elementor-button{background-color:transparent;background-image:linear-gradient(45deg, #2563EB 0%, #3B82FF 100%);border-radius:8px 8px 8px 8px;}.elementor-194 .elementor-element.elementor-element-1158545 .elementor-button-content-wrapper{flex-direction:row-reverse;}.elementor-194 .elementor-element.elementor-element-5255320{--display:flex;}.elementor-194 .elementor-element.elementor-element-ecb12f8{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-194 .elementor-element.elementor-element-cda5ec6 img{width:100%;max-width:100%;}.elementor-194 .elementor-element.elementor-element-d305756{--display:flex;--position:absolute;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--align-items:center;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;top:16%;}body:not(.rtl) .elementor-194 .elementor-element.elementor-element-d305756{left:60px;}body.rtl .elementor-194 .elementor-element.elementor-element-d305756{right:60px;}.elementor-194 .elementor-element.elementor-element-020ab5f{--display:flex;}.elementor-194 .elementor-element.elementor-element-c11654d{text-align:start;}.elementor-194 .elementor-element.elementor-element-1de2ec4{width:var( --container-widget-width, 105px );max-width:105px;background-color:#FFFFFF33;padding:0px 5px 5px 5px;--container-widget-width:105px;--container-widget-flex-grow:0;border-style:solid;border-width:1px 1px 1px 1px;border-color:var( --e-global-color-primary );border-radius:25px 25px 25px 25px;text-align:center;}.elementor-194 .elementor-element.elementor-element-1de2ec4.elementor-element{--align-self:flex-start;}.elementor-194 .elementor-element.elementor-element-1de2ec4 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:9px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-ff63704{--display:flex;}.elementor-194 .elementor-element.elementor-element-4d8c7d1 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:24px;font-weight:600;color:#EFEFEF;}.elementor-194 .elementor-element.elementor-element-e0c4bca{font-family:"Inter", Sans-serif;font-size:16px;font-weight:400;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-970c147{--display:flex;}.elementor-194 .elementor-element.elementor-element-6dface1 .elementor-icon-list-icon i{color:#FFFFFF;transition:color 0.3s;}.elementor-194 .elementor-element.elementor-element-6dface1 .elementor-icon-list-icon svg{fill:#FFFFFF;transition:fill 0.3s;}.elementor-194 .elementor-element.elementor-element-6dface1{--e-icon-list-icon-size:14px;--icon-vertical-offset:0px;}.elementor-194 .elementor-element.elementor-element-6dface1 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-194 .elementor-element.elementor-element-6dface1 .elementor-icon-list-item > a{font-family:"Inter", Sans-serif;font-size:12px;font-weight:400;}.elementor-194 .elementor-element.elementor-element-6dface1 .elementor-icon-list-text{color:#FFFFFF;transition:color 0.3s;}.elementor-194 .elementor-element.elementor-element-06c8486 .elementor-button{background-color:transparent;background-image:linear-gradient(45deg, #2563EB 0%, #3B82FF 100%);border-radius:8px 8px 8px 8px;}.elementor-194 .elementor-element.elementor-element-06c8486 .elementor-button-content-wrapper{flex-direction:row-reverse;}.elementor-194 .elementor-element.elementor-element-52f8d48{--display:flex;}.elementor-194 .elementor-element.elementor-element-ad39c8b{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-194 .elementor-element.elementor-element-f6d8233 img{width:100%;max-width:100%;}.elementor-194 .elementor-element.elementor-element-551f3e0{--display:flex;--position:absolute;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--align-items:center;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;top:16%;}body:not(.rtl) .elementor-194 .elementor-element.elementor-element-551f3e0{left:60px;}body.rtl .elementor-194 .elementor-element.elementor-element-551f3e0{right:60px;}.elementor-194 .elementor-element.elementor-element-27cbf39{--display:flex;}.elementor-194 .elementor-element.elementor-element-c9866fb{text-align:start;}.elementor-194 .elementor-element.elementor-element-5149bc9{width:var( --container-widget-width, 105px );max-width:105px;background-color:#FFFFFF33;padding:0px 5px 5px 5px;--container-widget-width:105px;--container-widget-flex-grow:0;border-style:solid;border-width:1px 1px 1px 1px;border-color:var( --e-global-color-primary );border-radius:25px 25px 25px 25px;text-align:center;}.elementor-194 .elementor-element.elementor-element-5149bc9.elementor-element{--align-self:flex-start;}.elementor-194 .elementor-element.elementor-element-5149bc9 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:9px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-5861431{--display:flex;}.elementor-194 .elementor-element.elementor-element-22d8f9e .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:24px;font-weight:600;color:#EFEFEF;}.elementor-194 .elementor-element.elementor-element-7d7c812{font-family:"Inter", Sans-serif;font-size:16px;font-weight:400;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-a298c69{--display:flex;}.elementor-194 .elementor-element.elementor-element-f807ce5 .elementor-icon-list-icon i{color:#FFFFFF;transition:color 0.3s;}.elementor-194 .elementor-element.elementor-element-f807ce5 .elementor-icon-list-icon svg{fill:#FFFFFF;transition:fill 0.3s;}.elementor-194 .elementor-element.elementor-element-f807ce5{--e-icon-list-icon-size:14px;--icon-vertical-offset:0px;}.elementor-194 .elementor-element.elementor-element-f807ce5 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-194 .elementor-element.elementor-element-f807ce5 .elementor-icon-list-item > a{font-family:"Inter", Sans-serif;font-size:12px;font-weight:400;}.elementor-194 .elementor-element.elementor-element-f807ce5 .elementor-icon-list-text{color:#FFFFFF;transition:color 0.3s;}.elementor-194 .elementor-element.elementor-element-a6d3dd5 .elementor-button{background-color:transparent;background-image:linear-gradient(45deg, #2563EB 0%, #3B82FF 100%);border-radius:8px 8px 8px 8px;}.elementor-194 .elementor-element.elementor-element-a6d3dd5 .elementor-button-content-wrapper{flex-direction:row-reverse;}.elementor-194 .elementor-element.elementor-element-cbffedb{--display:flex;}.elementor-194 .elementor-element.elementor-element-1373187{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-194 .elementor-element.elementor-element-88f5db7 img{width:100%;max-width:100%;}.elementor-194 .elementor-element.elementor-element-efe1dce{--display:flex;--position:absolute;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--align-items:center;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;top:16%;}body:not(.rtl) .elementor-194 .elementor-element.elementor-element-efe1dce{left:60px;}body.rtl .elementor-194 .elementor-element.elementor-element-efe1dce{right:60px;}.elementor-194 .elementor-element.elementor-element-cb910b3{--display:flex;}.elementor-194 .elementor-element.elementor-element-738a893{text-align:start;}.elementor-194 .elementor-element.elementor-element-c091d7c{width:var( --container-widget-width, 105px );max-width:105px;background-color:#FFFFFF33;padding:0px 5px 5px 5px;--container-widget-width:105px;--container-widget-flex-grow:0;border-style:solid;border-width:1px 1px 1px 1px;border-color:var( --e-global-color-primary );border-radius:25px 25px 25px 25px;text-align:center;}.elementor-194 .elementor-element.elementor-element-c091d7c.elementor-element{--align-self:flex-start;}.elementor-194 .elementor-element.elementor-element-c091d7c .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:9px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-3ad2ee1{--display:flex;}.elementor-194 .elementor-element.elementor-element-690de01 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:24px;font-weight:600;color:#EFEFEF;}.elementor-194 .elementor-element.elementor-element-eccb3e7{font-family:"Inter", Sans-serif;font-size:16px;font-weight:400;color:#FFFFFF;}.elementor-194 .elementor-element.elementor-element-55d8e21{--display:flex;}.elementor-194 .elementor-element.elementor-element-3b9ca6b .elementor-icon-list-icon i{color:#FFFFFF;transition:color 0.3s;}.elementor-194 .elementor-element.elementor-element-3b9ca6b .elementor-icon-list-icon svg{fill:#FFFFFF;transition:fill 0.3s;}.elementor-194 .elementor-element.elementor-element-3b9ca6b{--e-icon-list-icon-size:14px;--icon-vertical-offset:0px;}.elementor-194 .elementor-element.elementor-element-3b9ca6b .elementor-icon-list-item > .elementor-icon-list-text, .elementor-194 .elementor-element.elementor-element-3b9ca6b .elementor-icon-list-item > a{font-family:"Inter", Sans-serif;font-size:12px;font-weight:400;}.elementor-194 .elementor-element.elementor-element-3b9ca6b .elementor-icon-list-text{color:#FFFFFF;transition:color 0.3s;}.elementor-194 .elementor-element.elementor-element-e6e5300 .elementor-button{background-color:transparent;background-image:linear-gradient(45deg, #2563EB 0%, #3B82FF 100%);border-radius:8px 8px 8px 8px;}.elementor-194 .elementor-element.elementor-element-e6e5300 .elementor-button-content-wrapper{flex-direction:row-reverse;}.elementor-194 .elementor-element.elementor-element-c9a43ed{--e-n-carousel-swiper-slides-to-display:1;--e-n-carousel-swiper-slides-gap:10px;--e-n-carousel-slide-height:auto;--e-n-carousel-slide-container-height:100%;}:root{--page-title-display:none;}@media(max-width:1024px){.elementor-194 .elementor-element.elementor-element-221f9ef{--e-n-carousel-swiper-slides-to-display:2;}.elementor-194 .elementor-element.elementor-element-79114fe{--grid-auto-flow:row;}.elementor-194 .elementor-element.elementor-element-b665898{--grid-auto-flow:row;}.elementor-194 .elementor-element.elementor-element-08dfb75{--e-n-carousel-swiper-slides-to-display:2;}.elementor-194 .elementor-element.elementor-element-c9a43ed{--e-n-carousel-swiper-slides-to-display:2;}}@media(max-width:767px){.elementor-194 .elementor-element.elementor-element-5d329fd img{width:290px;}.elementor-194 .elementor-element.elementor-element-28582c5 .elementor-heading-title{font-size:35px;}.elementor-194 .elementor-element.elementor-element-557c874 .elementor-heading-title{font-size:20px;}.elementor-194 .elementor-element.elementor-element-8c2375b{bottom:100px;}.elementor-194 .elementor-element.elementor-element-8c2375b img{width:500px;max-width:500px;}.elementor-194 .elementor-element.elementor-element-221f9ef{--e-n-carousel-swiper-slides-to-display:1;}.elementor-194 .elementor-element.elementor-element-bedb199{--padding-top:0px;--padding-bottom:50px;--padding-left:15px;--padding-right:15px;}.elementor-194 .elementor-element.elementor-element-06c3c39 .elementor-heading-title{font-size:30px;}.elementor-194 .elementor-element.elementor-element-79114fe{--e-con-grid-template-columns:repeat(1, 1fr);--grid-auto-flow:row;}.elementor-194 .elementor-element.elementor-element-44abb81{--width:20%;}.elementor-194 .elementor-element.elementor-element-54f538f{--width:80%;}.elementor-194 .elementor-element.elementor-element-f211b97{--width:20%;}.elementor-194 .elementor-element.elementor-element-34f315d{--width:80%;}.elementor-194 .elementor-element.elementor-element-1df4b53{--width:20%;}.elementor-194 .elementor-element.elementor-element-2eb60f7{--width:80%;}.elementor-194 .elementor-element.elementor-element-7bcb2a7{--width:20%;}.elementor-194 .elementor-element.elementor-element-addf3a1{--width:80%;}.elementor-194 .elementor-element.elementor-element-b665898{--e-con-grid-template-columns:repeat(1, 1fr);--grid-auto-flow:row;}.elementor-194 .elementor-element.elementor-element-32f4894{--padding-top:50px;--padding-bottom:50px;--padding-left:15px;--padding-right:15px;}.elementor-194 .elementor-element.elementor-element-a892c66 .elementor-heading-title{font-size:30px;}.elementor-194 .elementor-element.elementor-element-5dac3b9{--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-194 .elementor-element.elementor-element-9f8d5cd{--padding-top:40px;--padding-bottom:150px;--padding-left:15px;--padding-right:15px;}.elementor-194 .elementor-element.elementor-element-3356a69{bottom:0px;}.elementor-194 .elementor-element.elementor-element-997ab5b .elementor-heading-title{font-size:30px;}.elementor-194 .elementor-element.elementor-element-e8ac3cb{--min-height:420px;}.elementor-194 .elementor-element.elementor-element-be98b17{padding:0% 0% 0% 0%;}.elementor-194 .elementor-element.elementor-element-95dfaa6{--min-height:420px;}.elementor-194 .elementor-element.elementor-element-1856607{padding:0% 0% 0% 0%;}.elementor-194 .elementor-element.elementor-element-a184b0c{--min-height:420px;}.elementor-194 .elementor-element.elementor-element-cc8490f{padding:0% 0% 0% 0%;}.elementor-194 .elementor-element.elementor-element-4ac8fc7{--min-height:420px;}.elementor-194 .elementor-element.elementor-element-957545f{padding:0% 0% 0% 0%;}.elementor-194 .elementor-element.elementor-element-b948f10{--min-height:420px;}.elementor-194 .elementor-element.elementor-element-2835fa1{padding:0% 0% 0% 0%;}.elementor-194 .elementor-element.elementor-element-08dfb75{--e-n-carousel-swiper-slides-to-display:1;}.elementor-194 .elementor-element.elementor-element-7acaf12 .elementor-heading-title{font-size:30px;}.elementor-194 .elementor-element.elementor-element-237548b{--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-194 .elementor-element.elementor-element-6c6f64d img{height:600px;object-fit:cover;}.elementor-194 .elementor-element.elementor-element-d01dbf5{--width:90%;--gap:0px 0px;--row-gap:0px;--column-gap:0px;top:21px;}body:not(.rtl) .elementor-194 .elementor-element.elementor-element-d01dbf5{left:20px;}body.rtl .elementor-194 .elementor-element.elementor-element-d01dbf5{right:20px;}.elementor-194 .elementor-element.elementor-element-bcbccf1{--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:flex-start;--align-items:center;}.elementor-194 .elementor-element.elementor-element-517e1c4{margin:50px 0px calc(var(--kit-widget-spacing, 0px) + 0px) 0px;}.elementor-194 .elementor-element.elementor-element-cda5ec6 img{height:600px;object-fit:cover;}.elementor-194 .elementor-element.elementor-element-d305756{--width:90%;--gap:0px 0px;--row-gap:0px;--column-gap:0px;top:21px;}body:not(.rtl) .elementor-194 .elementor-element.elementor-element-d305756{left:20px;}body.rtl .elementor-194 .elementor-element.elementor-element-d305756{right:20px;}.elementor-194 .elementor-element.elementor-element-020ab5f{--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:flex-start;--align-items:center;}.elementor-194 .elementor-element.elementor-element-1de2ec4{margin:50px 0px calc(var(--kit-widget-spacing, 0px) + 0px) 0px;}.elementor-194 .elementor-element.elementor-element-f6d8233 img{height:600px;object-fit:cover;}.elementor-194 .elementor-element.elementor-element-551f3e0{--width:90%;--gap:0px 0px;--row-gap:0px;--column-gap:0px;top:21px;}body:not(.rtl) .elementor-194 .elementor-element.elementor-element-551f3e0{left:20px;}body.rtl .elementor-194 .elementor-element.elementor-element-551f3e0{right:20px;}.elementor-194 .elementor-element.elementor-element-27cbf39{--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:flex-start;--align-items:center;}.elementor-194 .elementor-element.elementor-element-5149bc9{margin:50px 0px calc(var(--kit-widget-spacing, 0px) + 0px) 0px;}.elementor-194 .elementor-element.elementor-element-88f5db7 img{height:600px;object-fit:cover;}.elementor-194 .elementor-element.elementor-element-efe1dce{--width:90%;--gap:0px 0px;--row-gap:0px;--column-gap:0px;top:21px;}body:not(.rtl) .elementor-194 .elementor-element.elementor-element-efe1dce{left:20px;}body.rtl .elementor-194 .elementor-element.elementor-element-efe1dce{right:20px;}.elementor-194 .elementor-element.elementor-element-cb910b3{--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:flex-start;--align-items:center;}.elementor-194 .elementor-element.elementor-element-c091d7c{margin:50px 0px calc(var(--kit-widget-spacing, 0px) + 0px) 0px;}.elementor-194 .elementor-element.elementor-element-c9a43ed{--e-n-carousel-swiper-slides-to-display:1;}}@media(min-width:768px){.elementor-194 .elementor-element.elementor-element-a25c77d{--width:1000px;}.elementor-194 .elementor-element.elementor-element-b2c9238{--width:50%;}.elementor-194 .elementor-element.elementor-element-44abb81{--width:50px;}.elementor-194 .elementor-element.elementor-element-54f538f{--width:78%;}.elementor-194 .elementor-element.elementor-element-f211b97{--width:50px;}.elementor-194 .elementor-element.elementor-element-34f315d{--width:78%;}.elementor-194 .elementor-element.elementor-element-1df4b53{--width:50px;}.elementor-194 .elementor-element.elementor-element-2eb60f7{--width:78%;}.elementor-194 .elementor-element.elementor-element-7bcb2a7{--width:50px;}.elementor-194 .elementor-element.elementor-element-addf3a1{--width:78%;}.elementor-194 .elementor-element.elementor-element-b665898{--width:50%;}.elementor-194 .elementor-element.elementor-element-6b20fd7{--width:50%;}.elementor-194 .elementor-element.elementor-element-5dac3b9{--width:50%;}.elementor-194 .elementor-element.elementor-element-f078af5{--width:150px;}.elementor-194 .elementor-element.elementor-element-8e11fd5{--width:78%;}.elementor-194 .elementor-element.elementor-element-3366b64{--width:1280px;}.elementor-194 .elementor-element.elementor-element-d01dbf5{--width:80%;}.elementor-194 .elementor-element.elementor-element-bcbccf1{--width:20%;}.elementor-194 .elementor-element.elementor-element-1d172e8{--width:45%;}.elementor-194 .elementor-element.elementor-element-e385bd0{--width:35%;}.elementor-194 .elementor-element.elementor-element-d305756{--width:80%;}.elementor-194 .elementor-element.elementor-element-020ab5f{--width:20%;}.elementor-194 .elementor-element.elementor-element-ff63704{--width:45%;}.elementor-194 .elementor-element.elementor-element-970c147{--width:35%;}.elementor-194 .elementor-element.elementor-element-551f3e0{--width:80%;}.elementor-194 .elementor-element.elementor-element-27cbf39{--width:20%;}.elementor-194 .elementor-element.elementor-element-5861431{--width:45%;}.elementor-194 .elementor-element.elementor-element-a298c69{--width:35%;}.elementor-194 .elementor-element.elementor-element-efe1dce{--width:80%;}.elementor-194 .elementor-element.elementor-element-cb910b3{--width:20%;}.elementor-194 .elementor-element.elementor-element-3ad2ee1{--width:45%;}.elementor-194 .elementor-element.elementor-element-55d8e21{--width:35%;}}/* Start custom CSS for heading, class: .elementor-element-9348de2 */@property --border-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+.elementor-194 .elementor-element.elementor-element-9348de2 ul{
+    --border-size: 2px;
+  --border-radius: 25px;
+  --border-angle: 0deg;
+    padding: 15px 20px 15px 35px;
+    width: 250px;
+    border-radius: var(--border-radius);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: #1E4498;
+}
+.elementor-194 .elementor-element.elementor-element-9348de2 ul::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: var(--border-size);
+  border-radius: inherit;
+  background: conic-gradient(
+    from var(--border-angle),
+    #FFB701,
+    #3B82FF,
+    #3B82FF,
+    #FFB701
+  );
+  animation: rotateBorder 4s linear infinite;
+  z-index: -1;
+
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+@keyframes rotateBorder {
+  to {
+    --border-angle: 360deg;
+  }
+}
+.elementor-194 .elementor-element.elementor-element-9348de2 ul li::marker{
+    color: #FBBF24;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-28582c5 */.elementor-194 .elementor-element.elementor-element-28582c5 span{
+    color: #FFB701;
+}/* End custom CSS */
+/* Start custom CSS for form, class: .elementor-element-6fbc162 */.elementor-194 .elementor-element.elementor-element-6fbc162{
+border-radius: 12px;
+border: 0.75px solid var(--color-white-20, rgba(255, 255, 255, 0.20));
+background: var(--color-white-20, rgba(255, 255, 255, 0.20));
+padding: 7px 12px;
+}
+.elementor-194 .elementor-element.elementor-element-6fbc162 .elementor-form-fields-wrapper{
+    display: flex;
+}
+.elementor-194 .elementor-element.elementor-element-6fbc162 .elementor-field-type-select{
+    width: 70%;
+    padding: 0 !important;
+}
+.elementor-194 .elementor-element.elementor-element-6fbc162 .elementor-field-type-submit{
+    width: 30%;
+    padding: 0 !important;
+}
+.elementor-194 .elementor-element.elementor-element-6fbc162 select{
+    height: 50px;
+    background: transparent !important;
+    border: none;
+    color: #ffffff;
+}
+.elementor-194 .elementor-element.elementor-element-6fbc162 button{
+    height: 50px;
+    background: #3B82FF !important;
+    border: none;
+    border-radius: 6px;
+}
+.elementor-194 .elementor-element.elementor-element-6fbc162 option{
+    color: #000000;
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-ca1d925 */.elementor-194 .elementor-element.elementor-element-ca1d925{
+background: linear-gradient(194deg, #0D1E4C 59.23%, #1E46B2 104.45%), radial-gradient(80% 80% at 50% 100%, var(--color-azure-6210, rgba(59, 130, 255, 0.10)) 0%, var(--color-azure-620, rgba(59, 130, 255, 0.00)) 65%), linear-gradient(183deg, rgba(59, 130, 255, 0.10) 38.33%, rgba(59, 130, 255, 0.50) 85.41%);
+    border-radius: 0 0 400px 0;
+    overflow-x: hidden;
+}/* End custom CSS */
+/* Start custom CSS for nested-carousel, class: .elementor-element-221f9ef */.elementor-194 .elementor-element.elementor-element-221f9ef .swiper-slide{
+    position: relative;
+}
+.elementor-194 .elementor-element.elementor-element-221f9ef .swiper-slide::before{
+    content: '';
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background: #3B82FF;
+    border-radius: 50%;
+    top: 19px;
+    left: 0;
+}
+
+.elementor-194 .elementor-element.elementor-element-221f9ef .swiper {
+    overflow: hidden !important;
+}
+
+.elementor-194 .elementor-element.elementor-element-221f9ef .swiper-wrapper {
+    display: flex !important;
+    width: calc(258.6px * 16) !important;
+    animation: scrollInfinito 30s linear infinite !important;
+    transition: none !important;
+    will-change: transform;
+}
+
+@keyframes scrollInfinito {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(calc(-258.6px * 8), 0, 0); 
+    }
+}
+
+.elementor-194 .elementor-element.elementor-element-221f9ef .swiper-slide {
+    width: 258.6px !important;
+    margin-right: 10px !important;
+    flex-shrink: 0 !important;
+}
+
+.elementor-194 .elementor-element.elementor-element-221f9ef:hover .swiper-wrapper {
+    animation-play-state: running !important;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-28dc824 */@property --border-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+.elementor-194 .elementor-element.elementor-element-28dc824 ul{
+    --border-size: 2px;
+  --border-radius: 25px;
+  --border-angle: 0deg;
+    padding: 15px 15px 15px 25px;
+    width: 260px;
+    border-radius: var(--border-radius);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: #E7F0FF;
+    text-transform: uppercase;
+}
+.elementor-194 .elementor-element.elementor-element-28dc824 ul::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: var(--border-size);
+  border-radius: inherit;
+  background: conic-gradient(
+    from var(--border-angle),
+    #FFB701,
+    #3B82FF,
+    #3B82FF,
+    #FFB701
+  );
+  animation: rotateBorder 4s linear infinite;
+  z-index: -1;
+
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+@keyframes rotateBorder {
+  to {
+    --border-angle: 360deg;
+  }
+}
+.elementor-194 .elementor-element.elementor-element-28dc824 ul li::marker{
+    color: #FBBF24;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-06c3c39 */.elementor-194 .elementor-element.elementor-element-06c3c39 span{
+    background: linear-gradient(90deg, #3B82FF 0%, #60A5FA 50%, #93C5FD 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-b88d82c */.elementor-194 .elementor-element.elementor-element-b88d82c{
+    --border-size: 4px;
+  --border-angle: 0deg;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.elementor-194 .elementor-element.elementor-element-b88d82c::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: var(--border-size);
+  background: conic-gradient(
+    from var(--border-angle),
+    #FFB701,
+    #3B82FF,
+    #3B82FF,
+    #FFB701
+  );
+  animation: rotateBorder 4s linear infinite;
+  z-index: -1;
+  opacity: 0;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+.elementor-194 .elementor-element.elementor-element-b88d82c:hover::before{
+    opacity: 1;
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-87918e1 */.elementor-194 .elementor-element.elementor-element-87918e1{
+    --border-size: 4px;
+  --border-angle: 0deg;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.elementor-194 .elementor-element.elementor-element-87918e1::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: var(--border-size);
+  background: conic-gradient(
+    from var(--border-angle),
+    #FFB701,
+    #3B82FF,
+    #3B82FF,
+    #FFB701
+  );
+  animation: rotateBorder 4s linear infinite;
+  z-index: -1;
+  opacity: 0;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+.elementor-194 .elementor-element.elementor-element-87918e1:hover::before{
+    opacity: 1;
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-c62ae55 */.elementor-194 .elementor-element.elementor-element-c62ae55{
+    --border-size: 4px;
+  --border-angle: 0deg;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.elementor-194 .elementor-element.elementor-element-c62ae55::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: var(--border-size);
+  background: conic-gradient(
+    from var(--border-angle),
+    #FFB701,
+    #3B82FF,
+    #3B82FF,
+    #FFB701
+  );
+  animation: rotateBorder 4s linear infinite;
+  z-index: -1;
+  opacity: 0;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+.elementor-194 .elementor-element.elementor-element-c62ae55:hover::before{
+    opacity: 1;
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-5773199 */.elementor-194 .elementor-element.elementor-element-5773199{
+    --border-size: 4px;
+  --border-angle: 0deg;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.elementor-194 .elementor-element.elementor-element-5773199::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: var(--border-size);
+  background: conic-gradient(
+    from var(--border-angle),
+    #FFB701,
+    #3B82FF,
+    #3B82FF,
+    #FFB701
+  );
+  animation: rotateBorder 4s linear infinite;
+  z-index: -1;
+  opacity: 0;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+.elementor-194 .elementor-element.elementor-element-5773199:hover::before{
+    opacity: 1;
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-48c939c */.elementor-194 .elementor-element.elementor-element-48c939c{
+    --border-size: 4px;
+  --border-angle: 0deg;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.elementor-194 .elementor-element.elementor-element-48c939c::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: var(--border-size);
+  background: conic-gradient(
+    from var(--border-angle),
+    #FFB701,
+    #3B82FF,
+    #3B82FF,
+    #FFB701
+  );
+  animation: rotateBorder 4s linear infinite;
+  z-index: -1;
+  opacity: 0;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+.elementor-194 .elementor-element.elementor-element-48c939c:hover::before{
+    opacity: 1;
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-b59ae47 */.elementor-194 .elementor-element.elementor-element-b59ae47{
+    --border-size: 4px;
+  --border-angle: 0deg;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.elementor-194 .elementor-element.elementor-element-b59ae47::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: var(--border-size);
+  background: conic-gradient(
+    from var(--border-angle),
+    #FFB701,
+    #3B82FF,
+    #3B82FF,
+    #FFB701
+  );
+  animation: rotateBorder 4s linear infinite;
+  z-index: -1;
+  opacity: 0;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+.elementor-194 .elementor-element.elementor-element-b59ae47:hover::before{
+    opacity: 1;
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-52b59d0 */.elementor-194 .elementor-element.elementor-element-52b59d0{
+    --border-size: 4px;
+  --border-angle: 0deg;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.elementor-194 .elementor-element.elementor-element-52b59d0::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: var(--border-size);
+  background: conic-gradient(
+    from var(--border-angle),
+    #FFB701,
+    #3B82FF,
+    #3B82FF,
+    #FFB701
+  );
+  animation: rotateBorder 4s linear infinite;
+  z-index: -1;
+  opacity: 0;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+.elementor-194 .elementor-element.elementor-element-52b59d0:hover::before{
+    opacity: 1;
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-65e6bc0 */.elementor-194 .elementor-element.elementor-element-65e6bc0{
+    --border-size: 4px;
+  --border-angle: 0deg;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.elementor-194 .elementor-element.elementor-element-65e6bc0::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: var(--border-size);
+  background: conic-gradient(
+    from var(--border-angle),
+    #FFB701,
+    #3B82FF,
+    #3B82FF,
+    #FFB701
+  );
+  animation: rotateBorder 4s linear infinite;
+  z-index: -1;
+  opacity: 0;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+.elementor-194 .elementor-element.elementor-element-65e6bc0:hover::before{
+    opacity: 1;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-df31517 */@property --border-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+.elementor-194 .elementor-element.elementor-element-df31517 ul{
+    --border-size: 2px;
+  --border-radius: 25px;
+  --border-angle: 0deg;
+    padding: 15px 15px 15px 25px;
+    width: 250px;
+    border-radius: var(--border-radius);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: #0D1E4C;
+    text-transform: uppercase;
+}
+.elementor-194 .elementor-element.elementor-element-df31517 ul::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: var(--border-size);
+  border-radius: inherit;
+  background: conic-gradient(
+    from var(--border-angle),
+    #FFB701,
+    #3B82FF,
+    #3B82FF,
+    #FFB701
+  );
+  animation: rotateBorder 4s linear infinite;
+  z-index: -1;
+
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+@keyframes rotateBorder {
+  to {
+    --border-angle: 360deg;
+  }
+}
+.elementor-194 .elementor-element.elementor-element-df31517 ul li::marker{
+    color: #FBBF24;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-a892c66 */.elementor-194 .elementor-element.elementor-element-a892c66 span{
+    color: #FFB701;
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-d01066f */.elementor-194 .elementor-element.elementor-element-d01066f{
+    --border-size: 4px;
+  --border-angle: 0deg;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.elementor-194 .elementor-element.elementor-element-d01066f::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: var(--border-size);
+  background: conic-gradient(
+    from var(--border-angle),
+    #FFB701,
+    #3B82FF,
+    #3B82FF,
+    #FFB701
+  );
+  animation: rotateBorder 4s linear infinite;
+  z-index: -1;
+  opacity: 1;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-5dac3b9 */.elementor-194 .elementor-element.elementor-element-5dac3b9{
+    max-height: 600px;
+    overflow-y: auto;
+}
+.elementor-194 .elementor-element.elementor-element-5dac3b9::-webkit-scrollbar {
+    width: 10px; 
+}
+.elementor-194 .elementor-element.elementor-element-5dac3b9::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+.elementor-194 .elementor-element.elementor-element-5dac3b9::-webkit-scrollbar-thumb {
+    background: #FFB701;
+    border-radius: 10px;
+    border: 2px solid #f1f1f1;
+}
+.elementor-194 .elementor-element.elementor-element-5dac3b9::-webkit-scrollbar-thumb:hover {
+    background: #C70039;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-7ee4048 */@property --border-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+.elementor-194 .elementor-element.elementor-element-7ee4048 ul{
+    --border-size: 2px;
+  --border-radius: 25px;
+  --border-angle: 0deg;
+    padding: 15px 15px 15px 25px;
+    width: 250px;
+    border-radius: var(--border-radius);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: #0D1E4C;
+    text-transform: uppercase;
+}
+.elementor-194 .elementor-element.elementor-element-7ee4048 ul::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: var(--border-size);
+  border-radius: inherit;
+  background: conic-gradient(
+    from var(--border-angle),
+    #FFB701,
+    #3B82FF,
+    #3B82FF,
+    #FFB701
+  );
+  animation: rotateBorder 4s linear infinite;
+  z-index: -1;
+
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+@keyframes rotateBorder {
+  to {
+    --border-angle: 360deg;
+  }
+}
+.elementor-194 .elementor-element.elementor-element-7ee4048 ul li::marker{
+    color: #FBBF24;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-997ab5b */.elementor-194 .elementor-element.elementor-element-997ab5b span{
+    color: #FFB701;
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-e8ac3cb */.elementor-194 .elementor-element.elementor-element-e8ac3cb{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-95dfaa6 */.elementor-194 .elementor-element.elementor-element-95dfaa6{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-a184b0c */.elementor-194 .elementor-element.elementor-element-a184b0c{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-4ac8fc7 */.elementor-194 .elementor-element.elementor-element-4ac8fc7{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-b948f10 */.elementor-194 .elementor-element.elementor-element-b948f10{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-e8ac3cb */.elementor-194 .elementor-element.elementor-element-e8ac3cb{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-95dfaa6 */.elementor-194 .elementor-element.elementor-element-95dfaa6{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-a184b0c */.elementor-194 .elementor-element.elementor-element-a184b0c{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-4ac8fc7 */.elementor-194 .elementor-element.elementor-element-4ac8fc7{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-b948f10 */.elementor-194 .elementor-element.elementor-element-b948f10{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-e8ac3cb */.elementor-194 .elementor-element.elementor-element-e8ac3cb{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-95dfaa6 */.elementor-194 .elementor-element.elementor-element-95dfaa6{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-a184b0c */.elementor-194 .elementor-element.elementor-element-a184b0c{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-4ac8fc7 */.elementor-194 .elementor-element.elementor-element-4ac8fc7{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-b948f10 */.elementor-194 .elementor-element.elementor-element-b948f10{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-e8ac3cb */.elementor-194 .elementor-element.elementor-element-e8ac3cb{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-95dfaa6 */.elementor-194 .elementor-element.elementor-element-95dfaa6{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-a184b0c */.elementor-194 .elementor-element.elementor-element-a184b0c{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-4ac8fc7 */.elementor-194 .elementor-element.elementor-element-4ac8fc7{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-b948f10 */.elementor-194 .elementor-element.elementor-element-b948f10{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-e8ac3cb */.elementor-194 .elementor-element.elementor-element-e8ac3cb{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-95dfaa6 */.elementor-194 .elementor-element.elementor-element-95dfaa6{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-a184b0c */.elementor-194 .elementor-element.elementor-element-a184b0c{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-4ac8fc7 */.elementor-194 .elementor-element.elementor-element-4ac8fc7{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-b948f10 */.elementor-194 .elementor-element.elementor-element-b948f10{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-e8ac3cb */.elementor-194 .elementor-element.elementor-element-e8ac3cb{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-95dfaa6 */.elementor-194 .elementor-element.elementor-element-95dfaa6{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-a184b0c */.elementor-194 .elementor-element.elementor-element-a184b0c{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-4ac8fc7 */.elementor-194 .elementor-element.elementor-element-4ac8fc7{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-b948f10 */.elementor-194 .elementor-element.elementor-element-b948f10{
+    background: linear-gradient(93deg, #0D1E4C 16.63%, #0437CF 99.55%);
+
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-9f8d5cd */.elementor-194 .elementor-element.elementor-element-9f8d5cd{
+    overflow: hidden;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-8d6e7fb */.elementor-194 .elementor-element.elementor-element-8d6e7fb ul{
+    padding: 8px 20px 8px 35px;
+    width: 250px;
+    border-radius: 25px;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-7acaf12 */.elementor-194 .elementor-element.elementor-element-7acaf12 span{
+    background: linear-gradient(90deg, #3B82FF 0%, #60A5FA 50%, #93C5FD 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}/* End custom CSS */
+/* Start custom CSS for image, class: .elementor-element-3d3373a */.elementor-194 .elementor-element.elementor-element-3d3373a{
+    left: 0;
+    right: 0;
+    margin: auto;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-517e1c4 */.elementor-194 .elementor-element.elementor-element-517e1c4 ul{
+    padding: 8px 20px 8px 35px;
+    width: 250px;
+    border-radius: 25px;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-1de2ec4 */.elementor-194 .elementor-element.elementor-element-1de2ec4 ul{
+    padding: 8px 20px 8px 35px;
+    width: 250px;
+    border-radius: 25px;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-5149bc9 */.elementor-194 .elementor-element.elementor-element-5149bc9 ul{
+    padding: 8px 20px 8px 35px;
+    width: 250px;
+    border-radius: 25px;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-c091d7c */.elementor-194 .elementor-element.elementor-element-c091d7c ul{
+    padding: 8px 20px 8px 35px;
+    width: 250px;
+    border-radius: 25px;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-517e1c4 */.elementor-194 .elementor-element.elementor-element-517e1c4 ul{
+    padding: 8px 20px 8px 35px;
+    width: 250px;
+    border-radius: 25px;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-1de2ec4 */.elementor-194 .elementor-element.elementor-element-1de2ec4 ul{
+    padding: 8px 20px 8px 35px;
+    width: 250px;
+    border-radius: 25px;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-5149bc9 */.elementor-194 .elementor-element.elementor-element-5149bc9 ul{
+    padding: 8px 20px 8px 35px;
+    width: 250px;
+    border-radius: 25px;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-c091d7c */.elementor-194 .elementor-element.elementor-element-c091d7c ul{
+    padding: 8px 20px 8px 35px;
+    width: 250px;
+    border-radius: 25px;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-517e1c4 */.elementor-194 .elementor-element.elementor-element-517e1c4 ul{
+    padding: 8px 20px 8px 35px;
+    width: 250px;
+    border-radius: 25px;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-1de2ec4 */.elementor-194 .elementor-element.elementor-element-1de2ec4 ul{
+    padding: 8px 20px 8px 35px;
+    width: 250px;
+    border-radius: 25px;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-5149bc9 */.elementor-194 .elementor-element.elementor-element-5149bc9 ul{
+    padding: 8px 20px 8px 35px;
+    width: 250px;
+    border-radius: 25px;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-c091d7c */.elementor-194 .elementor-element.elementor-element-c091d7c ul{
+    padding: 8px 20px 8px 35px;
+    width: 250px;
+    border-radius: 25px;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-517e1c4 */.elementor-194 .elementor-element.elementor-element-517e1c4 ul{
+    padding: 8px 20px 8px 35px;
+    width: 250px;
+    border-radius: 25px;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-1de2ec4 */.elementor-194 .elementor-element.elementor-element-1de2ec4 ul{
+    padding: 8px 20px 8px 35px;
+    width: 250px;
+    border-radius: 25px;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-5149bc9 */.elementor-194 .elementor-element.elementor-element-5149bc9 ul{
+    padding: 8px 20px 8px 35px;
+    width: 250px;
+    border-radius: 25px;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-c091d7c */.elementor-194 .elementor-element.elementor-element-c091d7c ul{
+    padding: 8px 20px 8px 35px;
+    width: 250px;
+    border-radius: 25px;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-517e1c4 */.elementor-194 .elementor-element.elementor-element-517e1c4 ul{
+    padding: 8px 20px 8px 35px;
+    width: 250px;
+    border-radius: 25px;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-1de2ec4 */.elementor-194 .elementor-element.elementor-element-1de2ec4 ul{
+    padding: 8px 20px 8px 35px;
+    width: 250px;
+    border-radius: 25px;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-5149bc9 */.elementor-194 .elementor-element.elementor-element-5149bc9 ul{
+    padding: 8px 20px 8px 35px;
+    width: 250px;
+    border-radius: 25px;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-c091d7c */.elementor-194 .elementor-element.elementor-element-c091d7c ul{
+    padding: 8px 20px 8px 35px;
+    width: 250px;
+    border-radius: 25px;
+}/* End custom CSS */
+/* Start custom CSS for nested-carousel, class: .elementor-element-c9a43ed */.elementor-194 .elementor-element.elementor-element-c9a43ed .swiper {
+    overflow: hidden !important;
+}
+
+.elementor-194 .elementor-element.elementor-element-c9a43ed .swiper-wrapper {
+    display: flex !important;
+    width: calc(1200px * 16) !important;
+    animation: scrollInfinito 30s linear infinite !important;
+    transition: none !important;
+    will-change: transform;
+}
+
+@keyframes scrollInfinito {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(calc(-258.6px * 8), 0, 0); 
+    }
+}
+
+.elementor-194 .elementor-element.elementor-element-c9a43ed .swiper-slide {
+    width: 1200 !important;
+    margin-right: 10px !important;
+    flex-shrink: 0 !important;
+}
+
+.elementor-194 .elementor-element.elementor-element-c9a43ed:hover .swiper-wrapper {
+    animation-play-state: running !important;
+}/* End custom CSS */
