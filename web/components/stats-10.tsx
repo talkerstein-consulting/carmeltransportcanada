@@ -6,6 +6,7 @@ import { animate, motion, useInView, useReducedMotion } from "motion/react";
 import type { Heading, Stat } from "@/lib/content";
 import { splitAccent } from "@/lib/content";
 import { iconFor } from "@/lib/icons";
+import { useSite } from "@/lib/site";
 
 const tones = [
   { bg: "var(--color-brand)", fg: "#ffffff", sub: "#ffffff" },
@@ -27,9 +28,13 @@ function CountUp({ to, text, duration = 2 }: { to: number | null; text: string; 
   return <span ref={ref}>{text}</span>;
 }
 
+// Classic: the live site's navy stat cards (white numbers 15:1, light steel labels 10:1).
+const classicTones = Array(4).fill({ bg: "#0d1e4c", fg: "#ffffff", sub: "#c3cbe0" });
+
 export default function Stats10({ id, eyebrow, title, html = [], points = [], stats }: {
   id?: string; eyebrow?: string; title?: Heading; html?: string[]; points?: string[]; stats: Stat[];
 }) {
+  const classic = useSite().site === "classic";
   const t = splitAccent(title);
   return (
     <section id={id} className="w-full bg-white px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
@@ -37,9 +42,9 @@ export default function Stats10({ id, eyebrow, title, html = [], points = [], st
         {title && (
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-[1fr_1fr] lg:gap-16">
             <motion.div initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
-              {eyebrow && <p className="text-sm font-semibold uppercase text-brand">{eyebrow}</p>}
+              {eyebrow && <p className="text-sm font-semibold uppercase text-eyebrow">{eyebrow}</p>}
               <h2 className="text-section mt-4 font-semibold tracking-tight text-ink">
-                {t.before}{t.accent && <span className="text-brand">{t.accent}</span>}{t.after}
+                {t.before}{t.accent && <span className="text-accent-word">{t.accent}</span>}{t.after}
               </h2>
               {!!points.length && (
                 <ul className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2">
@@ -64,7 +69,7 @@ export default function Stats10({ id, eyebrow, title, html = [], points = [], st
 
         <div className={`${title || points.length ? "mt-12 sm:mt-16" : ""} grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-4`}>
           {stats.map((s, i) => {
-            const c = tones[i % tones.length];
+            const c = (classic ? classicTones : tones)[i % tones.length];
             return (
               <motion.div key={s.label} initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.1 * i }} whileHover={{ y: -4 }}

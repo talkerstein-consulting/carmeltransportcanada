@@ -17,7 +17,7 @@ function Description({ text }: { text: string }) {
     <div>
       <p className={`text-sm leading-relaxed text-muted-foreground ${open ? "" : "line-clamp-3"}`}>{text}</p>
       {text.length > 160 && (
-        <button type="button" onClick={() => setOpen((v) => !v)} aria-expanded={open} className="mt-1 text-sm font-semibold text-brand underline underline-offset-4">
+        <button type="button" onClick={() => setOpen((v) => !v)} aria-expanded={open} className="mt-1 inline-flex min-h-6 items-center text-sm font-semibold text-brand underline underline-offset-4">
           {open ? "Read less" : "Read more"}
         </button>
       )}
@@ -58,11 +58,11 @@ export default function Showcase4({ items }: { items: Item[] }) {
                 <div className="relative grid aspect-[16/10] place-items-center overflow-hidden rounded-3xl bg-mist p-6">
                   <motion.img src={p.image.src} alt={p.title} loading="lazy" variants={{ hover: { scale: 1.05 } }}
                     transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }} className="max-h-full w-auto object-contain mix-blend-multiply" />
-                  <span className="absolute bottom-3 left-3 rounded-full bg-white/90 px-3 py-1 text-[11px] font-semibold uppercase text-brand backdrop-blur-sm">
+                  <span className="absolute bottom-3 left-3 rounded-full bg-white/90 px-3 py-1 text-[11px] font-semibold uppercase text-eyebrow backdrop-blur-sm">
                     {category(p.title)}
                   </span>
                 </div>
-                <div className="space-y-2 px-1">
+                <div className="space-y-2">
                   <h2 className="text-lg font-semibold capitalize text-ink">{p.title.toLowerCase()}</h2>
                   {p.html && <Description text={plain(p.html)} />}
                 </div>

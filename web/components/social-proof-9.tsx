@@ -4,11 +4,12 @@
 import { motion, useAnimationFrame, useMotionValue, useReducedMotion, useTransform } from "motion/react";
 import { useState } from "react";
 import { Anchor, MapPin, ShieldCheck, TrainFront } from "lucide-react";
+import { useSite } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
 const iconFor = (t: string) => (/port/i.test(t) ? Anchor : /rail/i.test(t) ? TrainFront : /certif/i.test(t) ? ShieldCheck : MapPin);
 
-const Marquee = ({ items, direction = "left", speed = 20, tone }: { items: string[]; direction?: "left" | "right"; speed?: number; tone: "brand" | "white" }) => {
+const Marquee = ({ items, direction = "left", speed = 20, tone, dots = false }: { items: string[]; direction?: "left" | "right"; speed?: number; tone: "brand" | "white"; dots?: boolean }) => {
   const [isHovered, setIsHovered] = useState(false);
   const reduced = useReducedMotion();
   const xPercent = useMotionValue(direction === "left" ? 0 : -50);
@@ -33,7 +34,7 @@ const Marquee = ({ items, direction = "left", speed = 20, tone }: { items: strin
         const Icon = iconFor(t);
         return (
           <li key={idx} className="flex shrink-0 items-center gap-3 whitespace-nowrap text-sm font-semibold uppercase tracking-[0.14em] sm:text-base">
-            <Icon className={cn("h-5 w-5", tone === "brand" ? "text-sun" : "text-brand")} />
+            {dots ? <span aria-hidden className="mr-5 h-2 w-2 rounded-full bg-brand sm:mr-9" /> : <Icon className={cn("h-5 w-5", tone === "brand" ? "text-sun" : "text-brand")} />}
             {t}
           </li>
         );
@@ -54,9 +55,20 @@ export function SocialProof9({ title, items }: { title: string; items: string[] 
   const isFeature = (t: string) => /port|rail|certif/i.test(t);
   const locations = items.filter((t) => !isFeature(t));
   const features = items.filter(isFeature);
+  // Classic: the live site's single white strip with blue dot separators and its label above.
+  if (useSite().site === "classic") {
+    return (
+      <section className="strip w-full overflow-hidden border-b border-border bg-white" aria-labelledby="trusted-title">
+        <p id="trusted-title" className="mx-auto max-w-[1400px] px-4 pt-6 text-center text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground sm:px-6 lg:px-8">
+          {title}
+        </p>
+        <div className="text-navy"><Marquee items={items} direction="left" speed={2} tone="white" dots /></div>
+      </section>
+    );
+  }
   return (
     // No visible label; the original line stays as the strip's accessible name.
-    <section className="w-full overflow-hidden border-y border-brand-line bg-white" aria-label={title}>
+    <section className="strip w-full overflow-hidden border-y border-brand-line bg-white" aria-label={title}>
       <div className="relative">
         {/* Row 1: where Carmel operates. Row 2: what it handles. */}
         <Marquee items={locations} direction="left" speed={2.2} tone="brand" />

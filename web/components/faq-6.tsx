@@ -25,7 +25,7 @@ export default function FAQ6({ title, html = [], button, items }: { title: Headi
         <div className={`grid grid-cols-1 gap-12 lg:gap-16 xl:gap-20 ${items.length ? "lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)]" : ""}`}>
           <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ once: true, margin: "-80px" }} className="lg:sticky lg:top-32 lg:self-start">
             <motion.h2 variants={item} className="text-section font-semibold tracking-tight text-ink">
-              {t.before}{t.accent && <span className="text-brand">{t.accent}</span>}{t.after}
+              {t.before}{t.accent && <span className="text-accent-word">{t.accent}</span>}{t.after}
             </motion.h2>
             {html.map((h, i) => <motion.div key={i} variants={item} className="prose-carmel mt-5 max-w-md text-base leading-relaxed text-muted-foreground" dangerouslySetInnerHTML={{ __html: h }} />)}
             <motion.div variants={item} className="mt-10 max-w-md divide-y divide-brand-line overflow-hidden rounded-3xl bg-brand-soft">

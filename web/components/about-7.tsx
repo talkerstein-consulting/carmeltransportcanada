@@ -28,7 +28,7 @@ export default function About7({ title, people }: { title: Heading; people: Pers
       <div className="mx-auto w-full max-w-[1400px]">
         <motion.h2 initial={{ opacity: 0, y: 14 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}
           className="text-section max-w-2xl font-semibold tracking-tight text-ink">
-          {t.before}{t.accent && <span className="text-brand">{t.accent}</span>}{t.after}
+          {t.before}{t.accent && <span className="text-accent-word">{t.accent}</span>}{t.after}
         </motion.h2>
 
         <ul className="mt-10 grid grid-cols-1 gap-5 sm:mt-14 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4">

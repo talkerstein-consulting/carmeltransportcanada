@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/site/link";
 import { MessageSquare, Phone } from "lucide-react";
 import { OFFICE } from "@/lib/content";
 

@@ -98,10 +98,10 @@ export default function Contact2({ eyebrow, title, html, note, form, formTitle, 
               </motion.div>
             ) : (
               <div>
-                {eyebrow && <p className="text-sm font-semibold uppercase text-brand">{eyebrow}</p>}
+                {eyebrow && <p className="text-sm font-semibold uppercase text-eyebrow">{eyebrow}</p>}
                 <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }}
                   className="mb-5 mt-4 text-3xl font-semibold leading-[1.1] tracking-tight text-ink sm:text-5xl">
-                  {t.before}{t.accent && <span className="text-brand">{t.accent}</span>}{t.after}
+                  {t.before}{t.accent && <span className="text-accent-word">{t.accent}</span>}{t.after}
                 </motion.h2>
                 {html && <div className="prose-carmel max-w-md text-base leading-relaxed text-muted-foreground sm:text-lg" dangerouslySetInnerHTML={{ __html: html }} />}
               </div>

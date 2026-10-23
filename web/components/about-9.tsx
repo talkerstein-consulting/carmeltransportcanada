@@ -2,7 +2,7 @@
 
 // React Bits Pro about-9 (mission statement with a film card), used for Carmel's mission + film and for text-with-photo sections.
 import { useRef, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/site/link";
 import { motion, useReducedMotion, type Variants } from "motion/react";
 import { ArrowRight, Play } from "lucide-react";
 import type { Btn, Heading, Img } from "@/lib/content";
@@ -25,9 +25,9 @@ export default function About9({ eyebrow, title, html = [], buttons = [], image,
       <motion.div variants={container} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-80px" }} className="mx-auto w-full max-w-[1400px]">
         <div className={center ? "mx-auto max-w-4xl text-center" : "grid grid-cols-1 gap-6 lg:grid-cols-[1.2fr_1fr] lg:items-end lg:gap-16"}>
           <div>
-            {eyebrow && <motion.p variants={item} className="text-sm font-semibold uppercase text-brand">{eyebrow}</motion.p>}
+            {eyebrow && <motion.p variants={item} className="text-sm font-semibold uppercase text-eyebrow">{eyebrow}</motion.p>}
             <motion.h2 variants={item} className="text-section mt-4 font-semibold tracking-[-0.02em] text-ink">
-              {t.before}{t.accent && <span className="text-brand">{t.accent}</span>}{t.after}
+              {t.before}{t.accent && <span className="text-accent-word">{t.accent}</span>}{t.after}
             </motion.h2>
           </div>
           <div>

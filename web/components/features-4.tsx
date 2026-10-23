@@ -1,7 +1,7 @@
 "use client";
 
 // React Bits Pro features-4 (auto-cycling tabs with feature lists), carrying the /services/ overview tabs.
-import Link from "next/link";
+import Link from "@/components/site/link";
 import { motion, AnimatePresence, useReducedMotion } from "motion/react";
 import { useState, useEffect, useRef } from "react";
 import { ArrowRight } from "lucide-react";

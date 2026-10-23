@@ -6,6 +6,7 @@ import { motion, AnimatePresence, useMotionValue, useReducedMotion, useSpring } 
 import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 import type { Heading } from "@/lib/content";
 import { plain, splitAccent } from "@/lib/content";
+import { useSite } from "@/lib/site";
 
 type Review = { html: string; name: string };
 const DELAY = 10; // seconds per review
@@ -19,6 +20,7 @@ export function SocialProof8({ eyebrow, title, reviews }: { eyebrow?: string; ti
   const reduced = useReducedMotion();
   const containerRef = useRef<HTMLDivElement>(null);
   const t = splitAccent(title);
+  const classic = useSite().site === "classic";
 
   const mouseX = useMotionValue(0);
   const mouseY = useMotionValue(0);
@@ -49,17 +51,20 @@ export function SocialProof8({ eyebrow, title, reviews }: { eyebrow?: string; ti
     <section className="w-full overflow-hidden bg-brand-soft/60 px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24" aria-roledescription="carousel" aria-label="Client testimonials">
       <div className="mx-auto w-full max-w-[1400px]">
         <div className="mb-10 max-w-2xl sm:mb-14">
-          {eyebrow && <p className="text-sm font-semibold uppercase text-brand">{eyebrow}</p>}
+          {eyebrow && <p className="text-sm font-semibold uppercase text-eyebrow">{eyebrow}</p>}
           <h2 className="text-section mt-4 font-semibold tracking-tight text-ink">
-            {t.before}{t.accent && <span className="text-brand">{t.accent}</span>}{t.after}
+            {t.before}{t.accent && <span className="text-accent-word">{t.accent}</span>}{t.after}
           </h2>
         </div>
 
-        <div ref={containerRef} className="relative cursor-none select-none rounded-3xl bg-white p-6 shadow-[0_24px_60px_-32px_rgba(19,32,52,0.35)] sm:p-10"
-          onClick={() => go(1)} onMouseEnter={() => setIsHovering(true)} onMouseLeave={() => setIsHovering(false)} onMouseMove={handleMouseMove}
+        {/* Classic: a white review card on navy with a normal cursor; it advances with the arrow buttons only.
+            The redesign keeps the block's "Next" cursor and click-anywhere-to-advance. */}
+        <div ref={containerRef} className={`relative rounded-3xl bg-white p-6 shadow-[0_24px_60px_-32px_rgba(19,32,52,0.35)] sm:p-10 ${classic ? "tone-light [&_blockquote]:italic" : "cursor-none select-none"}`}
+          onClick={classic ? undefined : () => go(1)} onMouseEnter={() => setIsHovering(true)} onMouseLeave={() => setIsHovering(false)}
+          onMouseMove={classic ? undefined : handleMouseMove}
           onFocus={() => setPaused(true)} onBlur={() => setPaused(false)}>
           <AnimatePresence>
-            {isHovering && (
+            {isHovering && !classic && (
               <motion.div initial={{ opacity: 0, scale: 0 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 0 }} transition={{ duration: 0.15 }}
                 style={{ translateX: cursorX, translateY: cursorY, position: "absolute", top: -20, left: -40, zIndex: 50 }} className="pointer-events-none" aria-hidden>
                 <div className="flex items-center gap-2 whitespace-nowrap rounded-full bg-sun px-5 py-2 text-sm font-semibold text-ink shadow-xl">Next</div>

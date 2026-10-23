@@ -2,7 +2,7 @@
 
 // React Bits Pro features-13 (accordion list with a preview panel), carrying Carmel's core services.
 import { useEffect, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/site/link";
 import { AnimatePresence, motion } from "motion/react";
 import type { Variants } from "motion/react";
 import { ArrowRight, Check, ChevronDown } from "lucide-react";
@@ -36,7 +36,7 @@ function Preview({ item, index }: { item: ServiceItem; index: number }) {
         <div className="flex items-center gap-3">
           <span className="grid h-10 w-10 place-items-center rounded-lg bg-brand text-white"><Icon className="h-5 w-5" /></span>
           <div className="min-w-0">
-            {item.tag && <p className="text-[11px] font-semibold uppercase text-brand">{item.tag}</p>}
+            {item.tag && <p className="text-[11px] font-semibold uppercase text-eyebrow">{item.tag}</p>}
             <p className="truncate text-sm font-semibold text-ink">{item.title}</p>
           </div>
         </div>
@@ -69,9 +69,9 @@ export function Features13({ eyebrow, title, html = [], items }: { eyebrow?: str
     <section className="w-full bg-mist px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24" id="services">
       <div className="mx-auto w-full max-w-[1400px]">
         <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ once: true, margin: "-80px" }} className="max-w-2xl">
-          {eyebrow && <motion.p variants={fadeUp} className="text-sm font-semibold uppercase text-brand">{eyebrow}</motion.p>}
+          {eyebrow && <motion.p variants={fadeUp} className="text-sm font-semibold uppercase text-eyebrow">{eyebrow}</motion.p>}
           <motion.h2 variants={fadeUp} className="text-section mt-4 font-semibold tracking-tight text-ink">
-            {t.before}{t.accent && <span className="text-brand">{t.accent}</span>}{t.after}
+            {t.before}{t.accent && <span className="text-accent-word">{t.accent}</span>}{t.after}
           </motion.h2>
           {html.map((h, i) => (
             <motion.div key={i} variants={fadeUp} className="prose-carmel mt-5 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg" dangerouslySetInnerHTML={{ __html: h }} />

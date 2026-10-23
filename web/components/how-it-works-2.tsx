@@ -2,7 +2,7 @@
 
 // React Bits Pro how-it-works-2 (step cards with a hover state), carrying a service's three reasons to choose Carmel.
 import { useState } from "react";
-import Link from "next/link";
+import Link from "@/components/site/link";
 import { motion } from "motion/react";
 import { ArrowRight } from "lucide-react";
 import type { Btn, Heading, Img } from "@/lib/content";
@@ -20,7 +20,7 @@ export function HowItWorks2({ title, html = [], reasons, image, button }: {
         <div className="mb-10 grid grid-cols-1 items-center gap-8 sm:mb-12 lg:mb-16 lg:grid-cols-2 lg:gap-16">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
             <h2 className="text-section font-semibold tracking-tight text-ink">
-              {t.before}{t.accent && <span className="text-brand">{t.accent}</span>}{t.after}
+              {t.before}{t.accent && <span className="text-accent-word">{t.accent}</span>}{t.after}
             </h2>
             {html.map((h, i) => <div key={i} className="prose-carmel mt-5 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg" dangerouslySetInnerHTML={{ __html: h }} />)}
           </motion.div>

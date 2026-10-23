@@ -13,7 +13,7 @@ export function Features1({ title, items }: { title: Heading; items: string[] })
       <div className="mx-auto max-w-[1400px]">
         <motion.h2 initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }}
           className="text-section mb-12 max-w-3xl font-semibold tracking-tight text-ink md:mb-16">
-          {t.before}{t.accent && <span className="text-brand">{t.accent}</span>}{t.after}
+          {t.before}{t.accent && <span className="text-accent-word">{t.accent}</span>}{t.after}
         </motion.h2>
 
         <ul className="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-2 md:gap-x-8 md:gap-y-10 lg:grid-cols-4">

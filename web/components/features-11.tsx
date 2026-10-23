@@ -3,7 +3,7 @@
 // React Bits Pro features-11 (split headline with indexed cards). Used for intro sections and, with cards,
 // as the side-scrolling "Related Services" row.
 import { useCallback, useEffect, useRef, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/site/link";
 import { motion, useReducedMotion } from "motion/react";
 import type { Variants } from "motion/react";
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
@@ -47,7 +47,7 @@ export function Features11({ title, html = [], buttons = [], cards = [], muted =
         <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ once: true, margin: "-80px" }}
           className="grid grid-cols-1 items-end gap-6 lg:grid-cols-[1.3fr_0.7fr] lg:gap-16">
           <motion.h2 variants={fadeUp} className="text-section max-w-3xl font-semibold tracking-tight text-ink">
-            {t.before}{t.accent && <span className="text-brand">{t.accent}</span>}{t.after}
+            {t.before}{t.accent && <span className="text-accent-word">{t.accent}</span>}{t.after}
           </motion.h2>
           <motion.div variants={fadeUp} className="space-y-6 lg:pb-2">
             {html.map((h, i) => <div key={i} className="prose-carmel max-w-md text-base leading-relaxed text-muted-foreground sm:text-lg" dangerouslySetInnerHTML={{ __html: h }} />)}

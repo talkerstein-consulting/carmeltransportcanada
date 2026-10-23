@@ -42,6 +42,26 @@ const pairs = [
   ['Focus ring', '#3b82ff', C.white, 'ui'],
 ];
 
+// Classic staging variant (live-site look): navy #0D1E4C, gradient to #1E46B2, light cards on navy.
+const N = '#0d1e4c', G = '#1e46b2', steel = '#c3cbe0';
+pairs.push(
+  ['[classic] White text on navy', C.white, N, 'text'],
+  ['[classic] Body text (steel) on navy', steel, N, 'text'],
+  ['[classic] Body text (steel) on gradient end', steel, G, 'text'],
+  ['[classic] White text on gradient end', C.white, G, 'text'],
+  ['[classic] Amber highlights on navy', C.sun, N, 'text'],
+  ['[classic] Amber 24/7 on navy', C.sun, N, 'large'],
+  ['[classic] White text on navy cards', C.white, '#16296a', 'text'],
+  ['[classic] Translucent hero button text', C.white, mix(C.white, 0.15, N), 'text'],
+  ['[classic] Navy text on amber buttons and cards', N, C.sun, 'text'],
+  ['[classic] Nav links on pill', mix(C.ink, 0.8, '#eef2f7'), '#eef2f7', 'text'],
+  ['[classic] Active nav link on pill', C.brandStrong, '#eef2f7', 'text'],
+  ['[classic] White "Since" tag on navy', C.white, N, 'text'],
+  ['[classic] Navy preheader pill on white', N, C.white, 'text'],
+  ['[classic] Blue icons on navy', C.brand, N, 'ui'],
+  ['[classic] Form errors on navy', '#fca5a5', N, 'text'],
+);
+
 const need = { text: 4.5, large: 3, ui: 3 };
 let fails = 0;
 for (const [where, fg, bg, kind] of pairs) {

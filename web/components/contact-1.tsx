@@ -18,7 +18,7 @@ export default function Contact1({ title, html = [], locations }: { title?: Head
           <div className="mb-10 grid grid-cols-1 items-end gap-6 lg:mb-16 lg:grid-cols-[1.3fr_1fr] lg:gap-16">
             <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }}
               className="text-section font-semibold tracking-tight text-ink">
-              {t.before}{t.accent && <span className="text-brand">{t.accent}</span>}{t.after}
+              {t.before}{t.accent && <span className="text-accent-word">{t.accent}</span>}{t.after}
             </motion.h2>
             {html.map((h, i) => <div key={i} className="prose-carmel text-base leading-relaxed text-muted-foreground sm:text-lg" dangerouslySetInnerHTML={{ __html: h }} />)}
           </div>

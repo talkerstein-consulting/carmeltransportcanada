@@ -6,7 +6,8 @@
 
 /* Carmel palette: blue, white, yellow. Navy is text only, never a fill.
    Contrast (AA): white on brand 5.2:1 · ink on sun 10.4:1 · ink on white 16.6:1 · muted on white 7.5:1 */
-@theme inline {
+/* Not "inline": utilities read these as var(--color-…), so a site or a section can redefine them. */
+@theme {
   --color-brand: #2563eb;
   --color-brand-strong: #1d4ed8;
   --color-brand-soft: #eaf2ff;
@@ -17,7 +18,14 @@
   --color-teal: #2b7ea0;
   --color-ink: #132034;
   --color-mist: #f5f8fc;
+  --color-navy: #1b263b;
+  --color-navy-deep: #0d141a;
+  /* Semantic: highlighted words in headings, and preheaders. */
+  --color-accent-word: #2563eb;
+  --color-eyebrow: #2563eb;
+}
 
+@theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-inter);
@@ -111,8 +119,64 @@
   @media (width >= 64rem) { font-size: 3rem; }
 }
 
-/* Two white sections in a row share one gap instead of stacking both paddings. */
-main > section.bg-white + section.bg-white { padding-top: 0; }
+/* Two padded white sections in a row share one gap instead of stacking both paddings.
+   Unpadded strips (the marquee) opt out with .strip so the next section keeps its top padding. */
+main > section.bg-white:not(.strip) + section.bg-white { padding-top: 0; }
+
+/* ---------- Classic variant: the live carmeltransport.com look, refined ----------
+   Navy #0D1E4C surfaces and the navy→blue gradient, heavy Inter headings, outlined pill preheaders,
+   amber highlights on dark. Refinements: AA contrast everywhere (navy text on yellow, light steel body
+   text on navy) and the redesign's spacing scale. Unlayered, so these win over Tailwind utilities. */
+[data-site="classic"] {
+  --nav-h: 96px;
+  --color-navy: #0d1e4c;
+  --color-eyebrow: #0d1e4c;
+  --classic-dark: #0d1e4c;
+  --classic-gradient: linear-gradient(194deg, #0d1e4c 58%, #1e46b2 108%);
+}
+[data-site="classic"] h1 { font-weight: 900; letter-spacing: -0.02em; }
+[data-site="classic"] h2 { font-weight: 800; }
+[data-site="classic"] .text-eyebrow {
+  display: inline-flex; align-items: center; gap: .5rem;
+  padding: .45rem .95rem; border: 1.5px solid currentColor; border-radius: 999px;
+  font-size: .75rem; letter-spacing: .14em;
+}
+/* Dark sections: tokens flip so every block reads light-on-navy. */
+[data-site="classic"] [data-tone="dark"] {
+  --color-ink: #ffffff;
+  --muted-foreground: #c3cbe0;     /* 10.4:1 on #0D1E4C */
+  --color-accent-word: #ffb701;    /* 9.9:1 */
+  --color-eyebrow: #ffffff;
+  --color-mist: #16296a;
+  --color-brand-soft: #1a3178;
+  --color-brand-line: rgb(255 255 255 / 0.16);
+  --border: rgb(255 255 255 / 0.14);
+  color: #fff;
+}
+[data-site="classic"] [data-tone="dark"] > section,
+[data-site="classic"] section[data-tone="dark"] { background: var(--classic-dark) !important; }
+/* Back-to-back navy sections (Difference → Testimonials) share one gap. */
+[data-site="classic"] [data-tone="dark"] + [data-tone="dark"] > section { padding-top: 0; }
+[data-site="classic"] section[data-tone="dark"][data-gradient],
+[data-site="classic"] footer[data-tone="dark"] { background: var(--classic-gradient) !important; }
+[data-site="classic"] [data-tone="dark"] .prose-carmel strong,
+[data-site="classic"] [data-tone="dark"] .prose-carmel a { color: #fff; }
+/* Light cards inside a dark section switch the tokens back. */
+[data-site="classic"] [data-tone="dark"] .tone-light {
+  --color-ink: #0d1e4c;
+  --muted-foreground: #4a5568;
+  --color-accent-word: #2563eb;
+  --color-eyebrow: #0d1e4c;
+  --color-mist: #f5f8fc;
+  --color-brand-soft: #eaf2ff;
+  --color-brand-line: #cfe0ff;
+  --border: #e3eaf3;
+  color: #0d1e4c;
+}
+[data-site="classic"] [data-tone="dark"] .text-destructive { color: #fca5a5; }
+[data-site="classic"] footer[data-tone="dark"] a:not(.bg-brand):hover { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
+/* Yellow always carries navy text (the live site's white-on-yellow is 1.9:1). */
+[data-site="classic"] .bg-sun { color: #0d1e4c; }
 
 /* Rich text that came from the original pages. */
 @layer components {

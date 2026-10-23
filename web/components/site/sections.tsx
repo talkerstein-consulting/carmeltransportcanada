@@ -18,6 +18,7 @@ import { Features4 } from "@/components/features-4";
 import { Features11 } from "@/components/features-11";
 import { Hero14 } from "@/components/hero-14";
 import Showcase4 from "@/components/showcase-4";
+import { baseOf, type SiteId } from "@/lib/site-config";
 
 // Each service page gets its own hero photo, none of which repeats a photo used further down that page.
 const SERVICE_HERO: Record<string, { src: string; w: number; h: number; alt: string }> = {
@@ -40,11 +41,21 @@ function crumbsFor(route: string, page: Page) {
   return [{ text: "Home", href: "/" }, ...parent, { text: pageName(route, page) }];
 }
 
-export function Sections({ route, page }: { route: string; page: Page }) {
+// Internal links inside the original copy point into the variant being viewed.
+function rebase<T>(value: T, base: string): T {
+  if (!base) return value;
+  return JSON.parse(JSON.stringify(value).replace(/href=\\"\/(?!wp-content\/)/g, `href=\\"${base}/`)) as T;
+}
+
+export function Sections({ route, page: original, site: variant = "redesign" }: { route: string; page: Page; site?: SiteId }) {
+  const classic = variant === "classic";
+  const page = rebase(original, baseOf(variant));
   const crumbs = crumbsFor(route, page);
   const isService = servicesNav.sub.some((s) => s.href === route);
   const s = page.sections;
   const out: React.ReactNode[] = [];
+  // Classic follows the live site: The Carmel Difference and the testimonials sit on navy.
+  const dark = (node: React.ReactNode, key: string) => (classic ? <div key={key} data-tone="dark">{node}</div> : node);
 
   // Pages whose original had no h1 (About, Equipment) open with a hero built from their first section or name.
   const first = s[0];
@@ -62,7 +73,8 @@ export function Sections({ route, page }: { route: string; page: Page }) {
         out.push(
           <Hero1 key={key} variant={route === "/" ? "home" : "page"} eyebrow={sec.eyebrow} title={sec.title} subs={sec.subs} html={sec.html}
             buttons={sec.buttons} crumbs={crumbs}
-            image={route === "/" ? undefined : isService ? SERVICE_HERO[route] : sec.image} video={route === "/" ? FILM : undefined} />,
+            image={route === "/" ? (classic ? sec.image : undefined) : isService ? SERVICE_HERO[route] : sec.image}
+            video={route === "/" && !classic ? FILM : undefined} />,
         );
         break;
       case "trust":
@@ -81,10 +93,10 @@ export function Sections({ route, page }: { route: string; page: Page }) {
         if (!(route === "/about/" && about)) out.push(<Stats10 key={key} stats={sec.stats} />);
         break;
       case "difference":
-        out.push(<Features12 key={key} eyebrow={sec.eyebrow} title={sec.title} html={sec.html} button={sec.button} highlight={sec.highlight} items={sec.items} />);
+        out.push(dark(<Features12 key={key} eyebrow={sec.eyebrow} title={sec.title} html={sec.html} button={sec.button} highlight={sec.highlight} items={sec.items} />, key));
         break;
       case "testimonials":
-        out.push(<SocialProof8 key={key} eyebrow={sec.eyebrow} title={sec.title} reviews={sec.reviews} />);
+        out.push(dark(<SocialProof8 key={key} eyebrow={sec.eyebrow} title={sec.title} reviews={sec.reviews} />, key));
         break;
       case "services":
         out.push(<Features13 key={key} eyebrow={sec.eyebrow} title={sec.title} html={sec.html} items={sec.cards} />);

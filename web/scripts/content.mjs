@@ -212,6 +212,8 @@ for await (const [rel, file] of pages(SITE)) {
   console.log(rel, page.sections.map(s => s.kind).join(', '));
 }
 
+// The live site's yellow arch (used by the Classic staging variant's hero).
+asset('/wp-content/uploads/2026/06/circe-home.png');
 // The faded reach stacker that sat behind "The Carmel Difference" (used as the bento's duotone).
 asset('/wp-content/uploads/2026/05/background-transportation.png');
 // ...the side-on truck photo (a service-page hero) and the film (home hero).
