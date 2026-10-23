@@ -3,3 +3,7 @@
 site.tmp/
 site.old/
 __pycache__/
+node_modules/
+dist/
+.env*.local
+.env

@@ -1,0 +1,126 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* Carmel palette: blue, white, yellow. Navy is text only, never a fill.
+   Contrast (AA): white on brand 5.2:1 · ink on sun 10.4:1 · ink on white 16.6:1 · muted on white 7.5:1 */
+@theme inline {
+  --color-brand: #2563eb;
+  --color-brand-strong: #1d4ed8;
+  --color-brand-soft: #eaf2ff;
+  --color-brand-line: #cfe0ff;
+  --color-sun: #ffb701;
+  --color-sun-strong: #e2a200;
+  --color-sun-soft: #fff4d6;
+  --color-teal: #2b7ea0;
+  --color-ink: #132034;
+  --color-mist: #f5f8fc;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-inter);
+  --font-display: var(--font-inter);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  /* One radius scale: controls 8, small containers 12, cards 20 (8 + 12px padding), pills/circles for chips and avatars. */
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+  --radius-xl: 1.25rem;
+  --radius-2xl: 1.25rem;
+  --radius-3xl: 1.75rem;
+  --radius-4xl: 2rem;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #132034;
+  --card: #ffffff;
+  --card-foreground: #132034;
+  --popover: #ffffff;
+  --popover-foreground: #132034;
+  --primary: #2563eb;
+  --primary-foreground: #ffffff;
+  --secondary: #eaf2ff;
+  --secondary-foreground: #1d4ed8;
+  --muted: #f5f8fc;
+  --muted-foreground: #4a5568;
+  --accent: #fff4d6;
+  --accent-foreground: #132034;
+  --destructive: #b91c1c;
+  --border: #e3eaf3;
+  --input: #7b8798; /* form field underline: 3.6:1 on white (WCAG 1.4.11) */
+  --ring: #3b82ff;
+  --radius: 0.75rem;
+  /* Height of the sticky navbar slot; heroes pull up by this much so their colour runs to the top of the page. */
+  --nav-h: 74px;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+  h1, h2, h3 {
+    font-family: var(--font-inter), system-ui, sans-serif;
+    text-wrap: balance;
+  }
+  ::selection {
+    background: var(--color-sun);
+    color: var(--color-ink);
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-brand);
+    outline-offset: 3px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+  }
+}
+
+/* One size for every section heading: 30 / 36 / 48px. */
+@utility text-section {
+  font-size: 1.875rem;
+  line-height: 1.1;
+  @media (width >= 40rem) { font-size: 2.25rem; }
+  @media (width >= 64rem) { font-size: 3rem; }
+}
+
+/* Two white sections in a row share one gap instead of stacking both paddings. */
+main > section.bg-white + section.bg-white { padding-top: 0; }
+
+/* Rich text that came from the original pages. */
+@layer components {
+  .prose-carmel > * + * { margin-top: .85em; }
+  .prose-carmel a { color: var(--color-brand); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+  .prose-carmel strong { font-weight: 600; color: var(--color-ink); }
+  .prose-carmel ul { display: grid; gap: .5rem; }
+  .prose-carmel li { position: relative; padding-left: 1.5rem; }
+  .prose-carmel li::before { content: ""; position: absolute; left: 0; top: .55em; width: .55rem; height: .55rem; border-radius: 999px; background: var(--color-sun); }
+  .on-brand .prose-carmel strong, .on-brand .prose-carmel a { color: #fff; }
+}

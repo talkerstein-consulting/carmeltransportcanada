@@ -6,6 +6,25 @@ A copy of https://carmeltransport.com/, captured on 2026-10-16.
 - `tools/build.py`: rebuilds `site/` from `mirror/` (`python3 tools/build.py`; needs `pngquant` and `jpegoptim`).
 - `site/`: the deployable static site. Preview it with `python3 -m http.server 4791 --directory site`.
 
+## Redesign (`dist/`)
+Same text, colours and photos as `site/`, rebuilt on one component system. Layout, buttons, icons and interactions are new.
+
+```
+npm install
+npm run build                                   # site/ -> dist/
+python3 -m http.server 4792 --directory dist    # http://localhost:4792
+```
+
+- `tools/redesign/extract.mjs` reads each Elementor page into a block tree (headings, text, images, buttons, stats, lists, forms, FAQ).
+- `tools/redesign/build.mjs` recognises each section (hero, about, services, FAQ, quote form…) and renders it with the new templates.
+- `tools/redesign/assets/` holds `styles.css` (tokens, components) and `main.js` (interactions).
+- Icons are [Lucide](https://lucide.dev) (`lucide-static`), inlined as one SVG sprite per page.
+- Corner radii use one scale: 4 / 8 / 12 / 20px. Controls and icon tiles are 8px, cards 20px (8px + 12px padding, so tiles sit concentric). Wrappers hugging a control get inner radius + padding. Pills are for status and filter chips only.
+- Interactions: services mega menu, mobile drawer, sticky Call / Request Quote bar on phones, accessible tabs, FAQ accordion, review carousel, equipment filter, stat count-up, inline form validation.
+- Fixed along the way: dead `#` buttons now go to `/contact/` or the office phone; the footer "Refrigerated…" link pointed to the shipping page; team phone extensions are dialable (`tel:+19056607272,223`).
+- Forms still need a backend (see Known limitations). On a valid submit they show the office number and quotes email.
+- `vercel.json` still serves `site/`. Point it at `dist/` to deploy the redesign.
+
 ## Pages (URLs unchanged)
 `/`, `/services/`, `/about/`, `/contact/`, `/equipment/`, `/work-for-us/`, `/booking-search/`,
 `/shipping-container-moving-services/`, `/import-and-export-container-transportation/`,

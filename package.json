@@ -1,0 +1,13 @@
+{
+  "name": "carmeltransportcanada",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node tools/redesign/build.mjs",
+    "serve": "node tools/redesign/serve.mjs 4792 dist"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0",
+    "lucide-static": "^1.61.0"
+  }
+}

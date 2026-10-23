@@ -1,0 +1,2405 @@
+{
+  "site": {
+    "brands": [
+      {
+        "src": "/wp-content/uploads/2026/05/logo-carmel-big.png",
+        "href": "/",
+        "since": "Since 1995"
+      },
+      {
+        "src": "/wp-content/uploads/2026/05/carmel-logo-transparent.png",
+        "href": "https://www.carmel-usa.com/en",
+        "since": "Since 2022"
+      }
+    ],
+    "nav": [
+      {
+        "text": "Home",
+        "href": "/",
+        "sub": []
+      },
+      {
+        "text": "Services",
+        "href": "/services/",
+        "sub": [
+          {
+            "text": "Import and Export Container Transport",
+            "href": "/import-and-export-container-transportation/"
+          },
+          {
+            "text": "Shipping Container Transport Services",
+            "href": "/shipping-container-moving-services/"
+          },
+          {
+            "text": "Refrigerated Container Transport and Storage",
+            "href": "/refrigerated-container-transport-and-storage/"
+          },
+          {
+            "text": "Bonded and In-Bond Container Transport",
+            "href": "/bonded-and-in-bond-container-transport/"
+          },
+          {
+            "text": "Secure Container Storage Facility",
+            "href": "/secure-container-storage-facility/"
+          }
+        ]
+      },
+      {
+        "text": "Work for Us",
+        "href": "/work-for-us/",
+        "sub": []
+      },
+      {
+        "text": "Equipment",
+        "href": "/equipment/",
+        "sub": []
+      },
+      {
+        "text": "About",
+        "href": "/about/",
+        "sub": []
+      },
+      {
+        "text": "Request Quote",
+        "href": "/contact/",
+        "sub": []
+      }
+    ],
+    "footer": {
+      "blurb": "<p>Leading Provider of Drayage Services. Open 24 / 7 / 365. Nationwide.</p>",
+      "logo": "/wp-content/uploads/2026/05/carmel-logo.png",
+      "columns": [
+        {
+          "title": "Services",
+          "html": "<ul><li><a href=\"/import-and-export-container-transportation/\">Import and Export Container</a></li><li><a href=\"/shipping-container-moving-services/\">Transport Shipping Container Services</a> </li><li><a href=\"/shipping-container-moving-services/\">Refrigerated Container Transport and Storage</a></li><li><a href=\"/bonded-and-in-bond-container-transport/\">Bonded and In-Bond Container Transport</a></li><li><a href=\"/secure-container-storage-facility/\">Secure Container Storage Facility</a></li></ul>"
+        },
+        {
+          "title": "Company",
+          "html": "<ul><li><a href=\"/services/\">Services</a></li><li><a href=\"/work-for-us/\">Work for Us</a></li><li><a href=\"/equipment/\">Equipment</a></li><li><a href=\"/about/\">About</a></li><li><a href=\"/contact/\">Request Quote</a></li></ul>"
+        },
+        {
+          "title": "Contact",
+          "html": "<p>HEAD OFFICE </p><p>18-25 North Rivermede,<br>Concord, ON, Canada L4K 5V4</p> <ul> <li>Office: <a href=\"tel:+19056607272\">(905) 660-7272</a></li> <li>Fax: (905) 660-5822</li> </ul>"
+        }
+      ],
+      "bottom": [
+        "© 2026 Carmel Transport. All Rights Reserved.",
+        "Privacy Policy Terms of Service"
+      ]
+    }
+  },
+  "pages": {
+    "/about/": {
+      "title": "About - Carmel Transport",
+      "meta": {
+        "description": "Carmel Transport brings over 30 years of drayage transport experience across Canada and USA. Our company was founded on the principles of reliability and",
+        "og:locale": "en_US",
+        "og:type": "article",
+        "og:title": "About - Carmel Transport",
+        "og:description": "Carmel Transport brings over 30 years of drayage transport experience across Canada and USA. Our company was founded on the principles of reliability and",
+        "og:url": "https://carmeltransport.com/about/",
+        "og:site_name": "Carmel Transport",
+        "og:updated_time": "2026-07-02T18:16:36+00:00",
+        "og:image": "/wp-content/uploads/2026/06/elipse-blue-carmel.png",
+        "og:image:secure_url": "/wp-content/uploads/2026/06/elipse-blue-carmel.png",
+        "og:image:width": "973",
+        "og:image:height": "792",
+        "og:image:alt": "About",
+        "og:image:type": "image/png"
+      },
+      "canonical": "https://carmeltransport.com/about/",
+      "sections": [
+        {
+          "kind": "about",
+          "anchor": "carmel",
+          "eyebrow": "About Carmel Transport",
+          "title": {
+            "text": "Drayage Transport You Can Count On",
+            "accent": "You Can Count On"
+          },
+          "html": [
+            "<p><strong>Carmel Transport</strong> brings over <strong>30 years of drayage transport</strong> experience across Canada and USA. Our company was founded on the principles of reliability and on-time delivery values that continue to drive every shipping container we handle today.</p><p>Our team provides reliable drayage service from <strong>ports and rail terminals to warehouses and distribution</strong> centers. From import, export ,reefers, dry, In‑bond freight and storage, we manage the transport flow, so your supply chain keeps running.</p><p>With strategically located <strong>secured container storage Yards,</strong> you get a transport service for container drayage &amp; storage together with final delivery.</p>"
+          ],
+          "points": [
+            "Bonded Trucker",
+            "Use high security bolt seals for Exports",
+            "Secured Yard 24x7x365 Monitoring",
+            "Container Storage"
+          ],
+          "stats": [],
+          "video": "/wp-content/uploads/2026/05/Carmel-Transport-Video.mp4"
+        },
+        {
+          "kind": "stats",
+          "stats": [
+            {
+              "prefix": "",
+              "num": "300",
+              "to": 300,
+              "suffix": "",
+              "label": "Power Units"
+            },
+            {
+              "prefix": "",
+              "num": "800",
+              "to": 800,
+              "suffix": "+",
+              "label": "Chassis Fleet"
+            },
+            {
+              "prefix": "",
+              "num": "30",
+              "to": 30,
+              "suffix": "+ yrs",
+              "label": "Industry Experience"
+            },
+            {
+              "prefix": "",
+              "num": "5",
+              "to": 5,
+              "suffix": "",
+              "label": "Hightly Secured Yards"
+            }
+          ]
+        },
+        {
+          "kind": "difference",
+          "eyebrow": "Why Choose Carmel?",
+          "title": {
+            "text": "The Carmel Difference",
+            "accent": "Difference"
+          },
+          "html": [
+            "<p>A trusted logistics leader offering flexible and affordable solutions for large import and export container volumes. Our dedicated team oversees each shipment 24/7.</p>"
+          ],
+          "button": {
+            "text": "Get started today",
+            "href": "/contact/"
+          },
+          "highlight": {
+            "value": "24/7",
+            "text": "Live container tracking and customer support — every day of the year"
+          },
+          "items": [
+            {
+              "title": "Why Shippers Choose Carmel Transport",
+              "html": "<p>Carmel Transport combines intermodal transportation expertise, reliable container transport and warehousing and distribution support to give shippers a single, dependable logistics solution across Canada.</p>"
+            },
+            {
+              "title": "Container trucking company you can rely on",
+              "html": "<p>As a dedicated container trucking company, we handle shipping container movers, sea can movers and shipping container moving companies–type work with the equipment, chassis and driver capacity needed for busy intermodal corridors.</p>"
+            },
+            {
+              "title": "Secure shipping containers shipping and storage",
+              "html": "<p>From day‑to‑day shipping containers shipping to long‑term container moving and storage, our secured yards and cargo container movers help protect your freight while it waits for rail, transloading or final delivery.</p>"
+            },
+            {
+              "title": "Safety‑first, certified logistics solutions",
+              "html": "<p>As a Canada Customs bonded trucking company with C‑TPAT and PIP certifications, in‑house safety and 24/7 dispatch, Carmel delivers compliant, worry‑free logistics solutions for intermodal freight containers across Canada.</p>"
+            }
+          ]
+        },
+        {
+          "kind": "mission",
+          "title": {
+            "text": "Mission Statement",
+            "accent": "Statement"
+          },
+          "html": "<p>Our goal is to be safe. Safety above all! The secondary goal is to deliver your container in a timely fashion, keeping the load safe and secure, while charging the lowest amount of money. We understand the need to save every penny these days.</p>"
+        },
+        {
+          "kind": "media",
+          "image": {
+            "src": "/wp-content/uploads/2026/06/Group-34.png",
+            "w": 800,
+            "h": 324,
+            "alt": ""
+          }
+        },
+        {
+          "kind": "team",
+          "title": {
+            "text": "Our Management Team",
+            "accent": "Team"
+          },
+          "people": [
+            {
+              "name": "Robert Volfson",
+              "role": "President",
+              "text": "Office: 1- 905-660-7272 Ext. 223 robert@carmeltransport.com"
+            },
+            {
+              "name": "Liran Bartal",
+              "role": "General Manager",
+              "text": "Office: 1- 905-660-7272 Ext. 226 Mobile: 1- 647-339-5439 gm@carmeltransport.com"
+            },
+            {
+              "name": "Jag Dhanjal",
+              "role": "Chief Operations Officer",
+              "text": "Office: 905-660-7272 Ext. 256 Mobile: 1- 647-856-6260 jag@carmeltransport.com"
+            },
+            {
+              "name": "Orna Sason",
+              "role": "Accounting Manager",
+              "text": "Office: 1- 905-660-7272 Ext. 222 accounting@carmeltransport.com"
+            },
+            {
+              "name": "Claudia Corpade",
+              "role": "Toronto Office Manager",
+              "text": "Office: 1- 905-660-7272 Ext. 252 claudia@carmeltransport.com"
+            },
+            {
+              "name": "Ellen Andrews",
+              "role": "Safety and Compliance Manager",
+              "text": "Office: 1- 905-660-7272 Ext. 251 safety2@carmeltransport.com"
+            },
+            {
+              "name": "Golam Farhad",
+              "role": "Toronto Operations Manager",
+              "text": "Office: 1- 905-660-7272 Ext. 231 operations@carmeltransport.com"
+            },
+            {
+              "name": "Anna Kuznetsova",
+              "role": "Montreal Operations Manager",
+              "text": "Office: 1- 514-365-9111 Ext. 117 Mobile: 1- 514-609-5878 mtloperations@carmeltransport.com"
+            },
+            {
+              "name": "Navjot Singh",
+              "role": "Calgary Operations Manager",
+              "text": "Office: 1- 403-236-8177 Ext. 504 Mobile: 1- 403-869-6127 cwoperations@carmeltransport.com"
+            },
+            {
+              "name": "Seby Uthup",
+              "role": "Edmonton Operations Manager",
+              "text": "Office: 1- 780-652-0400 Ext. 280 Mobile: 1- 780-224-1548 edmonton@carmeltransport.com"
+            },
+            {
+              "name": "Alexander Goveas",
+              "role": "Sales Manager",
+              "text": "Office: 1- 416-618-8458 sales@carmeltransport.com"
+            },
+            {
+              "name": "Dispatch Manager",
+              "role": "Toronto Dispatch Manager",
+              "text": "Office: 1- 905-660-7272 Ext. 245"
+            }
+          ]
+        },
+        {
+          "kind": "locations",
+          "title": {
+            "text": "Container Transport and Logistics Services Across Canada and North America.",
+            "accent": "Across Canada and North America."
+          },
+          "html": [
+            "<p>Carmel supports shippers through offices in Ontario, Quebec, Calgary and Edmonton, providing container transport across key Canadian corridors and into major North American destinations.</p>"
+          ],
+          "locations": [
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/ontario.png",
+                "w": 222,
+                "h": 75,
+                "alt": ""
+              },
+              "city": "Toronto",
+              "lines": [
+                "<p>Head office and major operations serving key Canadian and cross-border lanes</p>"
+              ]
+            },
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/Montreal.png",
+                "w": 223,
+                "h": 75,
+                "alt": ""
+              },
+              "city": "Montreal",
+              "lines": [
+                "<p>Montreal-area container transport and storage support for Eastern Canada</p>"
+              ]
+            },
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/Calgary.png",
+                "w": 222,
+                "h": 75,
+                "alt": ""
+              },
+              "city": "Calgary",
+              "lines": [
+                "<p>Western Canada container transport hub for rail and over-the-road moves</p>"
+              ]
+            },
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/Edmonton.png",
+                "w": 222,
+                "h": 75,
+                "alt": ""
+              },
+              "city": "Edmonton",
+              "lines": [
+                "<p>Regional operations supporting Northern and Western Canadian routes</p>"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "/bonded-and-in-bond-container-transport/": {
+      "title": "In‑Bond and Bonded Container Transport Canada–US | Carmel",
+      "meta": {
+        "description": "Need In‑Bond and Bonded Container Transport Canada–US? Carmel secures smooth customs and container moves. Request your quote today.",
+        "og:locale": "en_US",
+        "og:type": "article",
+        "og:title": "In‑Bond and Bonded Container Transport Canada–US | Carmel",
+        "og:description": "Need In‑Bond and Bonded Container Transport Canada–US? Carmel secures smooth customs and container moves. Request your quote today.",
+        "og:url": "https://carmeltransport.com/bonded-and-in-bond-container-transport/",
+        "og:site_name": "Carmel Transport",
+        "og:updated_time": "2026-06-30T18:06:11+00:00",
+        "og:image": "/wp-content/uploads/2026/06/export-service-img-1.png",
+        "og:image:secure_url": "/wp-content/uploads/2026/06/export-service-img-1.png",
+        "og:image:width": "579",
+        "og:image:height": "334",
+        "og:image:alt": "Bonded and In-Bond Container Transport",
+        "og:image:type": "image/png"
+      },
+      "canonical": "https://carmeltransport.com/bonded-and-in-bond-container-transport/",
+      "sections": [
+        {
+          "kind": "hero",
+          "title": {
+            "text": "Bonded and In-Bond Container Transport"
+          },
+          "subs": [],
+          "html": [
+            "<p>Move bonded shipments across the Canada–U.S. border with confidence. Carmel Transport provides <strong>compliant in-bond container transport, complete documentation support, and experienced cross-border execution</strong> for time-sensitive freight</p>"
+          ],
+          "buttons": [
+            {
+              "text": "Move My Bonded Container",
+              "href": "/contact/"
+            }
+          ]
+        },
+        {
+          "kind": "checklist",
+          "title": {
+            "text": "What Our Bonded and In-Bond Transport Service Includes",
+            "accent": "In-Bond Transport Service Includes"
+          },
+          "items": [
+            "Transport support for bonded and in-bond container shipments.",
+            "Preparation of A8A forms for U.S. deliveries.",
+            "Documentation support to obtain required entry numbers.",
+            "ACE and ACI manifest submission for cross-border freight.",
+            "Experienced U.S. driver fleet familiar with border clearance procedures.",
+            "Service coverage for shipments moving into New York, Michigan, Ohio, and Pennsylvania.",
+            "Operational support to keep cross-border container moves compliant and on schedule."
+          ]
+        },
+        {
+          "kind": "split",
+          "title": {
+            "text": "Cross-Border Support for Bonded and In-Bond Container Shipments"
+          },
+          "html": [
+            "<p>Carmel Transport provides compliant, dependable bonded container transport for shipments moving between Canada and the United States.</p><p><strong>Our team coordinates documentation, border requirements, and delivery planning to help keep in-bond freight moving </strong>efficiently from pickup to final destination.</p>"
+          ],
+          "buttons": [],
+          "image": {
+            "src": "/wp-content/uploads/2026/06/export-service-img-1.png",
+            "w": 579,
+            "h": 334,
+            "alt": ""
+          }
+        },
+        {
+          "kind": "why",
+          "title": {
+            "text": "Why Importers Trust Our Bonded Container Transport Service",
+            "accent": "Bonded Container Transport Service"
+          },
+          "html": [
+            "<p>When customs rules are tight and timelines are strict, <strong>importers turn to Carmel’s bonded container transport service for peace of mind.</strong></p>"
+          ],
+          "reasons": [
+            {
+              "title": "Bonded carrier status that matters",
+              "html": "<p>Carmel Transport is a Canada Customs and Excise Bonded Carrier, giving shippers a qualified transport for bonded and in-bond container moves that require close compliance with customs procedures.</p>"
+            },
+            {
+              "title": "Documentation support for cross-border freight",
+              "html": "<p>Our team supports the documentation required for U.S. deliveries, including A8A forms, entry number processing, and ACE and ACI manifest submission, helping reduce border-related delays and paperwork issues.</p>"
+            },
+            {
+              "title": "Experienced execution for U.S. bonded deliveries",
+              "html": "<p>With a U.S. driver fleet experienced in border-clearance procedures, Carmel supports bonded container transport to New York, Michigan, Ohio, and Pennsylvania with reliable cross-border coordination.</p>"
+            }
+          ],
+          "image": {
+            "src": "/wp-content/uploads/2026/06/scale-you-can-rely-on.png",
+            "w": 301,
+            "h": 184,
+            "alt": ""
+          },
+          "button": {
+            "text": "Speak With a Bonded Freight Specialist",
+            "href": "/contact/"
+          }
+        },
+        {
+          "kind": "faq",
+          "title": {
+            "text": "Frequently Asked Questions About Our Bonded and In-Bond Container Transport",
+            "accent": "About Our Bonded and In-Bond Container Transport"
+          },
+          "html": [
+            "<p>Have questions about how bonded container shipments work?</p>"
+          ],
+          "button": {
+            "text": "Contact our team for a fast, personalized answer",
+            "href": "tel:+19056607272"
+          },
+          "items": [
+            {
+              "q": "Does Carmel Transport provide bonded and in-bond container transport?",
+              "a": "<p>Yes. Carmel Transport offers transportation services for bonded shipments as a Canada Customs and Excise Bonded Carrier.</p>"
+            },
+            {
+              "q": "What documentation does Carmel support for bonded shipments?",
+              "a": "<p>Carmel supports A8A forms, entry number processing, and ACE and ACI manifest submission for U.S. deliveries tied to bonded freight movements.</p>"
+            },
+            {
+              "q": "Which destinations does Carmel currently serve for bonded freight?",
+              "a": "<p>Carmel currently serves bonded shipment destinations in New York, Michigan, Ohio, and Pennsylvania.</p>"
+            },
+            {
+              "q": "Why choose a bonded carrier for cross-border container transport?",
+              "a": "<p>Bonded and in-bond shipments require compliant handling, accurate documentation, and experienced border coordination. Carmel supports all three as part of its bonded freight service offering.</p>"
+            }
+          ]
+        },
+        {
+          "kind": "quote",
+          "eyebrow": "Request a Quote",
+          "title": {
+            "text": "Ready to move your containers?",
+            "accent": "containers?"
+          },
+          "html": "<p>Precise quotes, no hidden fees. Our team will get back to you within hours. Open 24/7/365 for your calls and inquiries.</p>",
+          "note": "<p>Or email us directly: <a href=\"mailto:quotes@carmeltransport.com\">quotes@carmeltransport.com</a></p>",
+          "form": {
+            "name": "New Form",
+            "fields": [
+              {
+                "kind": "input",
+                "type": "text",
+                "name": "form_fields[name]",
+                "label": "Company name",
+                "required": false,
+                "options": []
+              },
+              {
+                "kind": "input",
+                "type": "email",
+                "name": "form_fields[email]",
+                "label": "Email address",
+                "required": true,
+                "options": []
+              },
+              {
+                "kind": "select",
+                "type": "text",
+                "name": "form_fields[field_567d90f]",
+                "label": "Service Type",
+                "required": false,
+                "options": [
+                  "Service type",
+                  "Import and export container transportation",
+                  "Shipping Container Moving Services",
+                  "Bonded and In-Bond container transport",
+                  "Refrigerated container transport and storage",
+                  "Secure container storage facility"
+                ]
+              },
+              {
+                "kind": "submit",
+                "label": "",
+                "options": [],
+                "text": "Request Free Quote"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "related",
+          "title": {
+            "text": "Related Services Solutions",
+            "accent": "Solutions"
+          },
+          "card": {
+            "tag": "Core Service",
+            "title": "Drayage",
+            "html": "<p>We provide a full range of asset- based drayage and full transload services. From port to warehouse, rail terminal to distribution center — we move your containers efficiently and reliably.</p>",
+            "list": [
+              "20', 40', 45' container sizes",
+              "Dry, overweight, open top, flat rack",
+              "Port & rail terminal operations"
+            ],
+            "button": {
+              "text": "Request a Quote",
+              "href": "/contact/"
+            }
+          },
+          "image": {
+            "src": "/wp-content/uploads/2026/05/container-carousel.png",
+            "w": 1451,
+            "h": 440,
+            "alt": ""
+          }
+        }
+      ]
+    },
+    "/booking-search/": {
+      "title": "Booking Search - Carmel Transport",
+      "meta": {
+        "description": "Please use the fields below to track the status of your container with us. You track your container by using either the container number or the booking number",
+        "og:locale": "en_US",
+        "og:type": "article",
+        "og:title": "Booking Search - Carmel Transport",
+        "og:description": "Please use the fields below to track the status of your container with us. You track your container by using either the container number or the booking number",
+        "og:url": "https://carmeltransport.com/booking-search/",
+        "og:site_name": "Carmel Transport",
+        "og:updated_time": "2026-06-26T16:34:40+00:00",
+        "og:image": "/wp-content/uploads/2026/06/image-container-tracker.png",
+        "og:image:secure_url": "/wp-content/uploads/2026/06/image-container-tracker.png",
+        "og:image:width": "281",
+        "og:image:height": "384",
+        "og:image:alt": "Booking Search",
+        "og:image:type": "image/png"
+      },
+      "canonical": "https://carmeltransport.com/booking-search/",
+      "sections": [
+        {
+          "kind": "booking",
+          "title": "Container/Booking Tracker",
+          "html": "<p>Please use the fields below to track the status of your container with us. You track your container by using either the container number or the booking number provided to you. </p>",
+          "image": {
+            "src": "/wp-content/uploads/2026/06/image-container-tracker.png",
+            "w": 281,
+            "h": 384,
+            "alt": ""
+          }
+        }
+      ]
+    },
+    "/contact/": {
+      "title": "Contact - Carmel Transport",
+      "meta": {
+        "description": "Contact Carmel Transport today to learn more about how we can serve your container transport needs with asset-based and drayage solutions across Canada and",
+        "og:locale": "en_US",
+        "og:type": "article",
+        "og:title": "Contact - Carmel Transport",
+        "og:description": "Contact Carmel Transport today to learn more about how we can serve your container transport needs with asset-based and drayage solutions across Canada and",
+        "og:url": "https://carmeltransport.com/contact/",
+        "og:site_name": "Carmel Transport",
+        "og:updated_time": "2026-06-30T17:04:19+00:00"
+      },
+      "canonical": "https://carmeltransport.com/contact/",
+      "sections": [
+        {
+          "kind": "hero",
+          "title": {
+            "text": "Contact Us"
+          },
+          "subs": [],
+          "html": [
+            "<p>Contact Carmel Transport today to learn more about how we can serve your container transport needs with asset-based and drayage solutions across Canada and the USA.</p>"
+          ],
+          "buttons": []
+        },
+        {
+          "kind": "contactPanel",
+          "formTitle": "I’m interested in...",
+          "form": {
+            "name": "New Form",
+            "fields": [
+              {
+                "kind": "select",
+                "type": "text",
+                "name": "form_fields[services]",
+                "label": "Services",
+                "required": true,
+                "options": [
+                  "Shipping Container Transport Services",
+                  "Bonded and In-Bond Container Transport",
+                  "Refrigerated Container Transport and Storage",
+                  "Secure Container Storage Facility"
+                ]
+              },
+              {
+                "kind": "input",
+                "type": "text",
+                "name": "form_fields[name]",
+                "label": "Name",
+                "required": true,
+                "options": []
+              },
+              {
+                "kind": "input",
+                "type": "email",
+                "name": "form_fields[email]",
+                "label": "Email",
+                "required": true,
+                "options": []
+              },
+              {
+                "kind": "select",
+                "type": "text",
+                "name": "form_fields[location]",
+                "label": "Our Location",
+                "required": true,
+                "options": [
+                  "Our Location",
+                  "Toronto, ON",
+                  "Montreal, QC",
+                  "Calgary, AB",
+                  "Edmonton, AB",
+                  "New York, USA"
+                ]
+              },
+              {
+                "kind": "textarea",
+                "type": "text",
+                "name": "form_fields[message]",
+                "label": "Message",
+                "required": false,
+                "options": []
+              },
+              {
+                "kind": "submit",
+                "label": "",
+                "options": [],
+                "text": "Send"
+              }
+            ]
+          },
+          "mapsTitle": "Our Locations to serve you.",
+          "maps": [
+            {
+              "name": "Toronto, ON",
+              "src": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5895590.712424077!2d-79.4835331!3d43.820449!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2ebd792baf03%3A0x378b7690367137bf!2sCarmel%20Transport%20International%20Limited!5e0!3m2!1sen!2sca!4v1782239295002!5m2!1sen!2sca"
+            },
+            {
+              "name": "Montreal, QC",
+              "src": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6596397.64684129!2d-79.43072083695372!3d43.31771255481254!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc910c542e0e2fb%3A0xcb52ac32d422ccda!2sCarmel%20Transport%20International%20Ltd!5e0!3m2!1sen!2sca!4v1782253086096!5m2!1sen!2sca%22 width="
+            },
+            {
+              "name": "Calgary, AB",
+              "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2506.69253754424!2d-114.01217438755312!3d51.077225541919496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537170a82a14c9eb%3A0xbbbc74da6a507e7!2sCarmel%20Transport!5e0!3m2!1sen!2sca!4v1782253128380!5m2!1sen!2sca%22 width="
+            },
+            {
+              "name": "Edmonton, AB",
+              "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2370.5559108511306!2d-113.62745028743481!3d53.547843159512226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a0210074266ba1%3A0x9d1c31ad8179b02e!2sCarmel%20transport!5e0!3m2!1sen!2sca!4v1782839035067!5m2!1sen!2sca"
+            },
+            {
+              "name": "New York, USA",
+              "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.7141944808086!2d-74.1092673!3d40.724307800000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2514f9e798385%3A0x13e98081de62c894!2s78%20John%20Miller%20Way%2C%20Kearny%2C%20NJ%2007032%2C%20USA!5e0!3m2!1sen!2sca!4v1782253283066!5m2!1sen!2sca%22 width="
+            }
+          ],
+          "locations": [
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/ontario.png",
+                "w": 222,
+                "h": 75,
+                "alt": ""
+              },
+              "city": "Toronto",
+              "lines": [
+                "<p>18-25 North Rivermede,<br>Concord, ON<br>L4K 5V4 <br><br>Phone: <a href=\"tel:+19056607272\">905-660-7272</a></p>"
+              ]
+            },
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/Montreal.png",
+                "w": 223,
+                "h": 75,
+                "alt": ""
+              },
+              "city": "Montreal",
+              "lines": [
+                "<p>7800 Notre Dame St West<br>Montreal, QC<br>H4C 3K4</p><p>Phone: <a href=\"tel:+15143659111\">514-365-9111</a></p>"
+              ]
+            },
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/Calgary.png",
+                "w": 222,
+                "h": 75,
+                "alt": ""
+              },
+              "city": "Calgary",
+              "lines": [
+                "<p>2116 27th Ave NE, Unit 108<br>Calgary, AB<br>T2E 7A6</p><p>Phone: <a href=\"tel:+14032368177\">403-236-8177</a></p>"
+              ]
+            },
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/Edmonton.png",
+                "w": 222,
+                "h": 75,
+                "alt": ""
+              },
+              "city": "Edmonton",
+              "lines": [
+                "<p>10440 176 ST NW, Unit 200 <br>Edmonton, AB <br>T5S 1G6</p><p>Phone: <a href=\"tel:+17806520400\">780-652-0400</a></p>"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "/equipment/": {
+      "title": "Equipment - Carmel Transport",
+      "meta": {
+        "description": "This specification covers an extendable quad (4) axle air ride container chassis, capable to carry either 40’, 45’, 48’ or 53’ container.",
+        "og:locale": "en_US",
+        "og:type": "article",
+        "og:title": "Equipment - Carmel Transport",
+        "og:description": "This specification covers an extendable quad (4) axle air ride container chassis, capable to carry either 40’, 45’, 48’ or 53’ container.",
+        "og:url": "https://carmeltransport.com/equipment/",
+        "og:site_name": "Carmel Transport",
+        "og:updated_time": "2026-06-18T13:52:05+00:00",
+        "og:image": "/wp-content/uploads/2026/06/product-1.png",
+        "og:image:secure_url": "/wp-content/uploads/2026/06/product-1.png",
+        "og:image:width": "636",
+        "og:image:height": "314",
+        "og:image:alt": "Equipment",
+        "og:image:type": "image/png"
+      },
+      "canonical": "https://carmeltransport.com/equipment/",
+      "sections": [
+        {
+          "kind": "equipment",
+          "items": [
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/product-1.png",
+                "w": 636,
+                "h": 314,
+                "alt": ""
+              },
+              "title": "EXTENDABLE CCXT4053-4A-1ST-00",
+              "html": "<p>This specification covers an extendable quad (4) axle air ride container chassis, capable to carry either 40’, 45’, 48’ or 53’ container.</p>"
+            },
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/product-2.png",
+                "w": 624,
+                "h": 264,
+                "alt": ""
+              },
+              "title": "Lead B-train units",
+              "html": "<p>lead b-train units designed to carry a single 20’ container in either an open or closed configuration. Rear b-train units with back to dock capability designed to carry either one 20 ‘ or one 40’ container.</p>"
+            },
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/product-3.png",
+                "w": 624,
+                "h": 298,
+                "alt": ""
+              },
+              "title": "EXTENDABLE CCX2045-3-03",
+              "html": "<p>Max-Atlas (3) tridem spring ride extendable container chassis, carries a 20’, 40’, and 45’ ISO container. A great city container chassis for rail and ship terminals.</p>"
+            },
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/product-4.png",
+                "w": 648,
+                "h": 282,
+                "alt": ""
+              },
+              "title": "STANDARD CCT53-3S-00",
+              "html": "<p>This 3 axle 53’ heavy duty gooseneck chassis with slider suspension capable of hauling a heavy 53’ ISO container, that meets all D.O.T. regulations applicable in Canada and the United States.</p>"
+            },
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/product-5.png",
+                "w": 616,
+                "h": 300,
+                "alt": ""
+              },
+              "title": "COMBOS CCCOL4012-2-00",
+              "html": "<p>A light 40’ 12 pin two (2) axle spring ride container chassis, capable to carry a 20’, 2 x 20’ empty, and 40’ ISO containers. Meets all D.O.T. regulations and is applicable in Canada and the United States.</p>"
+            },
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/product-6.png",
+                "w": 638,
+                "h": 320,
+                "alt": ""
+              },
+              "title": "B-TRAIN REAR CCBR3240-3S-00",
+              "html": "<p>Max-Atlas B-train tridem (3) axle slider chassis meets all D.O.T regulations and is capable of carrying one heavy 20’ or 40’ ISO container, applicable in Canada and the United States.</p>"
+            },
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/product-7.png",
+                "w": 642,
+                "h": 352,
+                "alt": ""
+              },
+              "title": "B-TRAIN LEAD CCBL29-3S-00",
+              "html": "<p>Max-Atlas B-Train lead 29’ three (3) axle slider chassis meets all D.O.T regulations and is capable of carrying one 20’ ISO container. It’s equipped with a fifth wheel at the rear of the container chassis allowing for the hauling of a rear B-train chassis. Applicable in Canada.</p>"
+            },
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/product-8.png",
+                "w": 640,
+                "h": 342,
+                "alt": ""
+              },
+              "title": "B-TRAIN LEAD CCBL24-2S-00",
+              "html": "<p>Max-Atlas 24’ B-train lead tandem-axle spring ride container chassis, used to carry one 20’ ISO container. This container chassis is equipped with a fifth wheel to be able to pin and pull another container chassis.</p>"
+            },
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/product-9.png",
+                "w": 662,
+                "h": 308,
+                "alt": ""
+              },
+              "title": "MULTI-USER CC3545-12-3S-00",
+              "html": "<p>Max-Atlas heavy duty 35’ three (3) axle spring ride 12 pin container chassis with a sliding suspension. The container chassis is designed to carry one 20’, 2 x 20” empty, 40’ and 45’ long ISO container and gen-set ready for reefer containers. Meets all D.O.T. regulations and is applicable in Canada and the United States.</p>"
+            },
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/product-10.png",
+                "w": 666,
+                "h": 338,
+                "alt": ""
+              },
+              "title": "STANDARD CC40-3-16",
+              "html": "<p>This 40′ tridem (3) gooseneck chassis manufactured by Max-Atlas capable of hauling a 40′ ISO container, will definitively meet you expectations. Applicable in Canada and the United States.</p>"
+            },
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/product-11.png",
+                "w": 642,
+                "h": 316,
+                "alt": ""
+              },
+              "title": "STANDARD CC40-2-00",
+              "html": "<p>The ever popular 40′ tandem (2) axle gooseneck chassis manufactured by Max-Atlas capable of hauling a 40′ ISO container will definitively meet your approval. Applicable in Canada and the United States.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    "/import-and-export-container-transportation/": {
+      "title": "Import and Export Container Transportation - Carmel Transport",
+      "meta": {
+        "description": "Import and Export Container Transport Service in Canada and USA | Carmel",
+        "og:locale": "en_US",
+        "og:type": "article",
+        "og:title": "Import and Export Container Transportation - Carmel Transport",
+        "og:description": "Import and Export Container Transport Service in Canada and USA | Carmel",
+        "og:url": "https://carmeltransport.com/import-and-export-container-transportation/",
+        "og:site_name": "Carmel Transport",
+        "og:updated_time": "2026-07-02T02:55:57+00:00",
+        "og:image": "/wp-content/uploads/2026/06/export-service-img-1.png",
+        "og:image:secure_url": "/wp-content/uploads/2026/06/export-service-img-1.png",
+        "og:image:width": "579",
+        "og:image:height": "334",
+        "og:image:alt": "Import and Export Container Transportation",
+        "og:image:type": "image/png"
+      },
+      "canonical": "https://carmeltransport.com/import-and-export-container-transportation/",
+      "sections": [
+        {
+          "kind": "hero",
+          "title": {
+            "text": "Import and Export Container Transport"
+          },
+          "subs": [],
+          "html": [
+            "<p>Import and Export Container Transport Service in Canada and USA | Carmel</p>"
+          ],
+          "buttons": [
+            {
+              "text": "Speak With Our Team",
+              "href": "/contact/"
+            }
+          ]
+        },
+        {
+          "kind": "checklist",
+          "title": {
+            "text": "What Our Import and Export Service Includes",
+            "accent": "Export Service Includes"
+          },
+          "items": [
+            "Delivery of import containers from GTA terminals.",
+            "Rail reservations scheduled in advance for shipments arriving to CN Rail.",
+            "Daily monitoring of import shipments arriving at CP, Musket, and CN.",
+            "Strategic planning for full-load pickup, delivery, and empty container returns.Delivery of import containers from GTA terminals.",
+            "Advance rail reservations for export loadings returning to CN Rail.",
+            "Rail billing support for containers returning to CP Rail, CN Rail and ports.",
+            "High-security bolt seals for export shipments."
+          ]
+        },
+        {
+          "kind": "split",
+          "title": {
+            "text": "What Our Import and Export Service Includes"
+          },
+          "html": [
+            "<p>Carmel Transport provides flexible, cost-effective container transportation <strong>with precise timing and shipment visibility.</strong></p><p><strong>Our team coordinates rail scheduling,</strong> terminal pickup, and delivery for import and export containers.</p>"
+          ],
+          "buttons": [],
+          "image": {
+            "src": "/wp-content/uploads/2026/06/export-service-img-1.png",
+            "w": 579,
+            "h": 334,
+            "alt": ""
+          }
+        },
+        {
+          "kind": "why",
+          "title": {
+            "text": "Why Shippers Choose Carmel Transport",
+            "accent": "Choose Carmel Transport"
+          },
+          "html": [
+            "<p>Carmel Transport provides flexible, cost-effective container transportation <strong>with precise timing and shipment visibility.</strong></p>"
+          ],
+          "reasons": [
+            {
+              "title": "Trucker you can rely on",
+              "html": "<p>From a single truck in 1995 to one of Ontario’s leading Drayage carriers, Carmel Transport now operates 300 power units and 800+ chassis dedicated to container transportation.</p>"
+            },
+            {
+              "title": "Strategic coverage across Canada",
+              "html": "<p>With offices in Toronto, Montreal, Calgary, and Edmonton, plus yards near key rail terminals, we support your import and export flows across Canada.</p>"
+            },
+            {
+              "title": "Built for real Drayage operations",
+              "html": "<p>Our fleet handles 20, 40, 45, and 53-foot dry and refrigerated containers, so you can consolidate more of your container moves with one trusted Drayage provider.</p>"
+            }
+          ],
+          "image": {
+            "src": "/wp-content/uploads/2026/06/scale-you-can-rely-on.png",
+            "w": 301,
+            "h": 184,
+            "alt": ""
+          },
+          "button": {
+            "text": "Speak With Our Team",
+            "href": "/contact/"
+          }
+        },
+        {
+          "kind": "faq",
+          "title": {
+            "text": "Frequently Asked Questions About Our Container Transport Services",
+            "accent": "About Our Container Transport Services"
+          },
+          "html": [
+            "<p>Still have questions about your next container move?</p>"
+          ],
+          "button": {
+            "text": "Contact our team for a fast, personalized answer",
+            "href": "tel:+19056607272"
+          },
+          "items": [
+            {
+              "q": "Carmel Transport handle rail reservations?",
+              "a": "<p>Yes. Carmel Transport schedules rail reservations in advance for CN Rail arrivals and export loadings, and also supports billing for containers returning to CP Rail, CN Rail, and ports.</p>"
+            },
+            {
+              "q": "Which terminals does Carmel monitor for import shipments?",
+              "a": "<p>Carmel monitors import shipments arriving to multiple ports and terminals across Canada, in addition to coordinating delivery from terminals.</p>"
+            },
+            {
+              "q": "Can Carmel support high-volume container moves?",
+              "a": "<p>Yes. Carmel describes its service as flexible and cost-effective for large volumes of import and export containers, supported by a large fleet and chassis capacity.</p>"
+            },
+            {
+              "q": "What is import and export container transportation?",
+              "a": "<p>Import and export container transportation is the movement of loaded containers between terminals, rail facilities, yards, warehouses, and final delivery points, including the planning needed for pickups, returns, and documentation-related coordination.</p>"
+            }
+          ]
+        },
+        {
+          "kind": "quote",
+          "eyebrow": "Request a Quote",
+          "title": {
+            "text": "Ready to move your containers?",
+            "accent": "containers?"
+          },
+          "html": "<p>Precise quotes, no hidden fees. Our team will get back to you within hours. Open 24/7/365 for your calls and inquiries.</p>",
+          "note": "<p>Or email us directly: <a href=\"mailto:quotes@carmeltransport.com\">quotes@carmeltransport.com</a></p>",
+          "form": {
+            "name": "New Form",
+            "fields": [
+              {
+                "kind": "input",
+                "type": "text",
+                "name": "form_fields[name]",
+                "label": "Company name",
+                "required": false,
+                "options": []
+              },
+              {
+                "kind": "input",
+                "type": "email",
+                "name": "form_fields[email]",
+                "label": "Email address",
+                "required": true,
+                "options": []
+              },
+              {
+                "kind": "select",
+                "type": "text",
+                "name": "form_fields[field_567d90f]",
+                "label": "Service Type",
+                "required": false,
+                "options": [
+                  "Service type",
+                  "Import and export container transportation",
+                  "Shipping Container Moving Services",
+                  "Bonded and In-Bond container transport",
+                  "Refrigerated container transport and storage",
+                  "Secure container storage facility"
+                ]
+              },
+              {
+                "kind": "submit",
+                "label": "",
+                "options": [],
+                "text": "Request Free Quote"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "related",
+          "title": {
+            "text": "Related Services Solutions",
+            "accent": "Solutions"
+          },
+          "card": {
+            "tag": "Core Service",
+            "title": "Drayage",
+            "html": "<p>We provide a full range of asset- based drayage and full transload services. From port to warehouse, rail terminal to distribution center — we move your containers efficiently and reliably.</p>",
+            "list": [
+              "20', 40', 45' container sizes",
+              "Dry, overweight, open top, flat rack",
+              "Port & rail terminal operations"
+            ],
+            "button": {
+              "text": "Request a Quote",
+              "href": "/contact/"
+            }
+          },
+          "image": {
+            "src": "/wp-content/uploads/2026/05/container-carousel.png",
+            "w": 1451,
+            "h": 440,
+            "alt": ""
+          }
+        }
+      ]
+    },
+    "/": {
+      "title": "Home - Carmel Transport",
+      "meta": {
+        "description": "Hauling ocean containers across Canada since 1995, including",
+        "og:locale": "en_US",
+        "og:type": "website",
+        "og:title": "Home - Carmel Transport",
+        "og:description": "Hauling ocean containers across Canada since 1995, including",
+        "og:url": "https://carmeltransport.com/",
+        "og:site_name": "Carmel Transport",
+        "og:updated_time": "2026-07-02T18:11:48+00:00"
+      },
+      "canonical": "https://carmeltransport.com/",
+      "sections": [
+        {
+          "kind": "hero",
+          "eyebrow": "Open 24 / 7 / 365 · Canada",
+          "title": {
+            "text": "The Most Reliable Drayage Trucker in Canada",
+            "accent": "The Most Reliable Drayage"
+          },
+          "subs": [
+            "Hauling over 9,000 Ocean Containers a Month"
+          ],
+          "html": [
+            "<p>Hauling ocean containers across Canada since 1995, including Dry, Reefer, Import &amp; Export, Hazmat, Bonded – 20′,40, 45’ containers.</p><p>Need storage? We offer one of the most secured yards in the GTA.</p>"
+          ],
+          "buttons": [
+            {
+              "text": "Request Quote",
+              "href": "/contact/"
+            },
+            {
+              "text": "Our Services",
+              "href": "/services/"
+            }
+          ],
+          "image": {
+            "src": "/wp-content/uploads/2026/06/truck-carmel-2-1024x562.png",
+            "w": 800,
+            "h": 439,
+            "alt": ""
+          }
+        },
+        {
+          "kind": "trust",
+          "title": "Trusted nationwide — serving major ports & rail terminals",
+          "items": [
+            "NEW YORK",
+            "TORONTO",
+            "MONTREAL",
+            "EDMONTON",
+            "CALGARY",
+            "SHIPPING PORTS",
+            "INTERMODAL RAIL",
+            "UIIA CERTIFIED"
+          ]
+        },
+        {
+          "kind": "about",
+          "anchor": "carmel",
+          "eyebrow": "About Carmel Transport",
+          "title": {
+            "text": "Drayage Transport You Can Count On",
+            "accent": "You Can Count On"
+          },
+          "html": [
+            "<p><strong>Carmel Transport</strong> brings over <strong>30 years of drayage transport</strong> experience across Canada and USA. Our company was founded on the principles of reliability and on-time delivery—values that continue to drive every shipping container we handle today.</p><p>Our team provides reliable drayage service from <strong>ports and rail terminals to warehouses and distribution</strong> centers. From import, export ,reefers, dry, In‑bond freight and storage, we manage the transport flow, so your supply chain keeps running.</p><p>With strategically located <strong>secured container storage Yards,</strong> you get a transport service for container drayage &amp; storage together with final delivery.</p>"
+          ],
+          "points": [
+            "Bonded Trucker",
+            "Use high security bolt seals for Exports",
+            "Secured Yard 24x7x365 Monitoring",
+            "Container Storage"
+          ],
+          "stats": [
+            {
+              "prefix": "",
+              "num": "300",
+              "to": 300,
+              "suffix": "",
+              "label": "Power Units"
+            },
+            {
+              "prefix": "",
+              "num": "800",
+              "to": 800,
+              "suffix": "+",
+              "label": "Chassis Fleet"
+            },
+            {
+              "prefix": "",
+              "num": "30",
+              "to": 30,
+              "suffix": "+ yrs",
+              "label": "Industry Experience"
+            },
+            {
+              "prefix": "",
+              "num": "5",
+              "to": 5,
+              "suffix": "",
+              "label": "Hightly Secured Yards"
+            }
+          ]
+        },
+        {
+          "kind": "difference",
+          "eyebrow": "Why Choose Carmel?",
+          "title": {
+            "text": "The Carmel Difference",
+            "accent": "Difference"
+          },
+          "html": [
+            "<p>A trusted logistics leader offering flexible and affordable solutions for large import and export container volumes. Our dedicated team oversees each shipment 24/7.</p>"
+          ],
+          "button": {
+            "text": "Get started today",
+            "href": "/contact/"
+          },
+          "highlight": {
+            "value": "24/7",
+            "text": "Live container tracking and customer support — every day of the year"
+          },
+          "items": [
+            {
+              "title": "Why Shippers Choose Carmel Transport",
+              "html": "<p>Carmel Transport combines specialized drayage and storage expertise to offer shippers a unified, dependable logistics solution throughout Canada.</p>"
+            },
+            {
+              "title": "Built Around Drayage Transportation",
+              "html": "<p>We provide specialized drayage solutions, connecting rail terminals, ports, and final delivery points with precision and reliability through our expert container transport team.</p>"
+            },
+            {
+              "title": "Container trucking company you can rely on",
+              "html": "<p>We are a dedicated container trucking company specializing in the transport of shipping containers. With the right equipment, reliable chassis, and experienced drivers, we have the capacity to handle your container transport needs efficiently and safely.</p>"
+            },
+            {
+              "title": "Secure Container Storage",
+              "html": "<p>Whether for daily shipments or long-term storage, in our secured yards your freight remains safe while awaiting rail, transloading, or final delivery.</p>"
+            },
+            {
+              "title": "Safety First",
+              "html": "<p>With Canada Customs bonded status and C‑TPAT and PIP certifications, Carmel Transport upholds the highest standards of safety and compliance. Our in-house programs and round-the-clock dispatch ensure seamless, worry-free drayage logistics.</p>"
+            }
+          ]
+        },
+        {
+          "kind": "testimonials",
+          "eyebrow": "Client Testimonials",
+          "title": {
+            "text": "What our clients say about us",
+            "accent": "say about us"
+          },
+          "reviews": [
+            {
+              "html": "<p>Many people write reviews based on the limo company from New York but we are the trucking company dealing with containers. Any Freight Forwarder or direct customer is welcome to give us a try and see why we are considered the best in the business! a leader in the container trucking in Canada.</p>",
+              "name": "Liran Bartal"
+            },
+            {
+              "html": "<p>Very Professional Company, they provide best service and very competitive rates. Drivers are courteous, professional and always on Time.</p>",
+              "name": "Nitin Sharma"
+            },
+            {
+              "html": "<p>Best Customer Service ever and responds to emails and call in a efficient manner</p>",
+              "name": "Mekesa Harve"
+            },
+            {
+              "html": "<p>The best customer service. Dedicated and patient. Especially Izzy</p>",
+              "name": "Gail Herstein"
+            },
+            {
+              "html": "<p>Nice people. Great company</p>",
+              "name": "Izzy Ein Dor"
+            }
+          ]
+        },
+        {
+          "kind": "services",
+          "eyebrow": "Our Services",
+          "title": {
+            "text": "Full-Range Logistics Solutions",
+            "accent": "Solutions"
+          },
+          "html": [
+            "<p>Asset-based drayage, refrigerated transport, and secure storage — all under one roof.</p>"
+          ],
+          "cards": [
+            {
+              "tag": "Core Service",
+              "title": "Bonded and In‑Bond Container Transport",
+              "html": "<p>Move bonded freight across the Canada–U.S. border with less stress thanks to documentation support and experienced cross‑border coordination that helps minimize delays. Your team spends less time resolving paperwork issues and more time keeping freight plans on track.</p>",
+              "list": [
+                "20', 40', 45' container sizes",
+                "Dry, overweight, open top, flat rack",
+                "Port & rail terminal operations"
+              ],
+              "button": {
+                "text": "Request a Quote",
+                "href": "/contact/"
+              }
+            },
+            {
+              "tag": "Core Service",
+              "title": "Shipping Container Moving Services",
+              "html": "<p>Move 20–53 ft containers across Canada with one coordinated carrier, reducing detention and demurrage while gaining clearer visibility through daily tracking and responsive support. You simplify container moves by dealing with a single partner from pickup to empty return.</p>",
+              "list": [
+                "20', 40', 45' container sizes",
+                "Dry, overweight, open top, flat rack",
+                "Port & rail terminal operations"
+              ],
+              "button": {
+                "text": "Request a Quote",
+                "href": "/contact/"
+              }
+            },
+            {
+              "tag": "Core Service",
+              "title": "Import and Export Container Transport",
+              "html": "<p>We move import and export containers quickly and safely from GTA rail terminals to your door. Our team manages container transport and rail reservations, monitors arrivals, and coordinates pickup, delivery and empty returns so your cargo keeps moving.</p>",
+              "list": [
+                "20', 40', 45' container sizes",
+                "Dry, overweight, open top, flat rack",
+                "Port & rail terminal operations"
+              ],
+              "button": {
+                "text": "Request a Quote",
+                "href": "/contact/"
+              }
+            },
+            {
+              "tag": "Core Service",
+              "title": "Drayage",
+              "html": "<p>We provide a full range of asset- based drayage and full transload services. From port to warehouse, rail terminal to distribution center — we move your containers efficiently and reliably.</p>",
+              "list": [
+                "20', 40', 45' container sizes",
+                "Dry, overweight, open top, flat rack",
+                "Port & rail terminal operations"
+              ],
+              "button": {
+                "text": "Request a Quote",
+                "href": "/contact/"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "/refrigerated-container-transport-and-storage/": {
+      "title": "Refrigerated Container Transport and Storage - Carmel Transport",
+      "meta": {
+        "description": "Protect temperature-sensitive freight with dependable refrigerated container transport and secure storage support. Carmel Transport helps keep reefer",
+        "og:locale": "en_US",
+        "og:type": "article",
+        "og:title": "Refrigerated Container Transport and Storage - Carmel Transport",
+        "og:description": "Protect temperature-sensitive freight with dependable refrigerated container transport and secure storage support. Carmel Transport helps keep reefer",
+        "og:url": "https://carmeltransport.com/refrigerated-container-transport-and-storage/",
+        "og:site_name": "Carmel Transport",
+        "og:updated_time": "2026-06-30T18:05:32+00:00",
+        "og:image": "/wp-content/uploads/2026/06/export-service-img-2.png",
+        "og:image:secure_url": "/wp-content/uploads/2026/06/export-service-img-2.png",
+        "og:image:width": "579",
+        "og:image:height": "334",
+        "og:image:alt": "Refrigerated Container Transport and Storage",
+        "og:image:type": "image/png"
+      },
+      "canonical": "https://carmeltransport.com/refrigerated-container-transport-and-storage/",
+      "sections": [
+        {
+          "kind": "hero",
+          "title": {
+            "text": "Refrigerated Container Transport and Storage"
+          },
+          "subs": [],
+          "html": [
+            "<p>Protect temperature-sensitive freight with dependable refrigerated container transport and secure storage support. <strong>Carmel Transport helps keep reefer shipments moving with trained drivers, genset chassis, and coordinated storage solutions.</strong></p>"
+          ],
+          "buttons": [
+            {
+              "text": "Talk With Our Reefer Team",
+              "href": "/contact/"
+            }
+          ]
+        },
+        {
+          "kind": "checklist",
+          "title": {
+            "text": "What Our Refrigerated Container Service Includes",
+            "accent": "Container Service Includes"
+          },
+          "items": [
+            "24/7 monitoring of refrigerated containers.",
+            "Drivers trained in the handling of refrigerated containers.",
+            "Generator chassis for refrigerated transport.",
+            "Storage capacity for up to 30 refrigerated containers at a time.",
+            "Coordinated transport and storage support for temperature-sensitive shipments."
+          ]
+        },
+        {
+          "kind": "split",
+          "title": {
+            "text": "Reliable Support for Refrigerated Container Moves"
+          },
+          "html": [
+            "<p>Carmel Transport provides <strong>refrigerated container transport and storage support designed for shippers moving </strong>temperature-sensitive freight.</p><p>From reefer transport coordination to specialized chassis availability and storage access through trusted partners, <strong>our team helps keep refrigerated shipments protected and on schedule.</strong></p>"
+          ],
+          "buttons": [],
+          "image": {
+            "src": "/wp-content/uploads/2026/06/export-service-img-2.png",
+            "w": 579,
+            "h": 334,
+            "alt": ""
+          }
+        },
+        {
+          "kind": "why",
+          "title": {
+            "text": "Why Shippers Choose Carmel for Reefer Containers",
+            "accent": "Carmel for Reefer Containers"
+          },
+          "html": [
+            "<p>When every degree matters and delays risk spoiled cargo, shippers rely on <strong>Carmel’s reefer container service to keep temperature‑sensitive freight protected.</strong></p>"
+          ],
+          "reasons": [
+            {
+              "title": "Specialized reefer transport support",
+              "html": "<p>Carmel Transport provides refrigerated container transport backed by drivers trained in handling temperature-sensitive freight, helping shippers move reefer containers with greater confidence.</p>"
+            },
+            {
+              "title": "Equipment that supports refrigerated moves",
+              "html": "<p>With a significant number of genset chassis available, Carmel is equipped to support refrigerated container transport requirements that demand specialized equipment.</p>"
+            },
+            {
+              "title": "Integrated transport and storage flexibility",
+              "html": "<p>Carmel can support refrigerated container storage, with capacity for up to 30 refrigerated containers at a time with 24/7 monitoring.</p>"
+            }
+          ],
+          "image": {
+            "src": "/wp-content/uploads/2026/06/scale-you-can-rely-on.png",
+            "w": 301,
+            "h": 184,
+            "alt": ""
+          },
+          "button": {
+            "text": "Speak With Our Team",
+            "href": "/contact/"
+          }
+        },
+        {
+          "kind": "faq",
+          "title": {
+            "text": "Frequently Asked Questions About Our Refrigerated Container Services",
+            "accent": "About Our Refrigerated Container Services"
+          },
+          "html": [
+            "<p>Still have questions about your next refrigerated container move?</p>"
+          ],
+          "button": {
+            "text": "Contact our team for a fast, personalized answer",
+            "href": "tel:+19056607272"
+          },
+          "items": [
+            {
+              "q": "Does Carmel Transport handle refrigerated containers?",
+              "a": "<p>Yes. Carmel Transport offers transportation solutions for refrigerated containers and supports temperature-sensitive freight with trained drivers and genset chassis availability.</p>"
+            },
+            {
+              "q": "Does Carmel also offer refrigerated container storage?",
+              "a": "<p>Yes. Carmel offer storage solutions for refrigerated containers.</p>"
+            },
+            {
+              "q": "How much refrigerated container storage capacity is available?",
+              "a": "<p>The refrigerated storage facility is equipped to handle up to 30 refrigerated containers at any given time.</p>"
+            },
+            {
+              "q": "What equipment supports reefer container transportation?",
+              "a": "<p>Carmel has genset chassis and drivers trained in the transport of refrigerated containers, helping support reefer container shipping more effectively.</p>"
+            }
+          ]
+        },
+        {
+          "kind": "quote",
+          "eyebrow": "Request a Quote",
+          "title": {
+            "text": "Ready to move your containers?",
+            "accent": "containers?"
+          },
+          "html": "<p>Precise quotes, no hidden fees. Our team will get back to you within hours. Open 24/7/365 for your calls and inquiries.</p>",
+          "note": "<p>Or email us directly: <a href=\"mailto:quotes@carmeltransport.com\">quotes@carmeltransport.com</a></p>",
+          "form": {
+            "name": "New Form",
+            "fields": [
+              {
+                "kind": "input",
+                "type": "text",
+                "name": "form_fields[name]",
+                "label": "Company name",
+                "required": false,
+                "options": []
+              },
+              {
+                "kind": "input",
+                "type": "email",
+                "name": "form_fields[email]",
+                "label": "Email address",
+                "required": true,
+                "options": []
+              },
+              {
+                "kind": "select",
+                "type": "text",
+                "name": "form_fields[field_567d90f]",
+                "label": "Service Type",
+                "required": false,
+                "options": [
+                  "Service type",
+                  "Import and export container transportation",
+                  "Shipping Container Moving Services",
+                  "Bonded and In-Bond container transport",
+                  "Refrigerated container transport and storage",
+                  "Secure container storage facility"
+                ]
+              },
+              {
+                "kind": "submit",
+                "label": "",
+                "options": [],
+                "text": "Request Free Quote"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "related",
+          "title": {
+            "text": "Related Services Solutions",
+            "accent": "Solutions"
+          },
+          "card": {
+            "tag": "Core Service",
+            "title": "Drayage",
+            "html": "<p>We provide a full range of asset- based drayage and full transload services. From port to warehouse, rail terminal to distribution center — we move your containers efficiently and reliably.</p>",
+            "list": [
+              "20', 40', 45' container sizes",
+              "Dry, overweight, open top, flat rack",
+              "Port & rail terminal operations"
+            ],
+            "button": {
+              "text": "Request a Quote",
+              "href": "/contact/"
+            }
+          },
+          "image": {
+            "src": "/wp-content/uploads/2026/05/container-carousel.png",
+            "w": 1451,
+            "h": 440,
+            "alt": ""
+          }
+        }
+      ]
+    },
+    "/secure-container-storage-facility/": {
+      "title": "Secure Container Storage Facility | Carmel Transport",
+      "meta": {
+        "description": "Store empty and loaded dry-box, refrigerated, and in-bond containers in a secure yard strategically located near major ports and rail terminals. Carmel",
+        "og:locale": "en_US",
+        "og:type": "article",
+        "og:title": "Secure Container Storage Facility | Carmel Transport",
+        "og:description": "Store empty and loaded dry-box, refrigerated, and in-bond containers in a secure yard strategically located near major ports and rail terminals. Carmel",
+        "og:url": "https://carmeltransport.com/secure-container-storage-facility/",
+        "og:site_name": "Carmel Transport",
+        "og:updated_time": "2026-06-30T18:06:25+00:00",
+        "og:image": "/wp-content/uploads/2026/06/export-service-img-1.png",
+        "og:image:secure_url": "/wp-content/uploads/2026/06/export-service-img-1.png",
+        "og:image:width": "579",
+        "og:image:height": "334",
+        "og:image:alt": "Secure Container Storage Facility",
+        "og:image:type": "image/png"
+      },
+      "canonical": "https://carmeltransport.com/secure-container-storage-facility/",
+      "sections": [
+        {
+          "kind": "hero",
+          "title": {
+            "text": "Secure Container Storage Facility"
+          },
+          "subs": [],
+          "html": [
+            "<p>Store empty and loaded dry-box, refrigerated, and in-bond containers in a secure yard strategically located <strong>near major ports and rail terminals.</strong> <strong>Carmel Transport helps reduce storage costs while protecting your freight with monitored,</strong> fully fenced container storage.</p>"
+          ],
+          "buttons": [
+            {
+              "text": "Request Container Storage",
+              "href": "/contact/"
+            }
+          ]
+        },
+        {
+          "kind": "checklist",
+          "title": {
+            "text": "What Our Secure Container Storage Facility Includes",
+            "accent": "Storage Facility Includes"
+          },
+          "items": [
+            "Storage for empty and loaded containers of all sizes.",
+            "Fully fenced facility with 24/7 video surveillance.",
+            "Advanced container lifting equipment for safe handling.",
+            "Comprehensive insurance support for added peace of mind.",
+            "Broad chassis inventory, including specialized chassis for refrigerated containers.",
+            "Storage for refrigerated containers."
+          ]
+        },
+        {
+          "kind": "split",
+          "title": {
+            "text": "Flexible and Secure Storage for Container Freight"
+          },
+          "html": [
+            "<p>With advanced container lifting equipment, a large fleet of tractors, and a broad chassis inventory that includes specialized chassis for refrigerated containers, <strong>Carmel is equipped to support timely and safe container handling operations.</strong></p>"
+          ],
+          "buttons": [],
+          "image": {
+            "src": "/wp-content/uploads/2026/06/export-service-img-1.png",
+            "w": 579,
+            "h": 334,
+            "alt": ""
+          }
+        },
+        {
+          "kind": "why",
+          "title": {
+            "text": "Why Shippers Choose Carmel for Container Storage",
+            "accent": "Carmel for Container Storage"
+          },
+          "html": [
+            "<p>When terminals are congested and detention costs start to climb, <strong>shippers rely on Carmel’s secure container storage to keep freight protected</strong> and plans on track.</p>"
+          ],
+          "reasons": [
+            {
+              "title": "Strategic location and handling capability",
+              "html": "<p>Strategically located near major container yards, the facility is supported by specialized lifting equipment and a dedicated chassis inventory—ensuring efficient container handling, seamless movement, and optimized storage operation.</p>"
+            },
+            {
+              "title": "Security designed to reduce risk",
+              "html": "<p>The yard is fully fenced and monitored 24/7 by video surveillance, with comprehensive insurance coverage that helps protect against cargo theft</p>"
+            },
+            {
+              "title": "Storage that supports multiple container types",
+              "html": "<p>Carmel offers a comprehensive storage solution for both empty and loaded dry, refrigerated, and in-bond containers, accommodating 20’, 40’, and 45’ sizes. Our capabilities provide customers with the flexibility and reliability needed to support diverse freight and supply chain requirements</p>"
+            }
+          ],
+          "image": {
+            "src": "/wp-content/uploads/2026/06/scale-you-can-rely-on.png",
+            "w": 301,
+            "h": 184,
+            "alt": ""
+          },
+          "button": {
+            "text": "Speak With Our Team",
+            "href": "/contact/"
+          }
+        },
+        {
+          "kind": "faq",
+          "title": {
+            "text": "Frequently Asked Questions About Our Container Transport Services",
+            "accent": "About Our Container Transport Services"
+          },
+          "html": [
+            "<p>Still have questions about your next container move?</p>"
+          ],
+          "button": {
+            "text": "Contact our team for a fast, personalized answer",
+            "href": "tel:+19056607272"
+          },
+          "items": [
+            {
+              "q": "What types of containers can be stored at the facility?",
+              "a": "<p>The facility supports dry-box, refrigerated, and in-bond containers of all sizes.</p>"
+            },
+            {
+              "q": "Where is the storage facility located?",
+              "a": "<p>Available across major Canadian cities, with company-owned yards located nearby.</p>"
+            },
+            {
+              "q": "How is the storage facility secured?",
+              "a": "<p>The facility is fully fenced and monitored 24/7 via video surveillance.</p>"
+            },
+            {
+              "q": "Can container storage help reduce costs?",
+              "a": "<p>Yes. Customers can save substantial amounts of money on storage fees for import containers by using the Carmel storage facility.</p>"
+            }
+          ]
+        },
+        {
+          "kind": "quote",
+          "eyebrow": "Request a Quote",
+          "title": {
+            "text": "Ready to move your containers?",
+            "accent": "containers?"
+          },
+          "html": "<p>Precise quotes, no hidden fees. Our team will get back to you within hours. Open 24/7/365 for your calls and inquiries.</p>",
+          "note": "<p>Or email us directly: <a href=\"mailto:quotes@carmeltransport.com\">quotes@carmeltransport.com</a></p>",
+          "form": {
+            "name": "New Form",
+            "fields": [
+              {
+                "kind": "input",
+                "type": "text",
+                "name": "form_fields[name]",
+                "label": "Company name",
+                "required": false,
+                "options": []
+              },
+              {
+                "kind": "input",
+                "type": "email",
+                "name": "form_fields[email]",
+                "label": "Email address",
+                "required": true,
+                "options": []
+              },
+              {
+                "kind": "select",
+                "type": "text",
+                "name": "form_fields[field_567d90f]",
+                "label": "Service Type",
+                "required": false,
+                "options": [
+                  "Service type",
+                  "Import and export container transportation",
+                  "Shipping Container Moving Services",
+                  "Bonded and In-Bond container transport",
+                  "Refrigerated container transport and storage",
+                  "Secure container storage facility"
+                ]
+              },
+              {
+                "kind": "submit",
+                "label": "",
+                "options": [],
+                "text": "Request Free Quote"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "related",
+          "title": {
+            "text": "Related Services Solutions",
+            "accent": "Solutions"
+          },
+          "card": {
+            "tag": "Core Service",
+            "title": "Drayage",
+            "html": "<p>We provide a full range of asset- based drayage and full transload services. From port to warehouse, rail terminal to distribution center — we move your containers efficiently and reliably.</p>",
+            "list": [
+              "20', 40', 45' container sizes",
+              "Dry, overweight, open top, flat rack",
+              "Port & rail terminal operations"
+            ],
+            "button": {
+              "text": "Request a Quote",
+              "href": "/contact/"
+            }
+          },
+          "image": {
+            "src": "/wp-content/uploads/2026/05/container-carousel.png",
+            "w": 1451,
+            "h": 440,
+            "alt": ""
+          }
+        }
+      ]
+    },
+    "/services/": {
+      "title": "Services - Carmel Transport",
+      "meta": {
+        "description": "Specializing in the transport of dry, bonded, and temperature-controlled containers, Carmel Transport offers seamless drayage solutions designed for speed,",
+        "og:locale": "en_US",
+        "og:type": "article",
+        "og:title": "Services - Carmel Transport",
+        "og:description": "Specializing in the transport of dry, bonded, and temperature-controlled containers, Carmel Transport offers seamless drayage solutions designed for speed,",
+        "og:url": "https://carmeltransport.com/services/",
+        "og:site_name": "Carmel Transport",
+        "og:updated_time": "2026-06-30T18:28:38+00:00",
+        "og:image": "/wp-content/uploads/2026/06/truck-carmel-2.png",
+        "og:image:secure_url": "/wp-content/uploads/2026/06/truck-carmel-2.png",
+        "og:image:width": "1054",
+        "og:image:height": "578",
+        "og:image:alt": "Services",
+        "og:image:type": "image/png"
+      },
+      "canonical": "https://carmeltransport.com/services/",
+      "sections": [
+        {
+          "kind": "hero",
+          "title": {
+            "text": "Drayage Services Across Canada.",
+            "accent": "Drayage Services"
+          },
+          "subs": [],
+          "html": [
+            "<p>Specializing in the transport of dry, bonded, and temperature-controlled containers, <strong>Carmel Transport offers seamless drayage solutions designed for speed, precision, and reliability</strong>, with operations based in Toronto, Montreal, Calgary, and Edmonton.</p>"
+          ],
+          "buttons": [
+            {
+              "text": "Book Your Container Move",
+              "href": "/contact/"
+            }
+          ],
+          "image": {
+            "src": "/wp-content/uploads/2026/06/truck-carmel-2-1024x562.png",
+            "w": 800,
+            "h": 439,
+            "alt": ""
+          }
+        },
+        {
+          "kind": "intro",
+          "title": {
+            "text": "Container Transport and Storage Services",
+            "accent": "Container Transport and"
+          },
+          "html": [
+            "<p>We specialize in drayage services, connecting rail ramps and ports directly to your warehouse. We focus on efficient and reliable container transportation across Canada.</p>"
+          ],
+          "buttons": [
+            {
+              "text": "Book Your Container Move",
+              "href": "/contact/"
+            }
+          ]
+        },
+        {
+          "kind": "servicesTabs",
+          "tabs": [
+            {
+              "tab": "Import and Export Container Transport Services",
+              "title": "Import and Export Container Transport Services",
+              "html": [
+                "<p><strong>Need to move a shipping container safely and efficiently?</strong> </p><ul><li>Safe and efficient shipping container transport</li><li>Coordination across ports, rail terminals, warehouses, and final destinations</li><li>Reliable and dependable transport services</li><li>Support for time-sensitive freight</li><li>Terminal proximity for faster handling</li></ul>"
+              ]
+            },
+            {
+              "tab": "Shipping Container Transport Services",
+              "title": "Shipping Container Moving Services",
+              "html": [
+                "<p>We provide dependable <strong>container transport solutions</strong> tailored to your needs.</p><ul><li><strong>Transport for Dry &amp; Reefer Containers</strong></li><li>Safe handling and delivery of both dry containers and temperature-controlled (reefer) units.</li><li><strong>Relocation &amp; Repositioning Services</strong></li><li>Efficient movement of containers between sites, yards, or facilities—whether for storage, resale, or operational needs.</li><li><strong>Local &amp; Regional Delivery</strong></li><li>Flexible transport options for short and mid-distance hauls, ensuring timely pickup and drop-off.</li></ul>"
+              ]
+            },
+            {
+              "tab": "Bonded and In‑Bond Container Transport",
+              "title": "Bonded and In-Bond Container Transport",
+              "html": [
+                "<p>As a Canada and USA Customs Bonded Carrier, Carmel provides dependable transport for bonded shipments and in-bond containers. This helps shippers stay compliant while keeping freight moving on schedule.</p><ul><li>Bonded carrier support for cross-border freight</li><li>In-bond containers moved under customs control</li><li>Customs bonded transport integrated with terminal operations</li></ul>"
+              ]
+            },
+            {
+              "tab": "Refrigerated Container Transport and Storage",
+              "title": "Refrigerated Container Transport and Storage",
+              "html": [
+                "<p>Carmel offers refrigerated container transport and storage for temperature-sensitive cargo that needs reliable control in transit and at the yard. Our fleet and chassis capability support reefer movements for perishable and protected freight.</p><ul><li>Refrigerated container transport for temperature-sensitive freight</li><li>Temperature transport solutions for food and specialty cargo</li><li>Reefer storage support at secure yard locations</li></ul>"
+              ]
+            },
+            {
+              "tab": "Secure Container Storage Facility",
+              "title": "Secure Container Storage Facility",
+              "html": [
+                "<p>Our secure container storage facility supports dry-box, refrigerated and in-bond containers for short-term and long-term requirements. Strategically located yards near rail terminals in Mississauga help simplify overflow, staging and timing challenges.</p><ul><li>Shipping container storage facility for dry and reefer units</li><li>Secure yard storage close to major rail terminals</li><li>Short-term and long-term container storage options</li></ul>"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "locations",
+          "title": {
+            "text": "Container Transport and Logistics Services Across Canada and North America.",
+            "accent": "Across Canada and North America."
+          },
+          "html": [
+            "<p>Carmel supports shippers through offices in Ontario, Quebec, Calgary and Edmonton, providing container transport across key Canadian corridors and into major North American destinations.</p>"
+          ],
+          "locations": [
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/ontario.png",
+                "w": 222,
+                "h": 75,
+                "alt": ""
+              },
+              "city": "Toronto",
+              "lines": [
+                "<p>Head office and major operations serving key Canadian and cross-border lanes</p>",
+                "<p>18-25 North Rivermede,<br>Concord, ON, Canada L4K 5V4</p>"
+              ]
+            },
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/Montreal.png",
+                "w": 223,
+                "h": 75,
+                "alt": ""
+              },
+              "city": "Montreal",
+              "lines": [
+                "<p>Montreal-area container transport and storage support for Eastern Canada</p>",
+                "<p>7800 Notre Dame St West<br>Montreal, QC, H4C 3K4</p>"
+              ]
+            },
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/Calgary.png",
+                "w": 222,
+                "h": 75,
+                "alt": ""
+              },
+              "city": "Calgary",
+              "lines": [
+                "<p>Western Canada container transport hub for rail and over-the-road moves</p>",
+                "<p>#108 2116 27th Ave NE<br>Calgary, Alberta T2E 7A6</p>"
+              ]
+            },
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/Edmonton.png",
+                "w": 222,
+                "h": 75,
+                "alt": ""
+              },
+              "city": "Edmonton",
+              "lines": [
+                "<p>Regional operations supporting Northern and Western Canadian routes</p>",
+                "<p>10440 176 ST NW, Unit #200 <br>Edmonton, Alberta T5S 1G6</p>"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "quote",
+          "eyebrow": "Request a Quote",
+          "title": {
+            "text": "Ready to move more containers with less risk?"
+          },
+          "html": "<p>Precise quotes, no hidden fees. Our team will get back to you within hours. Open 24/7/365 for your calls and inquiries.</p>",
+          "note": "<p>Or email us directly: <a href=\"mailto:quotes@carmeltransport.com\">quotes@carmeltransport.com</a></p>",
+          "form": {
+            "name": "New Form",
+            "fields": [
+              {
+                "kind": "input",
+                "type": "text",
+                "name": "form_fields[name]",
+                "label": "Company name",
+                "required": false,
+                "options": []
+              },
+              {
+                "kind": "input",
+                "type": "email",
+                "name": "form_fields[email]",
+                "label": "Email address",
+                "required": true,
+                "options": []
+              },
+              {
+                "kind": "select",
+                "type": "text",
+                "name": "form_fields[field_567d90f]",
+                "label": "Service Type",
+                "required": false,
+                "options": [
+                  "Service type",
+                  "Import and export container transportation",
+                  "Shipping Container Moving Services",
+                  "Bonded and In-Bond container transport",
+                  "Refrigerated container transport and storage",
+                  "Secure container storage facility"
+                ]
+              },
+              {
+                "kind": "submit",
+                "label": "",
+                "options": [],
+                "text": "Request Free Quote"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "faq",
+          "title": {
+            "text": "Frequently Asked Questions About Our Container Transport Services",
+            "accent": "About Our Container Transport Services"
+          },
+          "html": [
+            "<p>Still have questions about your next container move?</p>"
+          ],
+          "button": {
+            "text": "Contact our team for a fast, personalized answer",
+            "href": "tel:+19056607272"
+          },
+          "items": []
+        }
+      ]
+    },
+    "/shipping-container-moving-services/": {
+      "title": "Shipping Container Moving Services - Carmel Transport",
+      "meta": {
+        "description": "Move 20ft, 40ft, 45ft and 53ft containers safely anywhere in Canada, with a carrier that combines a large chassis fleet, drayage expertise and hands‑on",
+        "og:locale": "en_US",
+        "og:type": "article",
+        "og:title": "Shipping Container Moving Services - Carmel Transport",
+        "og:description": "Move 20ft, 40ft, 45ft and 53ft containers safely anywhere in Canada, with a carrier that combines a large chassis fleet, drayage expertise and hands‑on",
+        "og:url": "https://carmeltransport.com/shipping-container-moving-services/",
+        "og:site_name": "Carmel Transport",
+        "og:updated_time": "2026-06-30T18:04:40+00:00",
+        "og:image": "/wp-content/uploads/2026/06/export-service-img-2.png",
+        "og:image:secure_url": "/wp-content/uploads/2026/06/export-service-img-2.png",
+        "og:image:width": "579",
+        "og:image:height": "334",
+        "og:image:alt": "Shipping Container Moving Services",
+        "og:image:type": "image/png"
+      },
+      "canonical": "https://carmeltransport.com/shipping-container-moving-services/",
+      "sections": [
+        {
+          "kind": "hero",
+          "title": {
+            "text": "Shipping Container Transport Services"
+          },
+          "subs": [],
+          "html": [
+            "<p>Move 20ft, 40ft, 45ft and 53ft containers safely anywhere in Canada, with a<strong> carrier that combines a large chassis fleet</strong>, drayage expertise and hands‑on customer service.</p>"
+          ],
+          "buttons": [
+            {
+              "text": "Get a container moving quote",
+              "href": "/contact/"
+            }
+          ]
+        },
+        {
+          "kind": "checklist",
+          "title": {
+            "text": "Canada Wide Drayage",
+            "accent": "Drayage"
+          },
+          "items": [
+            "Serving from five different locations",
+            "Dedicated terminal coordination for import and export moves.",
+            "Advance rail reservations to protect critical timelines.",
+            "Daily container tracking to reduce delays and improve visibility.",
+            "Strategic planning to lower detention, demurrage, and storage costs.",
+            "End-to-end coordination from pickup to empty return.",
+            "24/7 customer service for urgent shipment support.",
+            "High-security bolt seal for export containers."
+          ]
+        },
+        {
+          "kind": "split",
+          "title": {
+            "text": "End‑to‑end container transport across Canada"
+          },
+          "html": [
+            "<p>Carmel Transport provides complete <strong>shipping container transport services for import, export and domestic moves</strong> anywhere in Canada. From CN and CP rail terminals to shipper warehouses and storage yards, <strong>we plan and execute every leg of the move</strong> so you do not have to coordinate multiple vendors.</p>"
+          ],
+          "buttons": [],
+          "image": {
+            "src": "/wp-content/uploads/2026/06/export-service-img-2.png",
+            "w": 579,
+            "h": 334,
+            "alt": ""
+          }
+        },
+        {
+          "kind": "why",
+          "title": {
+            "text": "Why Shippers Choose Carmel Transport",
+            "accent": "Choose Carmel Transport"
+          },
+          "html": [
+            "<p>For shippers moving containers every day, t<strong>he right partner keeps boxes flowing instead of sitting at the terminal.</strong> Our shipping container moving services are built to do exactly that.</p>"
+          ],
+          "reasons": [
+            {
+              "title": "Faster container turn‑around",
+              "html": "<p>We focus on reducing the time your shipping containers spend at ports and rail terminals. Efficient scheduling and dispatch mean quicker pickups, faster delivery to your site, and less risk of demurrage or detention fees.</p>"
+            },
+            {
+              "title": "Purpose‑built equipment for containers",
+              "html": "<p>Our fleet is set up specifically for shipping container moving: dedicated container chassis, experienced drivers and the right permits for 20‑, 40‑, 45‑ and 53‑foot units. That lets us move your boxes safely and consistently, day after day.</p>"
+            },
+            {
+              "title": "Consistent communication on every move",
+              "html": "<p>From booking to final drop‑off, our team keeps you updated on each container move with clear ETAs and status updates. You always know where your box is, when the truck will arrive, and what’s happening next.</p>"
+            }
+          ],
+          "image": {
+            "src": "/wp-content/uploads/2026/06/scale-you-can-rely-on.png",
+            "w": 301,
+            "h": 184,
+            "alt": ""
+          },
+          "button": {
+            "text": "Speak With Our Team",
+            "href": "/contact/"
+          }
+        },
+        {
+          "kind": "faq",
+          "title": {
+            "text": "Frequently Asked Questions About Our Shipping Container Moving Services",
+            "accent": "About Our Shipping Container Moving Services"
+          },
+          "html": [
+            "<p>Still have questions about your next container move?</p>"
+          ],
+          "button": {
+            "text": "Contact our team for a fast, personalized answer",
+            "href": "tel:+19056607272"
+          },
+          "items": [
+            {
+              "q": "Planning that protects your margins",
+              "a": "<p>We design each container drayage move around rail cutoffs, terminal appointments, and empty returns, helping you reduce detention, demurrage, and unnecessary storage costs while keeping freight flowing.</p>"
+            },
+            {
+              "q": "Reliable coordination across GTA terminals",
+              "a": "<p>Our operations team manages import and export container activity through key GTA terminals, so your container transport runs with fewer delays, missed cutoffs, and costly last‑minute changes.</p>"
+            },
+            {
+              "q": "Stronger control over rail timelines",
+              "a": "<p>By securing CN and CP rail reservations in advance, we help you stay ahead of container availability and critical export cutoffs, aligning drayage, yard, and rail schedules in one plan.</p>"
+            },
+            {
+              "q": "Visibility that keeps shipments moving",
+              "a": "<p>Daily monitoring across CN, CP, and other terminals gives your team clear visibility into container status and ETA, making it easier to react quickly when conditions change.</p>"
+            },
+            {
+              "q": "Support that goes beyond the truck move",
+              "a": "<p>From pickup at the terminal to final delivery and empty return, we coordinate the full container flow with 24/7 customer service and secured export handling with high‑security bolt seals.</p>"
+            }
+          ]
+        },
+        {
+          "kind": "quote",
+          "eyebrow": "Request a Quote",
+          "title": {
+            "text": "Ready to move more containers with less risk?"
+          },
+          "html": "<p>Precise quotes, no hidden fees. Our team will get back to you within hours. Open 24/7/365 for your calls and inquiries.</p>",
+          "note": "<p>Or email us directly: <a href=\"mailto:quotes@carmeltransport.com\">quotes@carmeltransport.com</a></p>",
+          "form": {
+            "name": "New Form",
+            "fields": [
+              {
+                "kind": "input",
+                "type": "text",
+                "name": "form_fields[name]",
+                "label": "Company name",
+                "required": false,
+                "options": []
+              },
+              {
+                "kind": "input",
+                "type": "email",
+                "name": "form_fields[email]",
+                "label": "Email address",
+                "required": true,
+                "options": []
+              },
+              {
+                "kind": "select",
+                "type": "text",
+                "name": "form_fields[field_567d90f]",
+                "label": "Service Type",
+                "required": false,
+                "options": [
+                  "Service type",
+                  "Import and export container transportation",
+                  "Shipping Container Moving Services",
+                  "Bonded and In-Bond container transport",
+                  "Refrigerated container transport and storage",
+                  "Secure container storage facility"
+                ]
+              },
+              {
+                "kind": "submit",
+                "label": "",
+                "options": [],
+                "text": "Request Free Quote"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "related",
+          "title": {
+            "text": "Related Services Solutions",
+            "accent": "Solutions"
+          },
+          "card": {
+            "tag": "Core Service",
+            "title": "Drayage",
+            "html": "<p>We provide a full range of asset- based drayage and full transload services. From port to warehouse, rail terminal to distribution center — we move your containers efficiently and reliably.</p>",
+            "list": [
+              "20', 40', 45' container sizes",
+              "Dry, overweight, open top, flat rack",
+              "Port & rail terminal operations"
+            ],
+            "button": {
+              "text": "Request a Quote",
+              "href": "/contact/"
+            }
+          },
+          "image": {
+            "src": "/wp-content/uploads/2026/05/container-carousel.png",
+            "w": 1451,
+            "h": 440,
+            "alt": ""
+          }
+        }
+      ]
+    },
+    "/work-for-us/": {
+      "title": "Work for Us - Carmel Transport",
+      "meta": {
+        "description": "Carmel Transport is always looking for qualified Truck drivers.  Submit your application now to apply. ",
+        "og:locale": "en_US",
+        "og:type": "article",
+        "og:title": "Work for Us - Carmel Transport",
+        "og:description": "Carmel Transport is always looking for qualified Truck drivers.  Submit your application now to apply. ",
+        "og:url": "https://carmeltransport.com/work-for-us/",
+        "og:site_name": "Carmel Transport",
+        "og:updated_time": "2026-07-02T18:14:52+00:00"
+      },
+      "canonical": "https://carmeltransport.com/work-for-us/",
+      "sections": [
+        {
+          "kind": "hero",
+          "title": {
+            "text": "Work for Us"
+          },
+          "subs": [],
+          "html": [
+            "<p>Carmel Transport is always looking for qualified Truck drivers. Submit your application now to apply. </p>"
+          ],
+          "buttons": []
+        },
+        {
+          "kind": "contactPanel",
+          "formTitle": "I’m interested in...",
+          "form": {
+            "name": "Work for Us",
+            "fields": [
+              {
+                "kind": "input",
+                "type": "text",
+                "name": "form_fields[name]",
+                "label": "Name",
+                "required": true,
+                "options": []
+              },
+              {
+                "kind": "input",
+                "type": "email",
+                "name": "form_fields[email]",
+                "label": "Email",
+                "required": true,
+                "options": []
+              },
+              {
+                "kind": "input",
+                "type": "tel",
+                "name": "form_fields[number]",
+                "label": "Number",
+                "required": false,
+                "options": []
+              },
+              {
+                "kind": "select",
+                "type": "text",
+                "name": "form_fields[location]",
+                "label": "Our Location",
+                "required": true,
+                "options": [
+                  "Our Location",
+                  "Toronto, ON",
+                  "Montreal, QC",
+                  "Calgary, AB",
+                  "Edmonton, AB",
+                  "New York, USA"
+                ]
+              },
+              {
+                "kind": "input",
+                "type": "file",
+                "name": "form_fields[field_05c3c42]",
+                "label": "Add Resume",
+                "required": true,
+                "options": []
+              },
+              {
+                "kind": "submit",
+                "label": "",
+                "options": [],
+                "text": "Send"
+              }
+            ]
+          },
+          "mapsTitle": "Our Locations to serve you.",
+          "maps": [
+            {
+              "name": "Toronto, ON",
+              "src": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5895590.712424077!2d-79.4835331!3d43.820449!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2ebd792baf03%3A0x378b7690367137bf!2sCarmel%20Transport%20International%20Limited!5e0!3m2!1sen!2sca!4v1782239295002!5m2!1sen!2sca"
+            },
+            {
+              "name": "Montreal, QC",
+              "src": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6596397.64684129!2d-79.43072083695372!3d43.31771255481254!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc910c542e0e2fb%3A0xcb52ac32d422ccda!2sCarmel%20Transport%20International%20Ltd!5e0!3m2!1sen!2sca!4v1782253086096!5m2!1sen!2sca%22 width="
+            },
+            {
+              "name": "Calgary, AB",
+              "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2506.69253754424!2d-114.01217438755312!3d51.077225541919496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537170a82a14c9eb%3A0xbbbc74da6a507e7!2sCarmel%20Transport!5e0!3m2!1sen!2sca!4v1782253128380!5m2!1sen!2sca%22 width="
+            },
+            {
+              "name": "Edmonton, AB",
+              "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2368.423864486655!2d-113.58225068743302!3d53.58589825665697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a025c2293d0e7f%3A0xb46cebf2b5cd4d97!2sCarmel%20Transport%20International%20Ltd!5e0!3m2!1sen!2sca!4v1782253178105!5m2!1sen!2sca%22 width="
+            },
+            {
+              "name": "New York, USA",
+              "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.7141944808086!2d-74.1092673!3d40.724307800000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2514f9e798385%3A0x13e98081de62c894!2s78%20John%20Miller%20Way%2C%20Kearny%2C%20NJ%2007032%2C%20USA!5e0!3m2!1sen!2sca!4v1782253283066!5m2!1sen!2sca%22 width="
+            }
+          ],
+          "locations": [
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/ontario.png",
+                "w": 222,
+                "h": 75,
+                "alt": ""
+              },
+              "city": "Toronto",
+              "lines": [
+                "<p>18-25 North Rivermede,<br>Concord, ON<br>L4K 5V4</p>"
+              ]
+            },
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/Montreal.png",
+                "w": 223,
+                "h": 75,
+                "alt": ""
+              },
+              "city": "Montreal",
+              "lines": [
+                "<p>7800 Notre Dame St West<br>Montreal, QC<br>H4C 3K4</p>"
+              ]
+            },
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/Calgary.png",
+                "w": 222,
+                "h": 75,
+                "alt": ""
+              },
+              "city": "Calgary",
+              "lines": [
+                "<p>2116 27th Ave NE, Unit 108<br>Calgary, AB<br>T2E 7A6</p>"
+              ]
+            },
+            {
+              "image": {
+                "src": "/wp-content/uploads/2026/06/Edmonton.png",
+                "w": 222,
+                "h": 75,
+                "alt": ""
+              },
+              "city": "Edmonton",
+              "lines": [
+                "<p>10440 176 ST NW, Unit 200 <br>Edmonton, AB <br>T5S 1G6</p>"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
